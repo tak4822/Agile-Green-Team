@@ -1,0 +1,13 @@
+.mpMap__container{
+  @include clearfix;
+  .mpMap {
+    @include grid-column(8);
+    @include grid-push(2);
+  }
+}
+
+.mpList__container{
+  .mpList__party{
+    @include grid-column(3);
+  }
+}
