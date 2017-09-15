@@ -1,0 +1,16 @@
+.mpMap__container:after {
+  content: "";
+  display: table;
+  clear: both; }
+.mpMap__container .mpMap {
+  width: calc(66.6666666667% - 33.3333333333px);
+  float: left;
+  margin-left: 20px;
+  margin-left: calc(16.6666666667% - 23.3333333333px + 40px); }
+
+.mpList__container .mpList__party {
+  width: calc(25% - 25px);
+  float: left;
+  margin-left: 20px; }
+
+/*# sourceMappingURL=main.css.map */
