@@ -2,3 +2,5 @@
 
 <body>
 <?php include "partials/footer.php" ?>
+
+<h1>Hello</h1>
