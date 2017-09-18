@@ -13,8 +13,13 @@
         "environmentPolicy": "Elizabeth May would introduce a carbon fee on fossil fuels. The revenues from this would be returned to all Canadians 18 or older in the form of a carbon dividend. Greens advocate a 40-per-cent reduction in greenhouse gas emissions from 2005 levels by 2025 and commit to $500 million each year to the Green Climate fund. May would also embed the right to a healthy environment in Canada’s constitution",
         "privacyPolicy": "",
         "veteranPolicy":"The Green party promises to support the re-opening all closed Veterans Affairs offices, restore cut funding to Veterans Affairs, and provide service dogs to all veterans who require one.", 
-        "pipelinePolicy": "The Green party oppose all pipeline projects currently proposed."
-    },
+        "pipelinePolicy": "The Green party oppose all pipeline projects currently proposed.",
+        "prominentPolicies" : [ 
+            {"name" : "Canada That Works Together", "description": "Our plan proposes democratic reforms that will make our politicians more accountable, our parliament more accessible, and our voting system more representative. Our plan takes bold climate action, by embracing the solutions that we already know work, encouraging research into those we have yet to discover, and increasing the taxes paid by corporate polluters."},
+            {"name" : "Sustainable Economy", "description": "We need to immediately build those sectors that benefit from the lower Canadian dollar – manufacturing, tourism, value-added forest products and cultural industries. We need to resurrect federal engagement in tourism promotion and support. We need to embrace the 21st century economic revolution of clean technology. "},
+            {"name" : "Strong Communities", "description": "Our nation needs a government that will invest in the fundamental building blocks on which our neighbourhoods rely – from healthcare to transit, child care to public parks, bridges to local agriculture. All with the aim of increasing the affordability and livability of the towns and cities we call home." }
+        ]   
+        },
 
 
     "liberalPartyObj": {
@@ -31,7 +36,13 @@
         "environmentPolicy": "The Liberals promise a medicare-style approach to carbon pricing through which Ottawa would set national targets and enforces principles but allow provinces to design their own systems. Within three months of the UN Climate Change Summit in Paris, Justin Trudeau would meet with the premiers to develop a climate change strategy. The Liberals would also improve access to National Parks, waiving entry fees for new Canadians.",
         "privacyPolicy": "The Liberals would keep bill C-51, but make some amendments to the bill. It promises to institute a sunset clause on some parts of the bill",
         "veteransPolicy": "The Liberal party promises to reopen the closed Veterans Affairs offices and invest $300 million a year to reform veterans’ benefits.",
-        "pipelinePolicy": "Enbridge Northern Gateway: The Liberals are against this project and would scrap it completely.\r\nTransCanada Keystone XL: Justin Trudeau is supportive of a Keystone XL pipeline.\r\nKinder Morgan Expansion: Historically Trudeau has supported the expansion of Kinder Morgan pipeline, but he neither confirmed nor denied whether he would reject or approve the expansion. In the past he has said that the project still needs to secure social license from communities and prove it can protect the environment. However, Trudeau\"s promise to formalize the moratorium on crude oil tanker traffic on British Columbia\"s North Coast would mean that he would block development of Kinder Morgan.\r\n"
+        "pipelinePolicy": "Enbridge Northern Gateway: The Liberals are against this project and would scrap it completely.\r\nTransCanada Keystone XL: Justin Trudeau is supportive of a Keystone XL pipeline.\r\nKinder Morgan Expansion: Historically Trudeau has supported the expansion of Kinder Morgan pipeline, but he neither confirmed nor denied whether he would reject or approve the expansion. In the past he has said that the project still needs to secure social license from communities and prove it can protect the environment. However, Trudeau\"s promise to formalize the moratorium on crude oil tanker traffic on British Columbia\"s North Coast would mean that he would block development of Kinder Morgan.\r\n",
+
+        "prominentPolicies" : [ 
+            {"name" : "Helping Families", "description": "We will give families more money to help with the high cost of raising their kids. We will cancel tax breaks and benefits for the wealthy – including the Universal Child Care Benefit – and introduce a new Canada Child Benefit to give Canadian"},
+            {"name" : "Middle Class Tax Cut", "description": "We will cut the middle income tax bracket to 20.5 percent from 22 percent – a seven percent reduction. Canadians with taxable annual income between $44,700 and $89,401 will see their income tax rate fall. This tax relief is worth up to $670 per person, per year – or $1,340 for a twoincome  household"},
+            {"name" : "Opportunities for Young Canadians", "description": "We will invest to create more jobs and better opportunities for young Canadians. We will invest $40 million each year to help employers create more co-op placements for students in science, technology, engineering, mathematics, and business programs." }
+        ]   
     },
 
 
@@ -49,7 +60,13 @@
         "environmentPolicy": "The NDP intend to redirect about a billion dollars from fossil fuel subsidies to investment in clean technology. They favour a country-wide cap-and-trade program to lower greenhouse gas emissions. An NDP government would also bring back the Home Retrofit Program, which funds home energy renovations. This program was introduced then shut down by the Conservatives.",
         "privacyPolicy": "The NDP promises to scrap bill C-51 completely. The party voted against the bill when it was first proposed by the Conservatives.",
         "veteranPolicy": "The NDP promises to reopen the closed Veterans Affairs offices and invest $454 million over four years to provide better treatment for veterans with post-traumatic stress and mental health problems, enhance long-term care programs, and increase survivors’ pensions.",
-        "pipelinePolicy": "The NDP are against Enbridge Northern Gateway and Keystone XL, but tentatively open to a west-east pipeline if a better environmental review process was set up.\r\nKinder Morgan Expansion: NDPs are divided on the project - MPs from Vancouver and Burnaby do not support the project but Rachel Notley of Alberta does. Thomas Mulcair favours an overhauling of the pipeline approval process. He says he\"ll support Kinder Morgan so long as it passes an environmental review.\r\nEnergy East: Mulcair says that if the pipeline is proved to be incompatible with national action on climate change, the NDP would reject the project.\r\n"
+        "pipelinePolicy": "The NDP are against Enbridge Northern Gateway and Keystone XL, but tentatively open to a west-east pipeline if a better environmental review process was set up.\r\nKinder Morgan Expansion: NDPs are divided on the project - MPs from Vancouver and Burnaby do not support the project but Rachel Notley of Alberta does. Thomas Mulcair favours an overhauling of the pipeline approval process. He says he\"ll support Kinder Morgan so long as it passes an environmental review.\r\nEnergy East: Mulcair says that if the pipeline is proved to be incompatible with national action on climate change, the NDP would reject the project.\r\n",
+
+        "prominentPolicies" : [ 
+            {"name" : "Improve Health Care", "description": "We will immediately inform Canada’s premiers that Harper’s unilateral health cuts have been cancelled and begin work to develop a new  health accord that will reduce waits for family doctors, create 5,000 new long-term care beds and lower prescription drug costs by 30%."},
+            {"name" : "Step Up to Fight Climate Change", "description": "I will personally lead the Canadian delegation to the COP21 climate conference in Paris with firm targets to cut pollution, and bring in a home retrofit program to lower your household heating costs."},
+            {"name" : "Make Life More Affordable", "description": "We will take the first step towards our goal of universal, affordable childcare by immediately flowing funding for over 60,000 childcare spaces at no more than $15 a day. We will restore the age of retirement to 65, and introduce a new Consumer Protection Act to cap ATM fees and ensure Canadians have access to a low-interest credit card." }
+        ]   
 
     },
 
@@ -67,6 +84,12 @@
         "environmentPolicy": "From 2004 to 2008, the Conservative government was open to the idea of a cap-and-trade system for carbon pricing, and in 2008 John Baird announced the government promised to help develop and implement a North America-wide system which Stephen Harper reiterated. But in 2011 the Conservatives turned against the idea. Harper is now opposed to either a carbon tax or a cap-and-trade program. The Conservatives have contributed $300 million to the UN Green Climate Fund, that helps developing countries battle the effects of climate change. They have set emissions reduction targets under the Copenhagen Accord, but unless further climate legislation is brought in, Canada is on track to miss those targets in 2020.",
         "privacyPolicy": "The Conservatives would keep bill C-51, which they introduced to give law enforcement more power to investigate those suspected of terrorism and stop speech that glorifies or promotes terrorism.",
         "veteranPolicy": "The Conservative party promises to improve the earnings loss benefit for veterans with service-related injuries by letting them earn up to $10,000 in outside work without losing any government funding. Veterans Affairs Canada allowed $1.13 billion in funding to lapse since 2006, and by the end of 2014, the federal government had closed nine Veterans Affairs offices in seven provinces as a cost-saving measure.",
-        "pipelinePolicy": "Enbridge Northern Gateway, Keystone XL, Kinder Morgan Expansion, Energy East are all approved and supported by the Conservative government."
+        "pipelinePolicy": "Enbridge Northern Gateway, Keystone XL, Kinder Morgan Expansion, Energy East are all approved and supported by the Conservative government.",
+
+        "prominentPolicies" : [ 
+            {"name" : "Balanced Budget", "description": "A balanced budget is the anchor of our low-tax plan to protect our fragile economy and help Canadian families. We’ll continue to make the right choices to keep our budget balanced and taxes low."},
+            {"name" : "Lower Taxes", "description": "Our low-tax pledge is rooted in our record: Canadians know that we’ll do what we say and that we’ll manage taxpayer dollars responsibly. We’re prepared to go even further and entrench our low-tax plan in legislation. Our ''tax lock'' legislation will back our low-tax commitment – to families, seniors, workers and small businesses – with the force of  the law for the next four years. "},
+            {"name" : "Family Home", "description": "Homeownership is a key way to support Canadian families. And we’re helping more Canadians become homeowners byproviding new support to buy and invest in their homes. Nowone in seven Canadian households owns their own homes –one of the highest rates in the industrialized world. And, underour plan for affordable, responsible homeownership, we'll aimto add more than 700,000 new homeowners by 2020" }
+        ]   
     }
 }

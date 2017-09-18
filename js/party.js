@@ -55,10 +55,26 @@ $(function(){
         
         //DISPLAY ON PAGE
         function displayInfo (cur){
-            $('#history').html(
-                "<h2> History of " + cur.name + "</h1> <p>" + cur.history + "<p>" );
+
+            $('#history').html("<h2> History of " + cur.name + "</h1> <p>" + cur.history + "<p>" );
+
+
+                var policyCont = "";
+
+                for (var i=0; i < cur.prominentPolicies.length; i += 1) {
+                   policyCont += "<h3>" + cur.prominentPolicies[i].name + "</h3> <p> " + cur.prominentPolicies[i].description + "</p>"
+                }
+
+                console.log(policyCont);
+
+
             $('#policies').html(
-                "<h2> Prominent policies of the " + cur.name + "</h2>");
+                "<h2> Prominent policies of the " + cur.name + "</h2>" + policyCont);
+
+                // for (var i=0; i < cur.prominentPolicyTitles.length; i += 1) {
+                //     "<h3>" cur.prominentPolicyTitles[i] "</h3>"
+                // }
+                //will make a prominent policy part of the object
         }
 
         
