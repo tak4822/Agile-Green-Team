@@ -1,0 +1,2347 @@
+{
+  "1": {
+    "firstName": "Ziad",
+    "lastName": "Aboultaif",
+    "constitName": "Edmonton Manning",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "2": {
+    "firstName": "Dan",
+    "lastName": "Albas",
+    "constitName": "Central Okanagan—Similkameen—Nicola",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Conservative"
+  },
+  "3": {
+    "firstName": "Harold",
+    "lastName": "Albrecht",
+    "constitName": "Kitchener—Conestoga",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "4": {
+    "firstName": "John",
+    "lastName": "Aldag",
+    "constitName": "Cloverdale—Langley City",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "5": {
+    "firstName": "Omar",
+    "lastName": "Alghabra",
+    "constitName": "Mississauga Centre",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "6": {
+    "firstName": "Leona",
+    "lastName": "Alleslev",
+    "constitName": "Aurora—Oak Ridges—Richmond Hill",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "7": {
+    "firstName": "Dean",
+    "lastName": "Allison",
+    "constitName": "Niagara West",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "8": {
+    "firstName": "William",
+    "lastName": "Amos",
+    "constitName": "Pontiac",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "9": {
+    "firstName": "Gary",
+    "lastName": "Anandasangaree",
+    "constitName": "Scarborough—Rouge Park",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "10": {
+    "firstName": "David",
+    "lastName": "Anderson",
+    "constitName": "Cypress Hills—Grasslands",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "Conservative"
+  },
+  "11": {
+    "firstName": "Charlie",
+    "lastName": "Angus",
+    "constitName": "Timmins—James Bay",
+    "provTerrName": "Ontario",
+    "caucusShortName": "NDP"
+  },
+  "12": {
+    "firstName": "Mel",
+    "lastName": "Arnold",
+    "constitName": "North Okanagan—Shuswap",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Conservative"
+  },
+  "13": {
+    "firstName": "René",
+    "lastName": "Arseneault",
+    "constitName": "Madawaska—Restigouche",
+    "provTerrName": "New Brunswick",
+    "caucusShortName": "Liberal"
+  },
+  "14": {
+    "firstName": "Chandra",
+    "lastName": "Arya",
+    "constitName": "Nepean",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "15": {
+    "firstName": "Niki",
+    "lastName": "Ashton",
+    "constitName": "Churchill—Keewatinook Aski",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "NDP"
+  },
+  "16": {
+    "firstName": "Robert",
+    "lastName": "Aubin",
+    "constitName": "Trois-Rivières",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "17": {
+    "firstName": "Ramez",
+    "lastName": "Ayoub",
+    "constitName": "Thérèse-De Blainville",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Vance",
+    "lastName": "Badawey",
+    "constitName": "Niagara Centre",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Larry",
+    "lastName": "Bagnell",
+    "constitName": "Yukon",
+    "provTerrName": "Yukon",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Navdeep",
+    "lastName": "Bains",
+    "constitName": "Mississauga—Malton",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "John",
+    "lastName": "Barlow",
+    "constitName": "Foothills",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Xavier",
+    "lastName": "Barsalou-Duval",
+    "constitName": "Pierre-Boucher—Les Patriotes—Verchères",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Bloc Québécois"
+  },
+  "": {
+    "firstName": "Frank",
+    "lastName": "Baylis",
+    "constitName": "Pierrefonds—Dollard",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Mario",
+    "lastName": "Beaulieu",
+    "constitName": "La Pointe-de-l'Île",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Bloc Québécois"
+  },
+  "": {
+    "firstName": "Terry",
+    "lastName": "Beech",
+    "constitName": "Burnaby North—Seymour",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Carolyn",
+    "lastName": "Bennett",
+    "constitName": "Toronto—St. Paul's",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Sheri",
+    "lastName": "Benson",
+    "constitName": "Saskatoon West",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Bob",
+    "lastName": "Benzen",
+    "constitName": "Calgary Heritage",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Candice",
+    "lastName": "Bergen",
+    "constitName": "Portage—Lisgar",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Maxime",
+    "lastName": "Bernier",
+    "constitName": "Beauce",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Luc",
+    "lastName": "Berthold",
+    "constitName": "Mégantic—L'Érable",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "James",
+    "lastName": "Bezan",
+    "constitName": "Selkirk—Interlake—Eastman",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Marie-Claude",
+    "lastName": "Bibeau",
+    "constitName": "Compton—Stanstead",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Chris",
+    "lastName": "Bittle",
+    "constitName": "St. Catharines",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Daniel",
+    "lastName": "Blaikie",
+    "constitName": "Elmwood—Transcona",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Bill",
+    "lastName": "Blair",
+    "constitName": "Scarborough Southwest",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Rachel",
+    "lastName": "Blaney",
+    "constitName": "North Island—Powell River",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Steven",
+    "lastName": "Blaney",
+    "constitName": "Bellechasse—Les Etchemins—Lévis",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Kelly",
+    "lastName": "Block",
+    "constitName": "Carlton Trail—Eagle Creek",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Randy",
+    "lastName": "Boissonnault",
+    "constitName": "Edmonton Centre",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Mike",
+    "lastName": "Bossio",
+    "constitName": "Hastings—Lennox and Addington",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Sylvie",
+    "lastName": "Boucher",
+    "constitName": "Beauport—Côte-de-Beaupré—Île d'Orléans—Charlevoix",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Michel",
+    "lastName": "Boudrias",
+    "constitName": "Terrebonne",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Bloc Québécois"
+  },
+  "": {
+    "firstName": "Alexandre",
+    "lastName": "Boulerice",
+    "constitName": "Rosemont—La Petite-Patrie",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Marjolaine",
+    "lastName": "Boutin-Sweet",
+    "constitName": "Hochelaga",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "John",
+    "lastName": "Brassard",
+    "constitName": "Barrie—Innisfil",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Bob",
+    "lastName": "Bratina",
+    "constitName": "Hamilton East—Stoney Creek",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Pierre",
+    "lastName": "Breton",
+    "constitName": "Shefford",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Scott",
+    "lastName": "Brison",
+    "constitName": "Kings—Hants",
+    "provTerrName": "Nova Scotia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Ruth Ellen",
+    "lastName": "Brosseau",
+    "constitName": "Berthier—Maskinongé",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Gordon",
+    "lastName": "Brown",
+    "constitName": "Leeds—Grenville—Thousand Islands and Rideau Lakes",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Celina",
+    "lastName": "Caesar-Chavannes",
+    "constitName": "Whitby",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Blaine",
+    "lastName": "Calkins",
+    "constitName": "Red Deer—Lacombe",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Richard",
+    "lastName": "Cannings",
+    "constitName": "South Okanagan—West Kootenay",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Guy",
+    "lastName": "Caron",
+    "constitName": "Rimouski-Neigette—Témiscouata—Les Basques",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Jim",
+    "lastName": "Carr",
+    "constitName": "Winnipeg South Centre",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Colin",
+    "lastName": "Carrie",
+    "constitName": "Oshawa",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Bill",
+    "lastName": "Casey",
+    "constitName": "Cumberland—Colchester",
+    "provTerrName": "Nova Scotia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Sean",
+    "lastName": "Casey",
+    "constitName": "Charlottetown",
+    "provTerrName": "Prince Edward Island",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Bardish",
+    "lastName": "Chagger",
+    "constitName": "Waterloo",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "François-Philippe",
+    "lastName": "Champagne",
+    "constitName": "Saint-Maurice—Champlain",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Shaun",
+    "lastName": "Chen",
+    "constitName": "Scarborough North",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Michael",
+    "lastName": "Chong",
+    "constitName": "Wellington—Halton Hills",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "François",
+    "lastName": "Choquette",
+    "constitName": "Drummond",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "David",
+    "lastName": "Christopherson",
+    "constitName": "Hamilton Centre",
+    "provTerrName": "Ontario",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Alupa",
+    "lastName": "Clarke",
+    "constitName": "Beauport—Limoilou",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Tony",
+    "lastName": "Clement",
+    "constitName": "Parry Sound—Muskoka",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Michael",
+    "lastName": "Cooper",
+    "constitName": "St. Albert—Edmonton",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Serge",
+    "lastName": "Cormier",
+    "constitName": "Acadie—Bathurst",
+    "provTerrName": "New Brunswick",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Nathan",
+    "lastName": "Cullen",
+    "constitName": "Skeena—Bulkley Valley",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Rodger",
+    "lastName": "Cuzner",
+    "constitName": "Cape Breton—Canso",
+    "provTerrName": "Nova Scotia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Julie",
+    "lastName": "Dabrusin",
+    "constitName": "Toronto—Danforth",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Pam",
+    "lastName": "Damoff",
+    "constitName": "Oakville North—Burlington",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Don",
+    "lastName": "Davies",
+    "constitName": "Vancouver Kingsway",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Matt",
+    "lastName": "DeCourcey",
+    "constitName": "Fredericton",
+    "provTerrName": "New Brunswick",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Gérard",
+    "lastName": "Deltell",
+    "constitName": "Louis-Saint-Laurent",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Sukh",
+    "lastName": "Dhaliwal",
+    "constitName": "Surrey—Newton",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Anju",
+    "lastName": "Dhillon",
+    "constitName": "Dorval—Lachine—LaSalle",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Nicola",
+    "lastName": "Di Iorio",
+    "constitName": "Saint-Léonard—Saint-Michel",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Kerry",
+    "lastName": "Diotte",
+    "constitName": "Edmonton Griesbach",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Todd",
+    "lastName": "Doherty",
+    "constitName": "Cariboo—Prince George",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Fin",
+    "lastName": "Donnelly",
+    "constitName": "Port Moody—Coquitlam",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Earl",
+    "lastName": "Dreeshen",
+    "constitName": "Red Deer—Mountain View",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Francis",
+    "lastName": "Drouin",
+    "constitName": "Glengarry—Prescott—Russell",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Matthew",
+    "lastName": "Dubé",
+    "constitName": "Beloeil—Chambly",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Emmanuel",
+    "lastName": "Dubourg",
+    "constitName": "Bourassa",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Jean-Yves",
+    "lastName": "Duclos",
+    "constitName": "Québec",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Terry",
+    "lastName": "Duguid",
+    "constitName": "Winnipeg South",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Kirsty",
+    "lastName": "Duncan",
+    "constitName": "Etobicoke North",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Linda",
+    "lastName": "Duncan",
+    "constitName": "Edmonton Strathcona",
+    "provTerrName": "Alberta",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Pierre-Luc",
+    "lastName": "Dusseault",
+    "constitName": "Sherbrooke",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Scott",
+    "lastName": "Duvall",
+    "constitName": "Hamilton Mountain",
+    "provTerrName": "Ontario",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Julie",
+    "lastName": "Dzerowicz",
+    "constitName": "Davenport",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Wayne",
+    "lastName": "Easter",
+    "constitName": "Malpeque",
+    "provTerrName": "Prince Edward Island",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Jim",
+    "lastName": "Eglinski",
+    "constitName": "Yellowhead",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Ali",
+    "lastName": "Ehsassi",
+    "constitName": "Willowdale",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Fayçal",
+    "lastName": "El-Khoury",
+    "constitName": "Laval—Les Îles",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Neil",
+    "lastName": "Ellis",
+    "constitName": "Bay of Quinte",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Nathaniel",
+    "lastName": "Erskine-Smith",
+    "constitName": "Beaches—East York",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Mark",
+    "lastName": "Eyking",
+    "constitName": "Sydney—Victoria",
+    "provTerrName": "Nova Scotia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Doug",
+    "lastName": "Eyolfson",
+    "constitName": "Charleswood—St. James—Assiniboia—Headingley",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Ted",
+    "lastName": "Falk",
+    "constitName": "Provencher",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Ed",
+    "lastName": "Fast",
+    "constitName": "Abbotsford",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Greg",
+    "lastName": "Fergus",
+    "constitName": "Hull—Aylmer",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Andy",
+    "lastName": "Fillmore",
+    "constitName": "Halifax",
+    "provTerrName": "Nova Scotia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Diane",
+    "lastName": "Finley",
+    "constitName": "Haldimand—Norfolk",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Pat",
+    "lastName": "Finnigan",
+    "constitName": "Miramichi—Grand Lake",
+    "provTerrName": "New Brunswick",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Darren",
+    "lastName": "Fisher",
+    "constitName": "Dartmouth—Cole Harbour",
+    "provTerrName": "Nova Scotia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Peter",
+    "lastName": "Fonseca",
+    "constitName": "Mississauga East—Cooksville",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Judy",
+    "lastName": "Foote",
+    "constitName": "Bonavista—Burin—Trinity",
+    "provTerrName": "Newfoundland and Labrador",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Mona",
+    "lastName": "Fortier",
+    "constitName": "Ottawa—Vanier",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Rhéal",
+    "lastName": "Fortin",
+    "constitName": "Rivière-du-Nord",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Bloc Québécois"
+  },
+  "": {
+    "firstName": "Peter",
+    "lastName": "Fragiskatos",
+    "constitName": "London North Centre",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Colin",
+    "lastName": "Fraser",
+    "constitName": "West Nova",
+    "provTerrName": "Nova Scotia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Sean",
+    "lastName": "Fraser",
+    "constitName": "Central Nova",
+    "provTerrName": "Nova Scotia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Chrystia",
+    "lastName": "Freeland",
+    "constitName": "University—Rosedale",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Hedy",
+    "lastName": "Fry",
+    "constitName": "Vancouver Centre",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Stephen",
+    "lastName": "Fuhr",
+    "constitName": "Kelowna—Lake Country",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Cheryl",
+    "lastName": "Gallant",
+    "constitName": "Renfrew—Nipissing—Pembroke",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Marc",
+    "lastName": "Garneau",
+    "constitName": "Notre-Dame-de-Grâce—Westmount",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Randall",
+    "lastName": "Garrison",
+    "constitName": "Esquimalt—Saanich—Sooke",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Bernard",
+    "lastName": "Généreux",
+    "constitName": "Montmagny—L'Islet—Kamouraska—Rivière-du-Loup",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Garnett",
+    "lastName": "Genuis",
+    "constitName": "Sherwood Park—Fort Saskatchewan",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Mark",
+    "lastName": "Gerretsen",
+    "constitName": "Kingston and the Islands",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Marilène",
+    "lastName": "Gill",
+    "constitName": "Manicouagan",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Bloc Québécois"
+  },
+  "": {
+    "firstName": "Marilyn",
+    "lastName": "Gladu",
+    "constitName": "Sarnia—Lambton",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Joël",
+    "lastName": "Godin",
+    "constitName": "Portneuf—Jacques-Cartier",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Pam",
+    "lastName": "Goldsmith-Jones",
+    "constitName": "West Vancouver—Sunshine Coast—Sea to Sky Country",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Ralph",
+    "lastName": "Goodale",
+    "constitName": "Regina—Wascana",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Karina",
+    "lastName": "Gould",
+    "constitName": "Burlington",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Jacques",
+    "lastName": "Gourde",
+    "constitName": "Lévis—Lotbinière",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "David de Burgh",
+    "lastName": "Graham",
+    "constitName": "Laurentides—Labelle",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Raj",
+    "lastName": "Grewal",
+    "constitName": "Brampton East",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Patty",
+    "lastName": "Hajdu",
+    "constitName": "Thunder Bay—Superior North",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Cheryl",
+    "lastName": "Hardcastle",
+    "constitName": "Windsor—Tecumseh",
+    "provTerrName": "Ontario",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Rachael",
+    "lastName": "Harder",
+    "constitName": "Lethbridge",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Ken",
+    "lastName": "Hardie",
+    "constitName": "Fleetwood—Port Kells",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "T.J.",
+    "lastName": "Harvey",
+    "constitName": "Tobique—Mactaquac",
+    "provTerrName": "New Brunswick",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Kent",
+    "lastName": "Hehr",
+    "constitName": "Calgary Centre",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Randy",
+    "lastName": "Hoback",
+    "constitName": "Prince Albert",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Mark",
+    "lastName": "Holland",
+    "constitName": "Ajax",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Anthony",
+    "lastName": "Housefather",
+    "constitName": "Mount Royal",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Carol",
+    "lastName": "Hughes",
+    "constitName": "Algoma—Manitoulin—Kapuskasing",
+    "provTerrName": "Ontario",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Ahmed",
+    "lastName": "Hussen",
+    "constitName": "York South—Weston",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Gudie",
+    "lastName": "Hutchings",
+    "constitName": "Long Range Mountains",
+    "provTerrName": "Newfoundland and Labrador",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Angelo",
+    "lastName": "Iacono",
+    "constitName": "Alfred-Pellan",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Matt",
+    "lastName": "Jeneroux",
+    "constitName": "Edmonton Riverbend",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Gord",
+    "lastName": "Johns",
+    "constitName": "Courtenay—Alberni",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Georgina",
+    "lastName": "Jolibois",
+    "constitName": "Desnethé—Missinippi—Churchill River",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Mélanie",
+    "lastName": "Joly",
+    "constitName": "Ahuntsic-Cartierville",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Yvonne",
+    "lastName": "Jones",
+    "constitName": "Labrador",
+    "provTerrName": "Newfoundland and Labrador",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Bernadette",
+    "lastName": "Jordan",
+    "constitName": "South Shore—St. Margarets",
+    "provTerrName": "Nova Scotia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Majid",
+    "lastName": "Jowhari",
+    "constitName": "Richmond Hill",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Peter",
+    "lastName": "Julian",
+    "constitName": "New Westminster—Burnaby",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Darshan Singh",
+    "lastName": "Kang",
+    "constitName": "Calgary Skyview",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Independent"
+  },
+  "": {
+    "firstName": "Pat",
+    "lastName": "Kelly",
+    "constitName": "Calgary Rocky Ridge",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Peter",
+    "lastName": "Kent",
+    "constitName": "Thornhill",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Iqra",
+    "lastName": "Khalid",
+    "constitName": "Mississauga—Erin Mills",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Kamal",
+    "lastName": "Khera",
+    "constitName": "Brampton West",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Robert",
+    "lastName": "Kitchen",
+    "constitName": "Souris—Moose Mountain",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Tom",
+    "lastName": "Kmiec",
+    "constitName": "Calgary Shepard",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Stephanie",
+    "lastName": "Kusie",
+    "constitName": "Calgary Midnapore",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Jenny",
+    "lastName": "Kwan",
+    "constitName": "Vancouver East",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Mike",
+    "lastName": "Lake",
+    "constitName": "Edmonton—Wetaskiwin",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Emmanuella",
+    "lastName": "Lambropoulos",
+    "constitName": "Saint-Laurent",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "David",
+    "lastName": "Lametti",
+    "constitName": "LaSalle—Émard—Verdun",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Kevin",
+    "lastName": "Lamoureux",
+    "constitName": "Winnipeg North",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Linda",
+    "lastName": "Lapointe",
+    "constitName": "Rivière-des-Mille-Îles",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Guy",
+    "lastName": "Lauzon",
+    "constitName": "Stormont—Dundas—South Glengarry",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Stéphane",
+    "lastName": "Lauzon",
+    "constitName": "Argenteuil—La Petite-Nation",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Hélène",
+    "lastName": "Laverdière",
+    "constitName": "Laurier—Sainte-Marie",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Dominic",
+    "lastName": "LeBlanc",
+    "constitName": "Beauséjour",
+    "provTerrName": "New Brunswick",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Diane",
+    "lastName": "Lebouthillier",
+    "constitName": "Gaspésie—Les Îles-de-la-Madeleine",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Paul",
+    "lastName": "Lefebvre",
+    "constitName": "Sudbury",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "K. Kellie",
+    "lastName": "Leitch",
+    "constitName": "Simcoe—Grey",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Denis",
+    "lastName": "Lemieux",
+    "constitName": "Chicoutimi—Le Fjord",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Andrew",
+    "lastName": "Leslie",
+    "constitName": "Orléans",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Michael",
+    "lastName": "Levitt",
+    "constitName": "York Centre",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Ron",
+    "lastName": "Liepert",
+    "constitName": "Calgary Signal Hill",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Joël",
+    "lastName": "Lightbound",
+    "constitName": "Louis-Hébert",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Ben",
+    "lastName": "Lobb",
+    "constitName": "Huron—Bruce",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Alaina",
+    "lastName": "Lockhart",
+    "constitName": "Fundy Royal",
+    "provTerrName": "New Brunswick",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Wayne",
+    "lastName": "Long",
+    "constitName": "Saint John—Rothesay",
+    "provTerrName": "New Brunswick",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Lloyd",
+    "lastName": "Longfield",
+    "constitName": "Guelph",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Karen",
+    "lastName": "Ludwig",
+    "constitName": "New Brunswick Southwest",
+    "provTerrName": "New Brunswick",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Tom",
+    "lastName": "Lukiwski",
+    "constitName": "Moose Jaw—Lake Centre—Lanigan",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Lawrence",
+    "lastName": "MacAulay",
+    "constitName": "Cardigan",
+    "provTerrName": "Prince Edward Island",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Alistair",
+    "lastName": "MacGregor",
+    "constitName": "Cowichan—Malahat—Langford",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Dave",
+    "lastName": "MacKenzie",
+    "constitName": "Oxford",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Steven",
+    "lastName": "MacKinnon",
+    "constitName": "Gatineau",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Larry",
+    "lastName": "Maguire",
+    "constitName": "Brandon—Souris",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Sheila",
+    "lastName": "Malcolmson",
+    "constitName": "Nanaimo—Ladysmith",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "James",
+    "lastName": "Maloney",
+    "constitName": "Etobicoke—Lakeshore",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Simon",
+    "lastName": "Marcil",
+    "constitName": "Mirabel",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Bloc Québécois"
+  },
+  "": {
+    "firstName": "Brian",
+    "lastName": "Masse",
+    "constitName": "Windsor West",
+    "provTerrName": "Ontario",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Rémi",
+    "lastName": "Massé",
+    "constitName": "Avignon—La Mitis—Matane—Matapédia",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Irene",
+    "lastName": "Mathyssen",
+    "constitName": "London—Fanshawe",
+    "provTerrName": "Ontario",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Bryan",
+    "lastName": "May",
+    "constitName": "Cambridge",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Elizabeth",
+    "lastName": "May",
+    "constitName": "Saanich—Gulf Islands",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Green Party"
+  },
+  "": {
+    "firstName": "Kelly",
+    "lastName": "McCauley",
+    "constitName": "Edmonton West",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Phil",
+    "lastName": "McColeman",
+    "constitName": "Brantford—Brant",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Karen",
+    "lastName": "McCrimmon",
+    "constitName": "Kanata—Carleton",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Ken",
+    "lastName": "McDonald",
+    "constitName": "Avalon",
+    "provTerrName": "Newfoundland and Labrador",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "David",
+    "lastName": "McGuinty",
+    "constitName": "Ottawa South",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "John",
+    "lastName": "McKay",
+    "constitName": "Scarborough—Guildwood",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Catherine",
+    "lastName": "McKenna",
+    "constitName": "Ottawa Centre",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Ron",
+    "lastName": "McKinnon",
+    "constitName": "Coquitlam—Port Coquitlam",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Cathy",
+    "lastName": "McLeod",
+    "constitName": "Kamloops—Thompson—Cariboo",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Michael",
+    "lastName": "McLeod",
+    "constitName": "Northwest Territories",
+    "provTerrName": "Northwest Territories",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Alexandra",
+    "lastName": "Mendès",
+    "constitName": "Brossard—Saint-Lambert",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Marco",
+    "lastName": "Mendicino",
+    "constitName": "Eglinton—Lawrence",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "MaryAnn",
+    "lastName": "Mihychuk",
+    "constitName": "Kildonan—St. Paul",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Larry",
+    "lastName": "Miller",
+    "constitName": "Bruce—Grey—Owen Sound",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Marc",
+    "lastName": "Miller",
+    "constitName": "Ville-Marie—Le Sud-Ouest—Île-des-Soeurs",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Maryam",
+    "lastName": "Monsef",
+    "constitName": "Peterborough—Kawartha",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Christine",
+    "lastName": "Moore",
+    "constitName": "Abitibi—Témiscamingue",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Bill",
+    "lastName": "Morneau",
+    "constitName": "Toronto Centre",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Robert",
+    "lastName": "Morrissey",
+    "constitName": "Egmont",
+    "provTerrName": "Prince Edward Island",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Glen",
+    "lastName": "Motz",
+    "constitName": "Medicine Hat—Cardston—Warner",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Thomas",
+    "lastName": "Mulcair",
+    "constitName": "Outremont",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Joyce",
+    "lastName": "Murray",
+    "constitName": "Vancouver Quadra",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Pierre",
+    "lastName": "Nantel",
+    "constitName": "Longueuil—Saint-Hubert",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Eva",
+    "lastName": "Nassif",
+    "constitName": "Vimy",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "John",
+    "lastName": "Nater",
+    "constitName": "Perth—Wellington",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Robert",
+    "lastName": "Nault",
+    "constitName": "Kenora",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Mary",
+    "lastName": "Ng",
+    "constitName": "Markham—Thornhill",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Rob",
+    "lastName": "Nicholson",
+    "constitName": "Niagara Falls",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Alexander",
+    "lastName": "Nuttall",
+    "constitName": "Barrie—Springwater—Oro-Medonte",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Deepak",
+    "lastName": "Obhrai",
+    "constitName": "Calgary Forest Lawn",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Jennifer",
+    "lastName": "O'Connell",
+    "constitName": "Pickering—Uxbridge",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Robert",
+    "lastName": "Oliphant",
+    "constitName": "Don Valley West",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "John",
+    "lastName": "Oliver",
+    "constitName": "Oakville",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Seamus",
+    "lastName": "O'Regan",
+    "constitName": "St. John's South—Mount Pearl",
+    "provTerrName": "Newfoundland and Labrador",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Erin",
+    "lastName": "O'Toole",
+    "constitName": "Durham",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Robert-Falcon",
+    "lastName": "Ouellette",
+    "constitName": "Winnipeg Centre",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Denis",
+    "lastName": "Paradis",
+    "constitName": "Brome—Missisquoi",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Pierre",
+    "lastName": "Paul-Hus",
+    "constitName": "Charlesbourg—Haute-Saint-Charles",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Monique",
+    "lastName": "Pauzé",
+    "constitName": "Repentigny",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Bloc Québécois"
+  },
+  "": {
+    "firstName": "Joe",
+    "lastName": "Peschisolido",
+    "constitName": "Steveston—Richmond East",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Kyle",
+    "lastName": "Peterson",
+    "constitName": "Newmarket—Aurora",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Ginette",
+    "lastName": "Petitpas Taylor",
+    "constitName": "Moncton—Riverview—Dieppe",
+    "provTerrName": "New Brunswick",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Jane",
+    "lastName": "Philpott",
+    "constitName": "Markham—Stouffville",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Michel",
+    "lastName": "Picard",
+    "constitName": "Montarville",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Louis",
+    "lastName": "Plamondon",
+    "constitName": "Bécancour—Nicolet—Saurel",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Bloc Québécois"
+  },
+  "": {
+    "firstName": "Pierre",
+    "lastName": "Poilievre",
+    "constitName": "Carleton",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Jean-Claude",
+    "lastName": "Poissant",
+    "constitName": "La Prairie",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Anne Minh-Thu",
+    "lastName": "Quach",
+    "constitName": "Salaberry—Suroît",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Carla",
+    "lastName": "Qualtrough",
+    "constitName": "Delta",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Lisa",
+    "lastName": "Raitt",
+    "constitName": "Milton",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Tracey",
+    "lastName": "Ramsey",
+    "constitName": "Essex",
+    "provTerrName": "Ontario",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Murray",
+    "lastName": "Rankin",
+    "constitName": "Victoria",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Yasmin",
+    "lastName": "Ratansi",
+    "constitName": "Don Valley East",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Alain",
+    "lastName": "Rayes",
+    "constitName": "Richmond—Arthabaska",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Geoff",
+    "lastName": "Regan",
+    "constitName": "Halifax West",
+    "provTerrName": "Nova Scotia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Scott",
+    "lastName": "Reid",
+    "constitName": "Lanark—Frontenac—Kingston",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Michelle",
+    "lastName": "Rempel",
+    "constitName": "Calgary Nose Hill",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Blake",
+    "lastName": "Richards",
+    "constitName": "Banff—Airdrie",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Jean",
+    "lastName": "Rioux",
+    "constitName": "Saint-Jean",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Gerry",
+    "lastName": "Ritz",
+    "constitName": "Battlefords—Lloydminster",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Yves",
+    "lastName": "Robillard",
+    "constitName": "Marc-Aurèle-Fortin",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Pablo",
+    "lastName": "Rodriguez",
+    "constitName": "Honoré-Mercier",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Sherry",
+    "lastName": "Romanado",
+    "constitName": "Longueuil—Charles-LeMoyne",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Anthony",
+    "lastName": "Rota",
+    "constitName": "Nipissing—Timiskaming",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Kim",
+    "lastName": "Rudd",
+    "constitName": "Northumberland—Peterborough South",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Dan",
+    "lastName": "Ruimy",
+    "constitName": "Pitt Meadows—Maple Ridge",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Don",
+    "lastName": "Rusnak",
+    "constitName": "Thunder Bay—Rainy River",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Romeo",
+    "lastName": "Saganash",
+    "constitName": "Abitibi—Baie-James—Nunavik—Eeyou",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Ruby",
+    "lastName": "Sahota",
+    "constitName": "Brampton North",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Raj",
+    "lastName": "Saini",
+    "constitName": "Kitchener Centre",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Harjit S.",
+    "lastName": "Sajjan",
+    "constitName": "Vancouver South",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Darrell",
+    "lastName": "Samson",
+    "constitName": "Sackville—Preston—Chezzetcook",
+    "provTerrName": "Nova Scotia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Ramesh",
+    "lastName": "Sangha",
+    "constitName": "Brampton Centre",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Brigitte",
+    "lastName": "Sansoucy",
+    "constitName": "Saint-Hyacinthe—Bagot",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Randeep",
+    "lastName": "Sarai",
+    "constitName": "Surrey Centre",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Bob",
+    "lastName": "Saroya",
+    "constitName": "Markham—Unionville",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Francis",
+    "lastName": "Scarpaleggia",
+    "constitName": "Lac-Saint-Louis",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Andrew",
+    "lastName": "Scheer",
+    "constitName": "Regina—Qu'Appelle",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Peter",
+    "lastName": "Schiefke",
+    "constitName": "Vaudreuil—Soulanges",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Jamie",
+    "lastName": "Schmale",
+    "constitName": "Haliburton—Kawartha Lakes—Brock",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Deborah",
+    "lastName": "Schulte",
+    "constitName": "King—Vaughan",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Marc",
+    "lastName": "Serré",
+    "constitName": "Nickel Belt",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Judy A.",
+    "lastName": "Sgro",
+    "constitName": "Humber River—Black Creek",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Brenda",
+    "lastName": "Shanahan",
+    "constitName": "Châteauguay—Lacolle",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Terry",
+    "lastName": "Sheehan",
+    "constitName": "Sault Ste. Marie",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Martin",
+    "lastName": "Shields",
+    "constitName": "Bow River",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Bev",
+    "lastName": "Shipley",
+    "constitName": "Lambton—Kent—Middlesex",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Jati",
+    "lastName": "Sidhu",
+    "constitName": "Mission—Matsqui—Fraser Canyon",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Sonia",
+    "lastName": "Sidhu",
+    "constitName": "Brampton South",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Gagan",
+    "lastName": "Sikand",
+    "constitName": "Mississauga—Streetsville",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Scott",
+    "lastName": "Simms",
+    "constitName": "Coast of Bays—Central—Notre Dame",
+    "provTerrName": "Newfoundland and Labrador",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Amarjeet",
+    "lastName": "Sohi",
+    "constitName": "Edmonton Mill Woods",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Robert",
+    "lastName": "Sopuck",
+    "constitName": "Dauphin—Swan River—Neepawa",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Francesco",
+    "lastName": "Sorbara",
+    "constitName": "Vaughan—Woodbridge",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Kevin",
+    "lastName": "Sorenson",
+    "constitName": "Battle River—Crowfoot",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Sven",
+    "lastName": "Spengemann",
+    "constitName": "Mississauga—Lakeshore",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Bruce",
+    "lastName": "Stanton",
+    "constitName": "Simcoe North",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Gabriel",
+    "lastName": "Ste-Marie",
+    "constitName": "Joliette",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Bloc Québécois"
+  },
+  "": {
+    "firstName": "Wayne",
+    "lastName": "Stetski",
+    "constitName": "Kootenay—Columbia",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Kennedy",
+    "lastName": "Stewart",
+    "constitName": "Burnaby South",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Mark",
+    "lastName": "Strahl",
+    "constitName": "Chilliwack—Hope",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Shannon",
+    "lastName": "Stubbs",
+    "constitName": "Lakeland",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "David",
+    "lastName": "Sweet",
+    "constitName": "Flamborough—Glanbrook",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Marwan",
+    "lastName": "Tabbara",
+    "constitName": "Kitchener South—Hespeler",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Geng",
+    "lastName": "Tan",
+    "constitName": "Don Valley North",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Filomena",
+    "lastName": "Tassi",
+    "constitName": "Hamilton West—Ancaster—Dundas",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Luc",
+    "lastName": "Thériault",
+    "constitName": "Montcalm",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Bloc Québécois"
+  },
+  "": {
+    "firstName": "David",
+    "lastName": "Tilson",
+    "constitName": "Dufferin—Caledon",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Hunter",
+    "lastName": "Tootoo",
+    "constitName": "Nunavut",
+    "provTerrName": "Nunavut",
+    "caucusShortName": "Independent"
+  },
+  "": {
+    "firstName": "Brad",
+    "lastName": "Trost",
+    "constitName": "Saskatoon—University",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Justin",
+    "lastName": "Trudeau",
+    "constitName": "Papineau",
+    "provTerrName": "Quebec",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Karine",
+    "lastName": "Trudel",
+    "constitName": "Jonquière",
+    "provTerrName": "Quebec",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Dave",
+    "lastName": "Van Kesteren",
+    "constitName": "Chatham-Kent—Leamington",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Peter",
+    "lastName": "Van Loan",
+    "constitName": "York—Simcoe",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Dan",
+    "lastName": "Vandal",
+    "constitName": "Saint Boniface—Saint Vital",
+    "provTerrName": "Manitoba",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Anita",
+    "lastName": "Vandenbeld",
+    "constitName": "Ottawa West—Nepean",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Adam",
+    "lastName": "Vaughan",
+    "constitName": "Spadina—Fort York",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Karen",
+    "lastName": "Vecchio",
+    "constitName": "Elgin—Middlesex—London",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Arnold",
+    "lastName": "Viersen",
+    "constitName": "Peace River—Westlock",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Arif",
+    "lastName": "Virani",
+    "constitName": "Parkdale—High Park",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Cathay",
+    "lastName": "Wagantall",
+    "constitName": "Yorkton—Melville",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Mark",
+    "lastName": "Warawa",
+    "constitName": "Langley—Aldergrove",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Chris",
+    "lastName": "Warkentin",
+    "constitName": "Grande Prairie—Mackenzie",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Dianne L.",
+    "lastName": "Watts",
+    "constitName": "South Surrey—White Rock",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Kevin",
+    "lastName": "Waugh",
+    "constitName": "Saskatoon—Grasswood",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Len",
+    "lastName": "Webber",
+    "constitName": "Calgary Confederation",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Erin",
+    "lastName": "Weir",
+    "constitName": "Regina—Lewvan",
+    "provTerrName": "Saskatchewan",
+    "caucusShortName": "NDP"
+  },
+  "": {
+    "firstName": "Nick",
+    "lastName": "Whalen",
+    "constitName": "St. John's East",
+    "provTerrName": "Newfoundland and Labrador",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Jonathan",
+    "lastName": "Wilkinson",
+    "constitName": "North Vancouver",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Jody",
+    "lastName": "Wilson-Raybould",
+    "constitName": "Vancouver Granville",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Alice",
+    "lastName": "Wong",
+    "constitName": "Richmond Centre",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Borys",
+    "lastName": "Wrzesnewskyj",
+    "constitName": "Etobicoke Centre",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Kate",
+    "lastName": "Young",
+    "constitName": "London West",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "David",
+    "lastName": "Yurdiga",
+    "constitName": "Fort McMurray—Cold Lake",
+    "provTerrName": "Alberta",
+    "caucusShortName": "Conservative"
+  },
+  "": {
+    "firstName": "Salma",
+    "lastName": "Zahid",
+    "constitName": "Scarborough Centre",
+    "provTerrName": "Ontario",
+    "caucusShortName": "Liberal"
+  },
+  "": {
+    "firstName": "Bob",
+    "lastName": "Zimmer",
+    "constitName": "Prince George—Peace River—Northern Rockies",
+    "provTerrName": "British Columbia",
+    "caucusShortName": "Conservative"
+  }
+}
