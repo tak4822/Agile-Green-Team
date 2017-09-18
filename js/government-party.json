@@ -18,7 +18,7 @@
 
 
     "liberalPartyObj": {
-        "name": "Liberal", 
+        "name": "Liberal Party", 
         "colour": "Red", 
         "leader": "Justin Trudeau", 
         "position": 1,
@@ -54,7 +54,7 @@
     },
 
     "conservativePartyObj" : {
-        "name": "Conservative",
+        "name": "Conservative Party",
         "colour": "Blue",
         "leader": "Andrew Sheere",
         "position": 1, 
