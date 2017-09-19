@@ -1,5 +1,6 @@
 
-<?php include "partials/head.php" ?>
+<?php include "partials/head.php"; 
+      include "partials/navbar.php" ?>
 
 
 
