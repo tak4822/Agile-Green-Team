@@ -1,9 +1,27 @@
+
+.partyPageContainer {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+//    grid-template-rows: repeat(12, 1fr);
+}
+
+.partyContainer {
+    // grid-area: 6 / 2 / 12 / 4;
+    grid-area: 1/ 3 / 1 / 5;
+}
 .partyContainer__item {
+    width:49%;
+    display:inline-block;
     .partyContainer__img {
-        @include grid-column(3);
-
-
+       width:100%;
+       padding:0;
+       margin:0;
+        
     }
+}
+
+.partyInfo {
+    grid-area: 1/1/3/3;
 }
 
   

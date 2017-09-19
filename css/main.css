@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 /*-------------NAV BAR -------*/
 /*SIDE NAV */
 /* The side navigation menu */
@@ -68,6 +73,26 @@
 #mySidenav ul {
   list-style-type: none; }
 
+/* -------------FOOTER--------------*/
+.footerContainer {
+  height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: black; }
+  .footerContainer label, .footerContainer h3, .footerContainer a, .footerContainer p {
+    color: white;
+    margin: 30px 0; }
+
+.footerContainer__form input {
+  width: 100%; }
+.footerContainer__form input[type=text], .footerContainer__form input[type=email] {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: black; }
+.footerContainer__form label, .footerContainer__form h3 {
+  color: white;
+  margin: 30px 0; }
+
 .mpMap__container:after {
   content: "";
   display: table;
@@ -83,9 +108,22 @@
   float: left;
   margin-left: 20px; }
 
-.partyContainer__item .partyContainer__img {
-  width: calc(25% - 25px);
-  float: left;
-  margin-left: 20px; }
+.partyPageContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+
+.partyContainer {
+  grid-area: 1/ 3 / 1 / 5; }
+
+.partyContainer__item {
+  width: 49%;
+  display: inline-block; }
+  .partyContainer__item .partyContainer__img {
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+
+.partyInfo {
+  grid-area: 1/1/3/3; }
 
 /*# sourceMappingURL=main.css.map */

@@ -67,3 +67,38 @@
 }
 
 
+/* -------------FOOTER--------------*/
+
+.footerContainer {
+    height:30vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color:black;
+
+    label, h3, a, p {
+        color:white;
+        margin: 30px 0; 
+    }
+}
+
+
+.footerContainer__form {
+    input {
+        width:100%;
+    }
+    input[type=text], input[type=email] {
+        border:none;
+        border-bottom:2px solid white; 
+        background-color:black;
+    }
+    input[type=submit]{
+
+    }
+
+    label, h3 {
+        color:white;
+        margin: 30px 0; 
+    }
+    
+}
+
