@@ -11,7 +11,7 @@
     "firstName": "Dan",
     "lastName": "Albas",
     "constitName": "Central Okanagan—Similkameen—Nicola",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Conservative"
   },
   {
@@ -25,7 +25,7 @@
     "firstName": "John",
     "lastName": "Aldag",
     "constitName": "Cloverdale—Langley City",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
@@ -81,14 +81,14 @@
     "firstName": "Mel",
     "lastName": "Arnold",
     "constitName": "North Okanagan—Shuswap",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Conservative"
   },
   {
     "firstName": "René",
     "lastName": "Arseneault",
     "constitName": "Madawaska—Restigouche",
-    "provTerrName": "New Brunswick",
+    "provTerrName": "NewBrunswick",
     "caucusShortName": "Liberal"
   },
   {
@@ -172,7 +172,7 @@
     "firstName": "Terry",
     "lastName": "Beech",
     "constitName": "Burnaby North—Seymour",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
@@ -256,7 +256,7 @@
     "firstName": "Rachel",
     "lastName": "Blaney",
     "constitName": "North Island—Powell River",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
@@ -340,7 +340,7 @@
     "firstName": "Scott",
     "lastName": "Brison",
     "constitName": "Kings—Hants",
-    "provTerrName": "Nova Scotia",
+    "provTerrName": "NovaScotia",
     "caucusShortName": "Liberal"
   },
   {
@@ -375,7 +375,7 @@
     "firstName": "Richard",
     "lastName": "Cannings",
     "constitName": "South Okanagan—West Kootenay",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
@@ -403,14 +403,14 @@
     "firstName": "Bill",
     "lastName": "Casey",
     "constitName": "Cumberland—Colchester",
-    "provTerrName": "Nova Scotia",
+    "provTerrName": "NovaScotia",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Sean",
     "lastName": "Casey",
     "constitName": "Charlottetown",
-    "provTerrName": "Prince Edward Island",
+    "provTerrName": "PrinceEdward",
     "caucusShortName": "Liberal"
   },
   {
@@ -480,21 +480,21 @@
     "firstName": "Serge",
     "lastName": "Cormier",
     "constitName": "Acadie—Bathurst",
-    "provTerrName": "New Brunswick",
+    "provTerrName": "NewBrunswick",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Nathan",
     "lastName": "Cullen",
     "constitName": "Skeena—Bulkley Valley",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
     "firstName": "Rodger",
     "lastName": "Cuzner",
     "constitName": "Cape Breton—Canso",
-    "provTerrName": "Nova Scotia",
+    "provTerrName": "NovaScotia",
     "caucusShortName": "Liberal"
   },
   {
@@ -515,14 +515,14 @@
     "firstName": "Don",
     "lastName": "Davies",
     "constitName": "Vancouver Kingsway",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
     "firstName": "Matt",
     "lastName": "DeCourcey",
     "constitName": "Fredericton",
-    "provTerrName": "New Brunswick",
+    "provTerrName": "NewBrunswick",
     "caucusShortName": "Liberal"
   },
   {
@@ -536,7 +536,7 @@
     "firstName": "Sukh",
     "lastName": "Dhaliwal",
     "constitName": "Surrey—Newton",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
@@ -564,14 +564,14 @@
     "firstName": "Todd",
     "lastName": "Doherty",
     "constitName": "Cariboo—Prince George",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Conservative"
   },
   {
     "firstName": "Fin",
     "lastName": "Donnelly",
     "constitName": "Port Moody—Coquitlam",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
@@ -655,7 +655,7 @@
     "firstName": "Wayne",
     "lastName": "Easter",
     "constitName": "Malpeque",
-    "provTerrName": "Prince Edward Island",
+    "provTerrName": "PrinceEdward",
     "caucusShortName": "Liberal"
   },
   {
@@ -697,7 +697,7 @@
     "firstName": "Mark",
     "lastName": "Eyking",
     "constitName": "Sydney—Victoria",
-    "provTerrName": "Nova Scotia",
+    "provTerrName": "NovaScotia",
     "caucusShortName": "Liberal"
   },
   {
@@ -718,7 +718,7 @@
     "firstName": "Ed",
     "lastName": "Fast",
     "constitName": "Abbotsford",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Conservative"
   },
   {
@@ -732,7 +732,7 @@
     "firstName": "Andy",
     "lastName": "Fillmore",
     "constitName": "Halifax",
-    "provTerrName": "Nova Scotia",
+    "provTerrName": "NovaScotia",
     "caucusShortName": "Liberal"
   },
   {
@@ -746,14 +746,14 @@
     "firstName": "Pat",
     "lastName": "Finnigan",
     "constitName": "Miramichi—Grand Lake",
-    "provTerrName": "New Brunswick",
+    "provTerrName": "NewBrunswick",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Darren",
     "lastName": "Fisher",
     "constitName": "Dartmouth—Cole Harbour",
-    "provTerrName": "Nova Scotia",
+    "provTerrName": "NovaScotia",
     "caucusShortName": "Liberal"
   },
   {
@@ -767,7 +767,7 @@
     "firstName": "Judy",
     "lastName": "Foote",
     "constitName": "Bonavista—Burin—Trinity",
-    "provTerrName": "Newfoundland and Labrador",
+    "provTerrName": "Newfoundland",
     "caucusShortName": "Liberal"
   },
   {
@@ -795,14 +795,14 @@
     "firstName": "Colin",
     "lastName": "Fraser",
     "constitName": "West Nova",
-    "provTerrName": "Nova Scotia",
+    "provTerrName": "NovaScotia",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Sean",
     "lastName": "Fraser",
     "constitName": "Central Nova",
-    "provTerrName": "Nova Scotia",
+    "provTerrName": "NovaScotia",
     "caucusShortName": "Liberal"
   },
   {
@@ -816,14 +816,14 @@
     "firstName": "Hedy",
     "lastName": "Fry",
     "constitName": "Vancouver Centre",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Stephen",
     "lastName": "Fuhr",
     "constitName": "Kelowna—Lake Country",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
@@ -844,7 +844,7 @@
     "firstName": "Randall",
     "lastName": "Garrison",
     "constitName": "Esquimalt—Saanich—Sooke",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
@@ -893,7 +893,7 @@
     "firstName": "Pam",
     "lastName": "Goldsmith-Jones",
     "constitName": "West Vancouver—Sunshine Coast—Sea to Sky Country",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
@@ -956,14 +956,14 @@
     "firstName": "Ken",
     "lastName": "Hardie",
     "constitName": "Fleetwood—Port Kells",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "T.J.",
     "lastName": "Harvey",
     "constitName": "Tobique—Mactaquac",
-    "provTerrName": "New Brunswick",
+    "provTerrName": "NewBrunswick",
     "caucusShortName": "Liberal"
   },
   {
@@ -1012,7 +1012,7 @@
     "firstName": "Gudie",
     "lastName": "Hutchings",
     "constitName": "Long Range Mountains",
-    "provTerrName": "Newfoundland and Labrador",
+    "provTerrName": "Newfoundland",
     "caucusShortName": "Liberal"
   },
   {
@@ -1033,7 +1033,7 @@
     "firstName": "Gord",
     "lastName": "Johns",
     "constitName": "Courtenay—Alberni",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
@@ -1054,14 +1054,14 @@
     "firstName": "Yvonne",
     "lastName": "Jones",
     "constitName": "Labrador",
-    "provTerrName": "Newfoundland and Labrador",
+    "provTerrName": "Newfoundland",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Bernadette",
     "lastName": "Jordan",
     "constitName": "South Shore—St. Margarets",
-    "provTerrName": "Nova Scotia",
+    "provTerrName": "NovaScotia",
     "caucusShortName": "Liberal"
   },
   {
@@ -1075,7 +1075,7 @@
     "firstName": "Peter",
     "lastName": "Julian",
     "constitName": "New Westminster—Burnaby",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
@@ -1138,7 +1138,7 @@
     "firstName": "Jenny",
     "lastName": "Kwan",
     "constitName": "Vancouver East",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
@@ -1201,7 +1201,7 @@
     "firstName": "Dominic",
     "lastName": "LeBlanc",
     "constitName": "Beauséjour",
-    "provTerrName": "New Brunswick",
+    "provTerrName": "NewBrunswick",
     "caucusShortName": "Liberal"
   },
   {
@@ -1271,14 +1271,14 @@
     "firstName": "Alaina",
     "lastName": "Lockhart",
     "constitName": "Fundy Royal",
-    "provTerrName": "New Brunswick",
+    "provTerrName": "NewBrunswick",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Wayne",
     "lastName": "Long",
     "constitName": "Saint John—Rothesay",
-    "provTerrName": "New Brunswick",
+    "provTerrName": "NewBrunswick",
     "caucusShortName": "Liberal"
   },
   {
@@ -1291,8 +1291,8 @@
   {
     "firstName": "Karen",
     "lastName": "Ludwig",
-    "constitName": "New Brunswick Southwest",
-    "provTerrName": "New Brunswick",
+    "constitName": "NewBrunswick Southwest",
+    "provTerrName": "NewBrunswick",
     "caucusShortName": "Liberal"
   },
   {
@@ -1306,14 +1306,14 @@
     "firstName": "Lawrence",
     "lastName": "MacAulay",
     "constitName": "Cardigan",
-    "provTerrName": "Prince Edward Island",
+    "provTerrName": "PrinceEdward",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Alistair",
     "lastName": "MacGregor",
     "constitName": "Cowichan—Malahat—Langford",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
@@ -1341,7 +1341,7 @@
     "firstName": "Sheila",
     "lastName": "Malcolmson",
     "constitName": "Nanaimo—Ladysmith",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
@@ -1390,7 +1390,7 @@
     "firstName": "Elizabeth",
     "lastName": "May",
     "constitName": "Saanich—Gulf Islands",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Green Party"
   },
   {
@@ -1418,7 +1418,7 @@
     "firstName": "Ken",
     "lastName": "McDonald",
     "constitName": "Avalon",
-    "provTerrName": "Newfoundland and Labrador",
+    "provTerrName": "Newfoundland",
     "caucusShortName": "Liberal"
   },
   {
@@ -1446,21 +1446,21 @@
     "firstName": "Ron",
     "lastName": "McKinnon",
     "constitName": "Coquitlam—Port Coquitlam",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Cathy",
     "lastName": "McLeod",
     "constitName": "Kamloops—Thompson—Cariboo",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Conservative"
   },
   {
     "firstName": "Michael",
     "lastName": "McLeod",
     "constitName": "Northwest Territories",
-    "provTerrName": "Northwest Territories",
+    "provTerrName": "Northwest",
     "caucusShortName": "Liberal"
   },
   {
@@ -1523,7 +1523,7 @@
     "firstName": "Robert",
     "lastName": "Morrissey",
     "constitName": "Egmont",
-    "provTerrName": "Prince Edward Island",
+    "provTerrName": "PrinceEdward",
     "caucusShortName": "Liberal"
   },
   {
@@ -1544,7 +1544,7 @@
     "firstName": "Joyce",
     "lastName": "Murray",
     "constitName": "Vancouver Quadra",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
@@ -1628,7 +1628,7 @@
     "firstName": "Seamus",
     "lastName": "O'Regan",
     "constitName": "St. John's South—Mount Pearl",
-    "provTerrName": "Newfoundland and Labrador",
+    "provTerrName": "Newfoundland",
     "caucusShortName": "Liberal"
   },
   {
@@ -1670,7 +1670,7 @@
     "firstName": "Joe",
     "lastName": "Peschisolido",
     "constitName": "Steveston—Richmond East",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
@@ -1684,7 +1684,7 @@
     "firstName": "Ginette",
     "lastName": "Petitpas Taylor",
     "constitName": "Moncton—Riverview—Dieppe",
-    "provTerrName": "New Brunswick",
+    "provTerrName": "NewBrunswick",
     "caucusShortName": "Liberal"
   },
   {
@@ -1733,7 +1733,7 @@
     "firstName": "Carla",
     "lastName": "Qualtrough",
     "constitName": "Delta",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
@@ -1754,7 +1754,7 @@
     "firstName": "Murray",
     "lastName": "Rankin",
     "constitName": "Victoria",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
@@ -1775,7 +1775,7 @@
     "firstName": "Geoff",
     "lastName": "Regan",
     "constitName": "Halifax West",
-    "provTerrName": "Nova Scotia",
+    "provTerrName": "NovaScotia",
     "caucusShortName": "Liberal"
   },
   {
@@ -1852,7 +1852,7 @@
     "firstName": "Dan",
     "lastName": "Ruimy",
     "constitName": "Pitt Meadows—Maple Ridge",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
@@ -1887,14 +1887,14 @@
     "firstName": "Harjit S.",
     "lastName": "Sajjan",
     "constitName": "Vancouver South",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Darrell",
     "lastName": "Samson",
     "constitName": "Sackville—Preston—Chezzetcook",
-    "provTerrName": "Nova Scotia",
+    "provTerrName": "NovaScotia",
     "caucusShortName": "Liberal"
   },
   {
@@ -1915,7 +1915,7 @@
     "firstName": "Randeep",
     "lastName": "Sarai",
     "constitName": "Surrey Centre",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
@@ -2006,7 +2006,7 @@
     "firstName": "Jati",
     "lastName": "Sidhu",
     "constitName": "Mission—Matsqui—Fraser Canyon",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
@@ -2027,7 +2027,7 @@
     "firstName": "Scott",
     "lastName": "Simms",
     "constitName": "Coast of Bays—Central—Notre Dame",
-    "provTerrName": "Newfoundland and Labrador",
+    "provTerrName": "Newfoundland",
     "caucusShortName": "Liberal"
   },
   {
@@ -2083,21 +2083,21 @@
     "firstName": "Wayne",
     "lastName": "Stetski",
     "constitName": "Kootenay—Columbia",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
     "firstName": "Kennedy",
     "lastName": "Stewart",
     "constitName": "Burnaby South",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "NDP"
   },
   {
     "firstName": "Mark",
     "lastName": "Strahl",
     "constitName": "Chilliwack—Hope",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Conservative"
   },
   {
@@ -2244,7 +2244,7 @@
     "firstName": "Mark",
     "lastName": "Warawa",
     "constitName": "Langley—Aldergrove",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Conservative"
   },
   {
@@ -2258,7 +2258,7 @@
     "firstName": "Dianne L.",
     "lastName": "Watts",
     "constitName": "South Surrey—White Rock",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Conservative"
   },
   {
@@ -2286,28 +2286,28 @@
     "firstName": "Nick",
     "lastName": "Whalen",
     "constitName": "St. John's East",
-    "provTerrName": "Newfoundland and Labrador",
+    "provTerrName": "Newfoundland",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Jonathan",
     "lastName": "Wilkinson",
     "constitName": "North Vancouver",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Jody",
     "lastName": "Wilson-Raybould",
     "constitName": "Vancouver Granville",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Liberal"
   },
   {
     "firstName": "Alice",
     "lastName": "Wong",
     "constitName": "Richmond Centre",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Conservative"
   },
   {
@@ -2342,7 +2342,7 @@
     "firstName": "Bob",
     "lastName": "Zimmer",
     "constitName": "Prince George—Peace River—Northern Rockies",
-    "provTerrName": "British Columbia",
+    "provTerrName": "BC",
     "caucusShortName": "Conservative"
   }
 ]}

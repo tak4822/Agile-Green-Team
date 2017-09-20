@@ -1,27 +1,34 @@
 var province  = document.querySelectorAll( '.cls-1' );
-
-for(var i=0; i<province.length; i+=1) {
-  province[i].addEventListener('click', function(e) {
-    e.preventDefault();
-    alert(this.getAttribute('id'));
-  });
-}
+var mpsArr;
 
 $.ajax({
 	url: 'js/mp.json',
 	dataType: 'json',
 	data: {name: 'mps'},
 	success: function(data){
-		var dataArray = data.mps;
+		mpsArr = data.mps;
+	}
+});
 
-		$.each(dataArray, function(i){
-			var whichParty = dataArray[i].caucusShortName;
-      var mpHtml = '<li class="mpList__name">'+ dataArray[i].firstName +' '+ dataArray[i].lastName +' '+ dataArray[i].provTerrName +'</li>';
+for(var i=0; i<province.length; i+=1) {
+  province[i].addEventListener('click', function(e) {
+    e.preventDefault();
+    var provName =this.getAttribute('id');
+    var provNameCap = provName.charAt(0).toUpperCase() + provName.slice(1);
+    showMps(provNameCap);
+  });
+}
+
+function showMps(prov){
+  $(".mpList__list").empty();
+  $.each(mpsArr, function(i){
+    if(mpsArr[i].provTerrName === prov){
+      var whichParty = mpsArr[i].caucusShortName;
+      var mpHtml = '<li class="mpList__name">'+ mpsArr[i].firstName +' '+ mpsArr[i].lastName +' '+ mpsArr[i].provTerrName +'</li>';
 
       switch (whichParty) {
         case "Liberal":
           $(".leberal").find(".mpList__list").append(mpHtml);
-
           break;
         case "NDP":
           $(".ndp").find(".mpList__list").append(mpHtml);
@@ -35,8 +42,27 @@ $.ajax({
         default:
           console.log("no party");
       }
+    }
+  });
+}
 
 
-		});
-	}
+$(function(){
+  $('.cls-1').hover(function(){
+    // Hover over code
+    var title = $(this).attr('title');
+    $(this).data('tipText', title).removeAttr('title');
+    $('<p class="tooltip"></p>')
+    .html(title + "<br><i class='map__smallText__popup'>Click to see MPs</i>")
+    .appendTo('body')
+    .fadeIn('slow');
+  }, function() {
+      // Hover out code
+      $(this).attr('title', $(this).data('tipText'));
+      $('.tooltip').remove();
+  }).mousemove(function(e) {
+      var mousex = e.pageX + 20; //Get X coordinates
+      var mousey = e.pageY + 10; //Get Y coordinates
+      $('.tooltip').css({ top: mousey, left: mousex });
+  });
 });
