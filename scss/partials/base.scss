@@ -30,8 +30,11 @@ $yellow: #C0C31B;
 $heading: 'Roboto Slab', serif;
 $body: 'Lato', sans-serif;
 
+body {
+  font-family:$body;
+  font-size: 20px;
+}
 #main {
-  width:95%;
   margin:auto;
 }
 
@@ -39,9 +42,66 @@ h1, h2  {
   font-family:$heading;
 }
 h1 {
-  font-size: 8rem;
+  font-size: 7rem;
   text-transform:uppercase;
+}
+h2 {
+  font-size: 2rem;
 }
 h3, h4, h5, p {
   font-family:$body;
+}
+
+/*--- COMMON CLASSES USED ----*/
+.uppercase {
+  text-transform:uppercase;
+}
+
+.container--centered {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.white {
+  color:white;
+}
+
+
+/*--- Header ----*/
+.header__container{
+  position: relative;
+  top: 0;
+  height: 450px;
+  width: 100%;
+}
+
+.mp{
+  background: $yellow;
+}
+.party{
+  background: $purple;
+}
+.compare{
+  background: $turquoise;
+}
+
+.pagetitle {
+  font-size: 7rem;
+  //font-size: 8vw;
+  @include grid-push(1);
+  padding-top: 40px;
+  color: white;
+}
+.page-desc{
+  color: white;
+  @include grid-push(1);
+  font-size: 1.2rem;
+}
+
+.logo__container{
+  width: 120px;
+  height: 50px;
+  padding-top: 20px;
+  @include grid-push(1);
 }
