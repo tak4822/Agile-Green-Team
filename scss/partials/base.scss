@@ -3,10 +3,44 @@
   margin:0;
   padding:0; 
 }
+
 @mixin clearfix(){
   &:after {
     content: "";
     display: table;
     clear: both;
   }
+}
+
+/*------VARIABLES-------*/
+/*-----COLOURS -----*/
+//PARTY COLOURS
+$blue: #2e4b77;
+$red: #d22e35;
+$green: #53a64e;
+$orange: #f27733;
+//PAGE COLOURS
+$purple: #6322a2;
+$turquoise: #169785;
+$yellow: #c0c31c;
+
+
+/*-----TYPOGRAPHY -----*/
+$heading: 'Roboto Slab', serif;
+$body: 'Lato', sans-serif;
+
+#main {
+  width:95%; 
+  margin:auto; 
+}
+
+h1, h2  {
+  font-family:$heading;
+}
+h1 {
+  font-size: 8rem;
+  text-transform:uppercase;
+}
+h3, h4, h5, p {
+  font-family:$body; 
 }

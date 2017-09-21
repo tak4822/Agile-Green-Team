@@ -1,56 +1,54 @@
 
 <?php include "partials/head.php"; 
       include "partials/navbar.php" ?>
-
-
-
-<body id='main'>
-  <main class='partyPageContainer'>
-    <section class='partyContainer'>
-      <article class='partyContainer__item'>
-      <img src='img/fff.png' class='partyContainer__img' data-index=0>
-        <div class='partyContainer__img--overlay'>
-          <!-- <h2> Liberal Party </h2> -->
-        </div>
-      </article>
-      <article class='partyContainer__item'>
-        <img src='img/fff.png' class='partyContainer__img' data-index=1>
-        <div class='partyContainer__img--overlay'>
-          <!-- <h2> Conservative Party </h2> -->
-        </div>
-      </article>
-      <article class='partyContainer__item'>
-        <img src='img/fff.png' class='partyContainer__img' data-index=2>
-        <div class='partyContainer__img--overlay'>
-          <!-- <h2> Green Party </h2> -->
-        </div>
-        </div>
-      </article>
-      <article class='partyContainer__item'>
-        <img src='img/fff.png' class='partyContainer__img' data-index=3>
-          <div class='partyContainer__img--overlay'>
-          <!-- <h2> New Democratic Party</h2> -->
-
-
+<body>
+  <div  id='main'>
+    <section class='pageHeader'> 
+      <h1> Parties </h1>
+      <p> Click a picture to check a detail of parties information </p>
+    </section>
+    <main class='partyPageContainer'>
+      <section class='partyContainer'>
+        <article class='partyContainer__item'>
+        <img src='img/justin-trudeau.jpg' class='partyContainer__img' data-index=0>
+          <div class='partyContainer__img--overlay' id='red' data-index=0>
+            <!-- <h2> Liberal Party </h2> -->
           </div>
-        </div>
-      </article>
+        </article>
+        <article class='partyContainer__item'>
+          <img src='img/andrew-scheer.jpg' class='partyContainer__img' data-index=1>
+          <div class='partyContainer__img--overlay' id='blue' data-index=1>
+            <!-- <h2> Conservative Party </h2> -->
+          </div>
+        </article>
+        <article class='partyContainer__item'>
+          <img src='img/elizabeth-may.jpg' class='partyContainer__img' data-index=2>
+          <div class='partyContainer__img--overlay' id='green' data-index=2>
+            <!-- <h2> Green Party </h2> -->
+          </div>
+        </article>
+        <article class='partyContainer__item'>
+          <img src='img/thomas-mulcair.jpg' class='partyContainer__img' data-index=3>
+            <div class='partyContainer__img--overlay' id='orange' data-index=3>
+            <!-- <h2> New Democratic Party</h2> -->
+            </div><br>
+        </article>
+      </section>
+  
+      <section class='partyInfo'>
 
-    </section>
-
-    <section class='partyInfo'>
-      <h1> Canada's Political Parties </h1>
-      <article class="partyInfo__item" id='history'>
-        <h2>The future of Canada depends on your vote</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sed tenetur harum quis totam excepturi porro qui beatae officia, voluptate unde accusamus delectus, tempore dolore odit laborum facilis quaerat velit? </p>
-      
-      </article>
-      <article class="partyInfo__item" id='policies'>
-        <h2>Educate yourself and vote based on what matters to you</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sed tenetur harum quis totam excepturi porro qui beatae officia, voluptate unde accusamus delectus, tempore dolore odit laborum facilis quaerat velit? </p>
-      
-      </article>
-    </section>
-</main>
+        <article class="partyInfo__item" id='history'>
+          <h2>The future of Canada depends on your vote</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sed tenetur harum quis totam excepturi porro qui beatae officia, voluptate unde accusamus delectus, tempore dolore odit laborum facilis quaerat velit? </p>
+        
+        </article>
+        <article class="partyInfo__item" id='policies'>
+          <h2>Educate yourself and vote based on what matters to you</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sed tenetur harum quis totam excepturi porro qui beatae officia, voluptate unde accusamus delectus, tempore dolore odit laborum facilis quaerat velit? </p>
+        
+        </article>
+      </section>
+  </main>
+</div>
 
 <?php include "partials/footer.php" ?>

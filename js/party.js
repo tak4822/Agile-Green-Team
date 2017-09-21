@@ -14,7 +14,7 @@ $(function(){
         })
 
     
-        $('.partyContainer__img').click(function(){
+        $('.partyContainer__img--overlay').click(function(){
             var objIndex = $(this).data('index');
             console.log(objIndex);
 

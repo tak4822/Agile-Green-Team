@@ -18,9 +18,12 @@
             {"name" : "Canada That Works Together", "description": "Our plan proposes democratic reforms that will make our politicians more accountable, our parliament more accessible, and our voting system more representative. Our plan takes bold climate action, by embracing the solutions that we already know work, encouraging research into those we have yet to discover, and increasing the taxes paid by corporate polluters."},
             {"name" : "Sustainable Economy", "description": "We need to immediately build those sectors that benefit from the lower Canadian dollar – manufacturing, tourism, value-added forest products and cultural industries. We need to resurrect federal engagement in tourism promotion and support. We need to embrace the 21st century economic revolution of clean technology. "},
             {"name" : "Strong Communities", "description": "Our nation needs a government that will invest in the fundamental building blocks on which our neighbourhoods rely – from healthcare to transit, child care to public parks, bridges to local agriculture. All with the aim of increasing the affordability and livability of the towns and cities we call home." }
-        ]   
+        ],
+        "prominentMembers" : [
+            {"name" : "Bruce Hyer", "position" : "Deputy Leader", "image" : "bryce-hyer.jpg"},
+            {"name" : "Daniel Green", "position" : "Deputy Leader", "image" : "daniel-green.jpg"}
+        ]
         },
-
 
     "liberalPartyObj": {
         "name": "Liberal Party", 
@@ -42,7 +45,14 @@
             {"name" : "Helping Families", "description": "We will give families more money to help with the high cost of raising their kids. We will cancel tax breaks and benefits for the wealthy – including the Universal Child Care Benefit – and introduce a new Canada Child Benefit to give Canadian"},
             {"name" : "Middle Class Tax Cut", "description": "We will cut the middle income tax bracket to 20.5 percent from 22 percent – a seven percent reduction. Canadians with taxable annual income between $44,700 and $89,401 will see their income tax rate fall. This tax relief is worth up to $670 per person, per year – or $1,340 for a twoincome  household"},
             {"name" : "Opportunities for Young Canadians", "description": "We will invest to create more jobs and better opportunities for young Canadians. We will invest $40 million each year to help employers create more co-op placements for students in science, technology, engineering, mathematics, and business programs." }
-        ]   
+        ],
+        
+        "prominentMembers" : [
+            {"name" : "Omar Alghaba", "position" : "Parliamentary Secretary to Minister of Foreign Affairs", "image" : "peter-mackay.jpg"},
+            {"name" : "Arnold Chan", "position" : "Member of House of Commons", "image" : "arnold-chan.jpg"},
+            {"name" : "Alain Rayes", "position" : "Quebec Political LIeutenant", "image" : "alain-rayes.jpg"},
+            {"name" : "Candice Bergen", "position" : "House Leader of the Official Opposition", "image" : "candice-bergen.jpg"}
+        ]
     },
 
 
@@ -66,6 +76,12 @@
             {"name" : "Improve Health Care", "description": "We will immediately inform Canada’s premiers that Harper’s unilateral health cuts have been cancelled and begin work to develop a new  health accord that will reduce waits for family doctors, create 5,000 new long-term care beds and lower prescription drug costs by 30%."},
             {"name" : "Step Up to Fight Climate Change", "description": "I will personally lead the Canadian delegation to the COP21 climate conference in Paris with firm targets to cut pollution, and bring in a home retrofit program to lower your household heating costs."},
             {"name" : "Make Life More Affordable", "description": "We will take the first step towards our goal of universal, affordable childcare by immediately flowing funding for over 60,000 childcare spaces at no more than $15 a day. We will restore the age of retirement to 65, and introduce a new Consumer Protection Act to cap ATM fees and ensure Canadians have access to a low-interest credit card." }
+        ],
+        "prominentMembers" : [
+            {"name" : "Charlie Angus", "position" : "Member of House of Commons", "image" : "charlie-angus.jpg"},
+            {"name" : "Rachel Blaney", "position" : "Seniors, Infrastructure and Communities", "image" : "rachel-blaney.jpg"},
+            {"name" : "Marjolain Boutin-Sweet", "position" : "Whip, Housing", "image" : "marjolaine-boutin-sweet.jpg"},
+            {"name" : "Daniel Blaikie", "position" : "National Caucus Chair", "image" : "daniel-blaikie.jpg"}
         ]   
 
     },
@@ -90,6 +106,12 @@
             {"name" : "Balanced Budget", "description": "A balanced budget is the anchor of our low-tax plan to protect our fragile economy and help Canadian families. We’ll continue to make the right choices to keep our budget balanced and taxes low."},
             {"name" : "Lower Taxes", "description": "Our low-tax pledge is rooted in our record: Canadians know that we’ll do what we say and that we’ll manage taxpayer dollars responsibly. We’re prepared to go even further and entrench our low-tax plan in legislation. Our ''tax lock'' legislation will back our low-tax commitment – to families, seniors, workers and small businesses – with the force of  the law for the next four years. "},
             {"name" : "Family Home", "description": "Homeownership is a key way to support Canadian families. And we’re helping more Canadians become homeowners byproviding new support to buy and invest in their homes. Nowone in seven Canadian households owns their own homes –one of the highest rates in the industrialized world. And, underour plan for affordable, responsible homeownership, we'll aimto add more than 700,000 new homeowners by 2020" }
-        ]   
+        ] ,  
+        "prominentMembers" : [
+            {"name" : "Mark Strahl", "position" : "Deputy Leader", "image" : "mark-strahl.jpg"},
+            {"name" : "Lisa Raitt", "position" : "Deputy Leader", "image" : "lisa-raitt.jpg"},
+            {"name" : "Alain Rayes", "position" : "Quebec Political Lieutenant", "image" : "alain-rayes.jpg"},
+            {"name" : "Candice Bergen", "position" : "House Leader of the Official Opposition", "image" : "candice-bergen.jpg"}
+        ]
     }
 }
