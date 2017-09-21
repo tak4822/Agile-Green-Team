@@ -166,6 +166,15 @@ h3, h4, h5, p {
 .map__smallText__popup {
   font-size: 0.8rem; }
 
+.header__container {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background: #C0C31B; }
+
+.pagetitle {
+  font-size: 5rem; }
+
 .partyContainer {
   width: calc(100% - 40px);
   float: left;

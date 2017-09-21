@@ -1,7 +1,7 @@
 * {
-  box-sizing:border-box; 
+  box-sizing:border-box;
   margin:0;
-  padding:0; 
+  padding:0;
 }
 
 @mixin clearfix(){
@@ -14,15 +14,16 @@
 
 /*------VARIABLES-------*/
 /*-----COLOURS -----*/
+$cta-color: #FFD100;
 //PARTY COLOURS
-$blue: #2e4b77;
-$red: #d22e35;
-$green: #53a64e;
-$orange: #f27733;
+$blue: #1A4782;
+$red: #D71920;
+$green: #3D9B35;
+$orange: #F37021;
 //PAGE COLOURS
-$purple: #6322a2;
-$turquoise: #169785;
-$yellow: #c0c31c;
+$purple: #6322A2;
+$turquoise: #169684;
+$yellow: #C0C31B;
 
 
 /*-----TYPOGRAPHY -----*/
@@ -30,8 +31,8 @@ $heading: 'Roboto Slab', serif;
 $body: 'Lato', sans-serif;
 
 #main {
-  width:95%; 
-  margin:auto; 
+  width:95%;
+  margin:auto;
 }
 
 h1, h2  {
@@ -42,5 +43,5 @@ h1 {
   text-transform:uppercase;
 }
 h3, h4, h5, p {
-  font-family:$body; 
+  font-family:$body;
 }

@@ -1,6 +1,9 @@
 <?php include "partials/head.php" ?>
 
 <body>
+  <div class="header__container">
+    <h2 class="pagetitle">MP's</h2>
+  </div>
   <div class="mpMap__container">
     <?php include "partials/svg.php" ?>
     <div class="mpMap__islands__container">
