@@ -20,7 +20,7 @@ h1 {
   text-transform: uppercase; }
 
 h2 {
-  font-size: 2rem; }
+  font-size: 5rem; }
 
 h3, h4, h5, p {
   font-family: "Lato", sans-serif; }
@@ -36,6 +36,9 @@ h3, h4, h5, p {
 
 .white, .pageHeader {
   color: white; }
+
+.italic, .member__title {
+  font-style: italic; }
 
 /*-------------NAV BAR -------*/
 /*SIDE NAV */
@@ -203,7 +206,7 @@ body {
   width: calc(83.3333333333% - 36.6666666667px);
   float: left;
   margin-left: 20px;
-  margin-left: calc(10.8333333333% - 22.1666666667px + 40px); }
+  margin-left: calc(11.25% - 22.25px + 40px); }
 
 .partyWrapper:after {
   content: "";
@@ -219,6 +222,8 @@ body {
   transform: translateY(-150px); }
   .partyContainer__item .partyContainer__img {
     width: 100%; }
+  .partyContainer__item h2 {
+    font-size: 2rem; }
 
 .partyContainer__img--overlay {
   position: absolute;
@@ -234,30 +239,60 @@ body {
     z-index: 3;
     opacity: 1; }
 
+#red--overlay, #orange--overlay, #green--overlay, #blue--overlay, .overlay--opacity {
+  opacity: 0.7; }
+
+#red--overlay {
+  background: #d22e35; }
+
+#orange--overlay {
+  background: #f27733; }
+
+#green--overlay {
+  background: #53a64e; }
+
+#blue--overlay {
+  background: #2e4b77; }
+
 .partyInfo:after {
   content: "";
   display: table;
   clear: both; }
 
-.policyItem {
-  width: calc(33.3333333333% - 26.6666666667px);
+.partyInfo__memberContainer {
+  width: calc(58.3333333333% - 31.6666666667px);
+  float: left;
+  margin-left: 20px;
+  margin-left: calc(11.25% - 22.25px + 40px); }
+  .partyInfo__memberContainer h2 {
+    margin-left: 1.5%; }
+
+.partyInfo__member {
+  border: 2px solid black;
+  padding: 20px 20px;
+  width: calc(41.6666666667% - 28.3333333333px);
   float: left;
   margin-left: 20px; }
+  .partyInfo__member img {
+    width: 30%; }
+  .partyInfo__member h3 {
+    font-size: 2rem; }
 
-#red, #orange, #green, #blue, .overlay--opacity {
-  opacity: 0.7; }
+.memberInfo {
+  display: inline-block;
+  float: right; }
 
-#red {
-  background: #d22e35; }
+.policyItem {
+  width: calc(25% - 25px);
+  float: left;
+  margin-left: 20px;
+  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
 
-#orange {
-  background: #f27733; }
-
-#green {
-  background: #53a64e; }
-
-#blue {
-  background: #2e4b77; }
+.partyInfo__leaderContainer {
+  width: calc(58.3333333333% - 31.6666666667px);
+  float: left;
+  margin-left: 20px;
+  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
 
 .party__label {
   display: inline-block;

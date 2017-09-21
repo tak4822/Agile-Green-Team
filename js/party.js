@@ -1,7 +1,6 @@
 
 $(function(){
 
-
         //FETCH PARTY INFORMATION
         var myAjax = $.ajax({
             type: 'GET',
@@ -13,7 +12,7 @@ $(function(){
             }
         })
 
-    
+        //CLICK FUNCTION FOR EACH IMAGE
         $('.partyContainer__img--overlay').click(function(){
             var objIndex = $(this).data('index');
             console.log(objIndex);
@@ -56,6 +55,19 @@ $(function(){
         //DISPLAY ON PAGE
         function displayInfo (cur){
 
+            //MAIN MEMBERS SECTION *** NEED TO CROP IMAGES
+
+            for (var i = 0; i < cur.prominentMembers.length; i += 1 ){
+                var cMem = cur.prominentMembers[i];
+                var currentClass = ".member" + i;
+                var currentImage = "img/" + cMem.image;
+                console.log(currentImage + currentClass);
+                $(currentClass).find("img").attr({'src': currentImage, 'alt' : 'an image of ' + cMem.name});
+                $(currentClass + " h4").text(cMem.name); 
+                $(currentClass + "p").text(cMem.position);
+
+            }
+
             $('#history').html("<h2> History of " + cur.name + "</h1> <p>" + cur.history + "<p>" );
 
 
@@ -67,6 +79,13 @@ $(function(){
 
                 console.log(policyCont);
 
+
+                $
+
+
+
+
+                
 
             $('#policies').html(
                 "<h2> Prominent policies of the " + cur.name + "</h2>" + policyCont);
@@ -81,5 +100,10 @@ $(function(){
             // currentObj = $(this).data('object-name');
             // console.log(currentObj);
 
+
+            function createDiv (obj, c ) {
+                var element = "<div class='"+c+"'>";
+                element += ""
+            }
 })
 })

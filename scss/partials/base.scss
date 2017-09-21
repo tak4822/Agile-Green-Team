@@ -44,7 +44,7 @@ h1 {
   text-transform:uppercase;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 5rem;
 }
 h3, h4, h5, p {
   font-family:$body; 
@@ -63,4 +63,8 @@ h3, h4, h5, p {
 
 .white {
   color:white; 
+}
+
+.italic {
+  font-style:italic; 
 }

@@ -15,25 +15,25 @@
         <section class='partyContainer'>
         <article class='partyContainer__item'>
             <img src='img/andrew-scheer.jpg' class='partyContainer__img' data-index=1>
-            <div class='partyContainer__img--overlay' id='blue' data-index=1>
+            <div class='partyContainer__img--overlay' id='blue--overlay' data-index=1>
               <h2> Conservative</h2>
             </div>
           </article>
           <article class='partyContainer__item'>
             <img src='img/thomas-mulcair.jpg' class='partyContainer__img' data-index=3>
-              <div class='partyContainer__img--overlay' id='orange' data-index=3>
+              <div class='partyContainer__img--overlay' id='orange--overlay' data-index=3>
               <h2> NDP</h2>
               </div><br>
           </article>      
           <article class='partyContainer__item'>
             <img src='img/elizabeth-may.jpg' class='partyContainer__img' data-index=2>
-            <div class='partyContainer__img--overlay' id='green' data-index=2>
+            <div class='partyContainer__img--overlay' id='green--overlay' data-index=2>
               <h2> Green</h2>
             </div>
           </article>
           <article class='partyContainer__item'>
           <img src='img/justin-trudeau.jpg' class='partyContainer__img' data-index=0>
-            <div class='partyContainer__img--overlay' id='red' data-index=0>
+            <div class='partyContainer__img--overlay' id='red--overlay' data-index=0>
               <h2> Liberal</h2>
             </div>
           </article>
@@ -41,20 +41,57 @@
       </div>
   
       <section class='partyInfo'>
+        <div class='partyInfo__memberContainer'>
+          <h2> Main Members </h2>
+          <article class='partyInfo__member member1'>
+            <img src='img/fff.png' alt='an image of'>
+            <div class='member__name'>
+              <h4>Andrew Scheer</h4>
+              <p class='member__title'>Leader of the Official Opposition</p>
+            </div>
+          </article>
+          <article class='partyInfo__member member2'>
+            <img src='img/fff.png' alt='an image of'>
+            <div class='member__name'>
+              <h4>Andrew Scheer</h4>
+              <p class='member__title'>Leader of the Official Opposition</p>
+            </div>
+          </article>
+          <article class='partyInfo__member member3'>
+            <img src='img/fff.png' alt='an image of'>
+            <div class='member__name'>
+              <h4>Andrew Scheer</h4>
+              <p class='member__title'>Leader of the Official Opposition</p>
+            </div>
+          </article>
+          <article class='partyInfo__member member4'>
+            <img src='img/fff.png' alt='an image of'>
+            <div class='member__name'>
+              <h4>Andrew Scheer</h4>
+              <p class='member__title'>Leader of the Official Opposition</p>
+            </div>
+          </article>
+        </div>
+
+        <div class='partyInfo__seatContainer'>
+          <h2> Seats </h2>
+        </div>
+
+          
 
 
 
-      <div class='partyInfo__leaderContainer'>
-        <h3 class='partyInfo__leader'>Andrew Scheer</h3>
-        <p class='partyInfo__title'>Leader of the Official Opposition </p>
-      </div>
-      
-      <h2 class='partyInfo__policies'> Policies </h2> 
 
-      <article class='policyItem'>
-        <h3> Education </h3>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam earum ipsum, eveniet praesentium itaque ad amet tempore, nemo maiores perspiciatis ipsa animi ducimus. Iure, dolorem debitis voluptatibus repellat itaque suscipit.</p>
-      </article>
+          <!-- <h3 class='partyInfo__leader'>Andrew Scheer</h3>
+          <p class='partyInfo__title'>Leader of the Official Opposition </p>
+        </div>
+        
+        <h2 class='partyInfo__policies'> Policies </h2> 
+
+        <article class='policyItem'>
+          <h3> Education </h3>
+          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam earum ipsum, eveniet praesentium itaque ad amet tempore, nemo maiores perspiciatis ipsa animi ducimus. Iure, dolorem debitis voluptatibus repellat itaque suscipit.</p>
+        </article> -->
 
 
 
