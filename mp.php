@@ -1,10 +1,18 @@
-<?php include "partials/head.php" ?>
+<?php include "partials/head.php"; ?>
 
 <body>
+  <?php
+    include "partials/header.php";
+    createHeader(
+      "mp",
+      "MP's",
+      "Click the map to see MPs. Check MP’s in your province."
+    );
+  ?>
   <div class="mpMap__container">
-    <?php include "partials/svg.php" ?>
+    <?php include "partials/svg.php"; ?>
     <div class="mpMap__islands__container">
-      <?php include "partials/sm-svg.php" ?>
+      <?php include "partials/sm-svg.php"; ?>
     </div>
   </div>
   <div class="mpList__container">
