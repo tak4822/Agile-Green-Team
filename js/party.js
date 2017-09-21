@@ -14,10 +14,7 @@ $(function(){
 
         //CLICK FUNCTION FOR EACH IMAGE
         $('.partyContainer__img--overlay').click(function(){
-            var objIndex = $(this).data('index');
-            console.log(objIndex);
-
-        
+            var objIndex = $(this).data('index');     
             
         //FETCH PARTY INFORMATION
         var myAjax = $.ajax({
@@ -46,44 +43,47 @@ $(function(){
                         break;
 
                 }
-                displayInfo(curObj);
+                displayInfo(curObj, objIndex);
             }
         })
 
 
         
         //DISPLAY ON PAGE
-        function displayInfo (cur){
-
+        function displayInfo (cur, index){
+            
+            var currentClass = ".member" + index;
+            // console.log(cur.prominentMembers);
             //MAIN MEMBERS SECTION *** NEED TO CROP IMAGES
-
             for (var i = 0; i < cur.prominentMembers.length; i += 1 ){
-                var cMem = cur.prominentMembers[i];
+                console.log(cur.prominentMembers[i]);
                 var currentClass = ".member" + i;
+                var cMem = cur.prominentMembers[i];
                 var currentImage = "img/" + cMem.image;
                 console.log(currentImage + currentClass);
                 $(currentClass).find("img").attr({'src': currentImage, 'alt' : 'an image of ' + cMem.name});
                 $(currentClass + " h4").text(cMem.name); 
-                $(currentClass + "p").text(cMem.position);
+                $(currentClass + " p").text(cMem.position);            
 
             }
+            
 
             $('#history').html("<h2> History of " + cur.name + "</h1> <p>" + cur.history + "<p>" );
 
 
-                var policyCont = "";
+            var policyCont = "";
 
-                for (var i=0; i < cur.prominentPolicies.length; i += 1) {
-                   policyCont += "<h3>" + cur.prominentPolicies[i].name + "</h3> <p> " + cur.prominentPolicies[i].description + "</p>"
-                }
+            for (var i=0; i < cur.prominentPolicies.length; i += 1) {
+                policyCont += "<h3>" + cur.prominentPolicies[i].name + "</h3> <p> " + cur.prominentPolicies[i].description + "</p>"
+            }
 
-                console.log(policyCont);
+            // console.log(policyCont);
 
 
                 $
 
 
-
+                $('.partyInfo').show();
 
                 
 
@@ -101,9 +101,6 @@ $(function(){
             // console.log(currentObj);
 
 
-            function createDiv (obj, c ) {
-                var element = "<div class='"+c+"'>";
-                element += ""
-            }
+        
 })
 })

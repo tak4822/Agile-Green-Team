@@ -10,7 +10,7 @@ body {
 }
 .pageHeader__text {
     @include grid-column(8);
-    @include grid-push(1.35);
+    @include grid-push(1);
 }
 
 
@@ -18,8 +18,10 @@ body {
     width:95%;
 }
 .partyContainer {
-    @include grid-column(10);
-    @include grid-push(1.35);
+    @include grid-column(11);
+    @include grid-push(1);
+
+
 }
 
 .partyWrapper {
@@ -80,37 +82,66 @@ body {
     @include clearfix; 
 }
 
+/*-----MAIN MEMBERS -------*/
 .partyInfo__memberContainer {
     @include grid-column(7);
-    @include grid-push(1.35);
+    @include grid-push(1);
 
     h2 {
         margin-left:1.5%;
     }
 }
 
+.partyInfo {
+    // display:none;
+}
+
 .partyInfo__member {
     border: 2px solid black; 
-    padding:20px 20px; 
+    padding:20px 0;
     @include grid-column(5);
+    margin: 2rem 2rem 2rem 1rem;
     img {
-        width:30%; 
+        @include grid-column(4);
     }
-    h3 {
+    h4 {
         font-size:2rem;
     }
 
 }
 
-.memberInfo {
-    display:inline-block;
-    float:right;
+.member__name {
+    @include grid-column(8);
 }
 
 .member__title {
     @extend .italic; 
 }
 
+
+.partyInfo__seatContainer {
+    @include grid-column(4);
+    @include clearfix;
+}
+
+
+.seatContainer__bar {
+    width:100%;
+    height:60px; 
+    background-color:grey;
+
+}
+.senate__seats {
+    width:20%;
+    height:100%;
+    background:purple;
+}
+
+.hoc__seats {
+    width:50%; 
+    height: 100%;
+    background:purple; 
+}
 
 
 

@@ -64,53 +64,9 @@ h3, h4, h5, p {
 }
 
 .white {
-<<<<<<< HEAD
   color:white; 
 }
 
 .italic {
   font-style:italic; 
 }
-=======
-  color:white;
-}
-
-
-/*--- Header ----*/
-.header__container{
-  position: relative;
-  top: 0;
-  height: 450px;
-  width: 100%;
-}
-
-.mp{
-  background: $yellow;
-}
-.party{
-  background: $purple;
-}
-.compare{
-  background: $turquoise;
-}
-
-.pagetitle {
-  font-size: 7rem;
-  //font-size: 8vw;
-  @include grid-push(1);
-  padding-top: 40px;
-  color: white;
-}
-.page-desc{
-  color: white;
-  @include grid-push(1);
-  font-size: 1.2rem;
-}
-
-.logo__container{
-  width: 120px;
-  height: 50px;
-  padding-top: 20px;
-  @include grid-push(1);
-}
->>>>>>> 3b8007462be25d27ab8a0e4be6478d4f31000932
