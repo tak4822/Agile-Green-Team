@@ -29,6 +29,9 @@ $yellow: #c0c31c;
 $heading: 'Roboto Slab', serif;
 $body: 'Lato', sans-serif;
 
+body {
+  font-family:$body; 
+}
 #main {
   margin:auto; 
 }
@@ -37,7 +40,7 @@ h1, h2  {
   font-family:$heading;
 }
 h1 {
-  font-size: 8rem;
+  font-size: 6rem;
   text-transform:uppercase;
 }
 h2 {

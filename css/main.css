@@ -6,6 +6,9 @@
 /*------VARIABLES-------*/
 /*-----COLOURS -----*/
 /*-----TYPOGRAPHY -----*/
+body {
+  font-family: "Lato", sans-serif; }
+
 #main {
   margin: auto; }
 
@@ -13,7 +16,7 @@ h1, h2 {
   font-family: "Roboto Slab", serif; }
 
 h1 {
-  font-size: 8rem;
+  font-size: 6rem;
   text-transform: uppercase; }
 
 h2 {
@@ -191,7 +194,7 @@ body {
   width: calc(66.6666666667% - 33.3333333333px);
   float: left;
   margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
+  margin-left: calc(11.25% - 22.25px + 40px); }
 
 .partyPageContainer {
   width: 95%; }
@@ -201,21 +204,19 @@ body {
   float: left;
   margin-left: 20px;
   margin-left: calc(10.8333333333% - 22.1666666667px + 40px); }
-  .partyContainer:after {
-    content: "";
-    display: table;
-    clear: both; }
+
+.partyWrapper:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 .partyContainer__item {
   display: inline-block;
   position: relative;
   width: calc(25% - 25px);
   float: left;
-  margin-left: 20px; }
-  .partyContainer__item:after {
-    content: "";
-    display: table;
-    clear: both; }
+  margin-left: 20px;
+  transform: translateY(-150px); }
   .partyContainer__item .partyContainer__img {
     width: 100%; }
 
@@ -227,12 +228,24 @@ body {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.7;
   transition: .5s ease; }
   .partyContainer__img--overlay h2 {
     color: white;
     z-index: 3;
     opacity: 1; }
+
+.partyInfo:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.policyItem {
+  width: calc(33.3333333333% - 26.6666666667px);
+  float: left;
+  margin-left: 20px; }
+
+#red, #orange, #green, #blue, .overlay--opacity {
+  opacity: 0.7; }
 
 #red {
   background: #d22e35; }
