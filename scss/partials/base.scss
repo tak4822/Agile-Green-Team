@@ -1,7 +1,7 @@
 * {
   box-sizing:border-box; 
   margin:0;
-  padding:0; 
+  padding:0;
 }
 
 @mixin clearfix(){
@@ -30,7 +30,6 @@ $heading: 'Roboto Slab', serif;
 $body: 'Lato', sans-serif;
 
 #main {
-  width:95%; 
   margin:auto; 
 }
 
@@ -41,6 +40,24 @@ h1 {
   font-size: 8rem;
   text-transform:uppercase;
 }
+h2 {
+  font-size: 2rem;
+}
 h3, h4, h5, p {
   font-family:$body; 
+}
+
+/*--- COMMON CLASSES USED ----*/
+.uppercase {
+  text-transform:uppercase;
+}
+
+.container--centered {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.white {
+  color:white; 
 }

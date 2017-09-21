@@ -7,7 +7,6 @@
 /*-----COLOURS -----*/
 /*-----TYPOGRAPHY -----*/
 #main {
-  width: 95%;
   margin: auto; }
 
 h1, h2 {
@@ -17,8 +16,23 @@ h1 {
   font-size: 8rem;
   text-transform: uppercase; }
 
+h2 {
+  font-size: 2rem; }
+
 h3, h4, h5, p {
   font-family: "Lato", sans-serif; }
+
+/*--- COMMON CLASSES USED ----*/
+.uppercase, .partyContainer__img--overlay h2 {
+  text-transform: uppercase; }
+
+.container--centered, .partyContainer__img--overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.white, .pageHeader {
+  color: white; }
 
 /*-------------NAV BAR -------*/
 /*SIDE NAV */
@@ -166,11 +180,31 @@ h3, h4, h5, p {
 .map__smallText__popup {
   font-size: 0.8rem; }
 
-.partyContainer {
-  width: calc(100% - 40px);
+body {
+  background-image: repeating-linear-gradient(to right, transparent, transparent 20px, rgba(0, 212, 255, 0.25) 20px, rgba(0, 212, 255, 0.25) calc(8.3333333333% - 21.6666666667px + 20px)); }
+
+.pageHeader {
+  height: 40vh;
+  background: #6322a2; }
+
+.pageHeader__text {
+  width: calc(66.6666666667% - 33.3333333333px);
   float: left;
   margin-left: 20px;
-  margin: auto; }
+  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
+
+.partyPageContainer {
+  width: 95%; }
+
+.partyContainer {
+  width: calc(83.3333333333% - 36.6666666667px);
+  float: left;
+  margin-left: 20px;
+  margin-left: calc(10.8333333333% - 22.1666666667px + 40px); }
+  .partyContainer:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .partyContainer__item {
   display: inline-block;
@@ -178,6 +212,10 @@ h3, h4, h5, p {
   width: calc(25% - 25px);
   float: left;
   margin-left: 20px; }
+  .partyContainer__item:after {
+    content: "";
+    display: table;
+    clear: both; }
   .partyContainer__item .partyContainer__img {
     width: 100%; }
 
@@ -189,20 +227,24 @@ h3, h4, h5, p {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.7;
   transition: .5s ease; }
+  .partyContainer__img--overlay h2 {
+    color: white;
+    z-index: 3;
+    opacity: 1; }
 
 #red {
-  background: red; }
+  background: #d22e35; }
 
 #orange {
-  background: orange; }
+  background: #f27733; }
 
 #green {
-  background: green; }
+  background: #53a64e; }
 
 #blue {
-  background: blue; }
+  background: #2e4b77; }
 
 .party__label {
   display: inline-block;

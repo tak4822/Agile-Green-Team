@@ -3,37 +3,41 @@
       include "partials/navbar.php" ?>
 <body>
   <div  id='main'>
+
     <section class='pageHeader'> 
-      <h1> Parties </h1>
-      <p> Click a picture to check a detail of parties information </p>
+      <div class='pageHeader__text'>
+        <h1> Parties </h1>
+        <p> Click a picture to check a detail of parties information </p>
+      </div>
     </section>
     <main class='partyPageContainer'>
-      <section class='partyContainer'>
+        <section class='partyContainer'>
         <article class='partyContainer__item'>
-        <img src='img/justin-trudeau.jpg' class='partyContainer__img' data-index=0>
-          <div class='partyContainer__img--overlay' id='red' data-index=0>
-            <!-- <h2> Liberal Party </h2> -->
-          </div>
-        </article>
-        <article class='partyContainer__item'>
-          <img src='img/andrew-scheer.jpg' class='partyContainer__img' data-index=1>
-          <div class='partyContainer__img--overlay' id='blue' data-index=1>
-            <!-- <h2> Conservative Party </h2> -->
-          </div>
-        </article>
-        <article class='partyContainer__item'>
-          <img src='img/elizabeth-may.jpg' class='partyContainer__img' data-index=2>
-          <div class='partyContainer__img--overlay' id='green' data-index=2>
-            <!-- <h2> Green Party </h2> -->
-          </div>
-        </article>
-        <article class='partyContainer__item'>
-          <img src='img/thomas-mulcair.jpg' class='partyContainer__img' data-index=3>
-            <div class='partyContainer__img--overlay' id='orange' data-index=3>
-            <!-- <h2> New Democratic Party</h2> -->
-            </div><br>
-        </article>
-      </section>
+            <img src='img/andrew-scheer.jpg' class='partyContainer__img' data-index=1>
+            <div class='partyContainer__img--overlay' id='blue' data-index=1>
+              <h2> Conservative</h2>
+            </div>
+          </article>
+          <article class='partyContainer__item'>
+          <img src='img/justin-trudeau.jpg' class='partyContainer__img' data-index=0>
+            <div class='partyContainer__img--overlay' id='red' data-index=0>
+              <h2> Liberal</h2>
+            </div>
+          </article>
+        
+          <article class='partyContainer__item'>
+            <img src='img/elizabeth-may.jpg' class='partyContainer__img' data-index=2>
+            <div class='partyContainer__img--overlay' id='green' data-index=2>
+              <h2> Green</h2>
+            </div>
+          </article>
+          <article class='partyContainer__item'>
+            <img src='img/thomas-mulcair.jpg' class='partyContainer__img' data-index=3>
+              <div class='partyContainer__img--overlay' id='orange' data-index=3>
+              <h2> NDP</h2>
+              </div><br>
+          </article>
+        </section>
   
       <section class='partyInfo'>
 
