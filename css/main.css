@@ -43,8 +43,7 @@ h3, h4, h5, p {
   position: relative;
   top: 0;
   height: 450px;
-  width: 100%;
-  z-index: -1; }
+  width: 100%; }
 
 .mp {
   background: #C0C31B; }
@@ -166,37 +165,36 @@ h3, h4, h5, p {
   color: white;
   margin: 30px 0; }
 
-.mpMap__provNav {
-  width: calc(16.6666666667% - 23.3333333333px);
+.mpMap__container {
+  position: relative;
+  padding-bottom: 100px;
+  width: calc(83.3333333333% - 36.6666666667px);
   float: left;
   margin-left: 20px;
   margin-left: calc(8.3333333333% - 21.6666666667px + 40px);
-  background: white;
-  margin-top: -120px;
-  height: auto;
-  border: 5px solid #C0C31B; }
-  .mpMap__provNav .mpMap__provNav__list {
-    list-style-type: none;
-    padding: 8px 0 8px 10px;
-    font-size: 1rem;
-    font-size: 1vw; }
-
-.mpMap__container {
-  position: relative;
-  padding-bottom: 100px; }
-  .mpMap__container:after {
-    content: "";
-    display: table;
-    clear: both; }
+  display: flex;
+  justify-content: space-between; }
+  .mpMap__container .mpMap__provNav {
+    width: 20%;
+    background: white;
+    position: relative;
+    top: -120px;
+    height: auto;
+    border: 5px solid #C0C31B;
+    z-index: 10; }
+    .mpMap__container .mpMap__provNav .mpMap__provNav__list {
+      list-style-type: none;
+      padding: 8px 0 8px 10px;
+      font-size: 1rem;
+      font-size: 1vw;
+      z-index: 200;
+      color: #444444; }
   .mpMap__container .mpMap {
     margin-top: -100px;
-    width: calc(58.3333333333% - 31.6666666667px);
-    float: left;
-    margin-left: 20px;
-    margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
+    width: 75%; }
   .mpMap__container .mpMap__islands__container {
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     right: 5%;
     width: 15%;
     height: auto;
@@ -215,7 +213,7 @@ h3, h4, h5, p {
       height: auto; }
 
 .mpList__container {
-  min-height: 300px;
+  min-height: 260px;
   width: calc(83.3333333333% - 36.6666666667px);
   float: left;
   margin-left: 20px;
@@ -226,11 +224,11 @@ h3, h4, h5, p {
   margin-bottom: 200px; }
   .mpList__container .mpList__party {
     width: 20%;
-    min-height: 350px;
-    padding-bottom: 20px; }
+    padding-bottom: 5px; }
     .mpList__container .mpList__party .mpList__head {
       font-family: "Roboto Slab", serif;
       font-size: 1.8rem;
+      font-size: 1.7vw;
       margin: 20px 0 15px 20px; }
 
 .mpList__list {
@@ -239,33 +237,46 @@ h3, h4, h5, p {
 
 .mpList__name {
   padding: 5px 0;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  color: #444444; }
 
-.mpList__party.leberal {
-  border: 2px solid #D71920; }
-  .mpList__party.leberal .mpList__head {
+.mpList__party.liberal {
+  border: 2px solid #D71920;
+  height: auto; }
+  .mpList__party.liberal .mpList__head {
     color: #D71920; }
 
 .mpList__party.ndp {
-  border: 2px solid #F37021; }
+  border: 2px solid #F37021;
+  height: auto; }
   .mpList__party.ndp .mpList__head {
     color: #F37021; }
 
 .mpList__party.conservative {
-  border: 2px solid #1A4782; }
+  border: 2px solid #1A4782;
+  height: auto; }
   .mpList__party.conservative .mpList__head {
     color: #1A4782; }
 
 .mpList__party.green {
-  border: 2px solid #3D9B35; }
+  border: 2px solid #3D9B35;
+  height: auto; }
   .mpList__party.green .mpList__head {
     color: #3D9B35; }
 
-.tooltip {
+.mpList__last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-right: 20px; }
+  .mpList__last img {
+    height: 80%; }
+
+.popup {
   display: none;
   position: absolute;
-  border: 1px solid #333;
-  background-color: #161616;
+  background-color: #C0C31B;
   border-radius: 5px;
   padding: 10px;
   color: #fff;
@@ -274,8 +285,16 @@ h3, h4, h5, p {
 .map__smallText__popup {
   font-size: 0.8rem; }
 
-body {
-  background-image: repeating-linear-gradient(to right, transparent, transparent 20px, rgba(0, 212, 255, 0.25) 20px, rgba(0, 212, 255, 0.25) calc(8.3333333333% - 21.6666666667px + 20px)); }
+.svg__porv {
+  fill: #444444;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px; }
+
+.svg__porv__hover {
+  fill: #C0C31B;
+  cursor: pointer; }
 
 .pageHeader {
   height: 40vh;

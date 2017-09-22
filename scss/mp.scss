@@ -1,32 +1,42 @@
-.mpMap__provNav{
-  @include grid-column(2);
-  @include grid-push(1);
-  background: white;
-  margin-top: -120px;
-  height: auto;
-  border: 5px solid $yellow;
 
-  .mpMap__provNav__list {
-    list-style-type: none;
-    padding: 8px 0 8px 10px;
-    font-size: 1rem;
-    font-size: 1vw;
-  }
-}
-
+// ============================
+//          Map
+// ============================
 .mpMap__container{
   position: relative;
-  @include clearfix;
   padding-bottom: 100px;
+  @include grid-column(10);
+  @include grid-push(1);
+
+  display: flex;
+  justify-content: space-between;
+
+  .mpMap__provNav{
+    width: 20%;
+    background: white;
+    position: relative;
+    top: -120px;
+    height: auto;
+    border: 5px solid $yellow;
+    z-index: 10;
+
+    .mpMap__provNav__list {
+      list-style-type: none;
+      padding: 8px 0 8px 10px;
+      font-size: 1rem;
+      font-size: 1vw;
+      z-index: 200;
+      color: $text-black;
+    }
+  }
   .mpMap {
     margin-top: -100px;
-    @include grid-column(7);
-    @include grid-push(1);
+    width: 75%;
   }
 
   .mpMap__islands__container {
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     right: 5%;
     width: 15%;
     height: auto;
@@ -50,48 +60,55 @@
   }
 }
 
+// ============================
+//           Lists
+// ============================
 .mpList__container{
-  min-height: 300px;
+  min-height: 260px;
   @include grid-column(10);
   @include grid-push(1);
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 200px;
+
   .mpList__party{
     width: 20%;
-    min-height: 350px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+
     .mpList__head {
       font-family: $heading;
       font-size: 1.8rem;
+      font-size: 1.7vw;
       margin: 20px 0 15px 20px;
     }
   }
 }
+
 .mpList__list {
   list-style-type: none;
   margin-left: 20px;
 }
+
 .mpList__name{
   padding: 5px 0;
   font-size: 1.1rem;
+  color: $text-black;
 }
 
-// leberal
-.mpList__party.leberal {
+// liberal
+.mpList__party.liberal {
   border: 2px solid $red;
+  height: auto;
   .mpList__head{
     color: $red;
   }
 }
 
-
-
 // ndp
 .mpList__party.ndp {
   border: 2px solid $orange;
+  height: auto;
   .mpList__head{
     color: $orange;
   }
@@ -100,25 +117,38 @@
 // conservative
 .mpList__party.conservative {
   border: 2px solid $blue;
+  height: auto;
   .mpList__head{
     color: $blue;
   }
 }
 
-
 // green
 .mpList__party.green {
   border: 2px solid $green;
+  height: auto;
   .mpList__head{
     color: $green;
   }
 }
 
-.tooltip {
+//continue icon
+.mpList__last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-right: 20px;
+  
+  img{
+    height: 80%
+  }
+}
+
+.popup {
 	display:none;
 	position:absolute;
-	border:1px solid #333;
-	background-color:#161616;
+	background-color:$yellow;
 	border-radius:5px;
 	padding:10px;
 	color:#fff;
@@ -126,4 +156,15 @@
 }
 .map__smallText__popup {
   font-size: 0.8rem;
+}
+.svg__porv{
+  fill:$text-black;
+  stroke:#fff;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width:2px;
+}
+.svg__porv__hover{
+  fill: $yellow;
+  cursor: pointer;
 }
