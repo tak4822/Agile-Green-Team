@@ -3,7 +3,6 @@
       include "partials/navbar.php" ?>
 <body>
   <div  id='main'>
-   
   <section class='pageHeader'> 
     <div class='pageHeader__text'>
       <h1> Parties </h1>

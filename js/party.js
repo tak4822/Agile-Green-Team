@@ -14,7 +14,9 @@ $(function(){
 
         //CLICK FUNCTION FOR EACH IMAGE
         $('.partyContainer__img--overlay').click(function(){
-            var objIndex = $(this).data('index');     
+            var objIndex = $(this).data('index');    
+            $(this).hide(); 
+            $('.partyContainer__img--overlay').not($(this)).show(); 
             
         //FETCH PARTY INFORMATION
         var myAjax = $.ajax({
@@ -51,7 +53,7 @@ $(function(){
         
         //DISPLAY ON PAGE 
         // WILL BREAK THIS INTO OTHER FUNCTIONS LATER
-        function displayInfo (cur){
+        function displayInfo (cur){ 
             // DISPLAY MEMBERS
             for (var i = 0; i < cur.prominentMembers.length; i += 1 ){
                 var currentClass = ".member" + i;
@@ -104,5 +106,6 @@ $(function(){
        
 
         
-}})
+    }})
+
 })

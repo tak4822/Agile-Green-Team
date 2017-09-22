@@ -22,7 +22,7 @@
             {"name" : ""}
         ],
         "prominentMembers" : [
-            {"name" : "Elizabeth May", "position": "Party Leader", "image": "elizabeth-may1.jpg"}
+            {"name" : "Elizabeth May", "position": "Party Leader", "image": "elizabeth-may1.jpg"},
             {"name" : "Bruce Hyer", "position" : "Deputy Leader", "image" : "bryce-hyer.jpg"},
             {"name" : "Daniel Green", "position" : "Deputy Leader", "image" : "daniel-green.jpg"}
         ],
