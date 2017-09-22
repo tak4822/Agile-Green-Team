@@ -24,7 +24,7 @@ function showMps(prov){
   $.each(mpsArr, function(i){
     if(mpsArr[i].provTerrName === prov){
       var whichParty = mpsArr[i].caucusShortName;
-      var mpHtml = '<li class="mpList__name">'+ mpsArr[i].firstName +' '+ mpsArr[i].lastName +' '+ mpsArr[i].provTerrName +'</li>';
+      var mpHtml = '<li class="mpList__name">'+ mpsArr[i].firstName +' '+ mpsArr[i].lastName +'</li>';
 
       switch (whichParty) {
         case "Liberal":

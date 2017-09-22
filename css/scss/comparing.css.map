@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,aAAc;EACV,OAAO,EAAC,YAAY;EACpB,YAAY,EAAC,IAAI;EACjB,MAAM,EAAC,IAAI;;AAGf,gBAAiB;EACb,KAAK,EAAC,GAAG;EACT,MAAM,EAAC,IAAI",
+"sources": ["../../scss/comparing.scss"],
+"names": [],
+"file": "comparing.css"
+}

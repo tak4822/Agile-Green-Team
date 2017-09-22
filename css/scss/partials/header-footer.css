@@ -1,0 +1,94 @@
+/*-------------NAV BAR -------*/
+/*SIDE NAV */
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: black;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */ }
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  transition: 0.3s; }
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: white;
+  z-index: 2; }
+
+.menu-btn {
+  position: absolute;
+  top: 20px;
+  right: 9%;
+  width: 80px;
+  height: 80px;
+  z-index: 200;
+  color: white;
+  font-size: 1.5rem; }
+
+#main {
+  transition: margin-right .5s; }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+
+  .sidenav a {
+    font-size: 18px; } }
+.hidden-content {
+  display: none; }
+
+#mySidenav a {
+  width: 100%;
+  display: block;
+  font-size: 1.5rem;
+  text-align: left; }
+#mySidenav ul {
+  list-style-type: none; }
+
+/* -------------FOOTER--------------*/
+.footerContainer {
+  height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: black; }
+  .footerContainer label, .footerContainer h3, .footerContainer a, .footerContainer p {
+    color: white;
+    margin: 30px 0; }
+
+.footerContainer__form input {
+  width: 100%; }
+.footerContainer__form input[type=text], .footerContainer__form input[type=email] {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: black; }
+.footerContainer__form label, .footerContainer__form h3 {
+  color: white;
+  margin: 30px 0; }
+
+/*# sourceMappingURL=header-footer.css.map */
