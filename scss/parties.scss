@@ -1,13 +1,17 @@
 
 body {
+<<<<<<< HEAD
+    //@include grid-visual; 
+=======
     // @include grid-visual; 
     // overflow-x:hidden; 
+>>>>>>> 6e68cf4193104981689548f7635410593342692e
 }
 
 .pageHeader {
-    height:40vh; 
+    height:40vh;
     background:$purple;
-    @extend .white; 
+    @extend .white;
 }
 .pageHeader__text {
     @include grid-column(8);
@@ -26,11 +30,11 @@ body {
 }
 
 .partyWrapper {
-    @include clearfix; 
+    @include clearfix;
 }
 
 .partyContainer__item {
-    display:inline-block; 
+    display:inline-block;
     position:relative;
     @include grid-column(3);
     transform:translateY(-150px);
@@ -51,23 +55,38 @@ body {
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;   
+    width: 100%;
     transition: .5s ease;
 
     h2 {
         color:white;
-        @extend .uppercase; 
+        @extend .uppercase;
         z-index:3;
         opacity:1;
 
     }
+<<<<<<< HEAD
+}
+.partyInfo {
+    @include clearfix;
+}
+.policyItem {
+    @include grid-column(4);
+}
+=======
 }  
+>>>>>>> 6e68cf4193104981689548f7635410593342692e
 
 #red--overlay, #orange--overlay, #green--overlay, #blue--overlay, .overlay--opacity {
     opacity:0.7;
 }
+<<<<<<< HEAD
+#red {
+    background: $red;
+=======
 #red--overlay {
     background: $red;    
+>>>>>>> 6e68cf4193104981689548f7635410593342692e
 }
 #orange--overlay {
     background:$orange;
@@ -75,8 +94,13 @@ body {
 #green--overlay {
     background:$green;
 }
+<<<<<<< HEAD
+#blue {
+    background:$blue;
+=======
 #blue--overlay {
     background:$blue; 
+>>>>>>> 6e68cf4193104981689548f7635410593342692e
 }
 
 .partyInfo {
@@ -219,6 +243,9 @@ body {
 
 
 
+<<<<<<< HEAD
+// }
+=======
 
 
 
@@ -250,3 +277,4 @@ body {
 }
 
 
+>>>>>>> 6e68cf4193104981689548f7635410593342692e

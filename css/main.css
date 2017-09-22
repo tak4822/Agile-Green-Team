@@ -117,6 +117,7 @@ h3, h4, h5, p {
 /* -------------FOOTER--------------*/
 .footerContainer {
   height: 30vh;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: black; }
@@ -136,23 +137,38 @@ h3, h4, h5, p {
 
 .mpMap__container {
   position: relative;
-  padding-bottom: 100px; }
-  .mpMap__container:after {
-    content: "";
-    display: table;
-    clear: both; }
+  padding-bottom: 100px;
+  width: calc(83.3333333333% - 36.6666666667px);
+  float: left;
+  margin-left: 20px;
+  margin-left: calc(8.3333333333% - 21.6666666667px + 40px);
+  display: flex;
+  justify-content: space-between; }
+  .mpMap__container .mpMap__provNav {
+    width: 20%;
+    background: white;
+    position: relative;
+    top: -120px;
+    height: auto;
+    border: 5px solid #C0C31B;
+    z-index: 10; }
+    .mpMap__container .mpMap__provNav .mpMap__provNav__list {
+      list-style-type: none;
+      padding: 8px 0 8px 10px;
+      font-size: 1rem;
+      font-size: 1vw;
+      z-index: 200;
+      color: #444444; }
   .mpMap__container .mpMap {
-    width: calc(66.6666666667% - 33.3333333333px);
-    float: left;
-    margin-left: 20px;
-    margin-left: calc(16.6666666667% - 23.3333333333px + 40px); }
+    margin-top: -100px;
+    width: 75%; }
   .mpMap__container .mpMap__islands__container {
     position: absolute;
-    bottom: 5%;
-    right: 16%;
+    bottom: 10%;
+    right: 5%;
     width: 15%;
-    height: 20%;
-    padding: 10px;
+    height: auto;
+    padding: 20px;
     border: 1px solid black;
     background: white;
     opacity: 0;
@@ -167,21 +183,70 @@ h3, h4, h5, p {
       height: auto; }
 
 .mpList__container {
-  min-height: 300px; }
-  .mpList__container:after {
-    content: "";
-    display: table;
-    clear: both; }
+  min-height: 260px;
+  width: calc(83.3333333333% - 36.6666666667px);
+  float: left;
+  margin-left: 20px;
+  margin-left: calc(8.3333333333% - 21.6666666667px + 40px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 200px; }
   .mpList__container .mpList__party {
-    width: calc(25% - 25px);
-    float: left;
-    margin-left: 20px; }
+    width: 20%;
+    padding-bottom: 5px; }
+    .mpList__container .mpList__party .mpList__head {
+      font-family: "Roboto Slab", serif;
+      font-size: 1.8rem;
+      font-size: 1.7vw;
+      margin: 20px 0 15px 20px; }
 
-.tooltip {
+.mpList__list {
+  list-style-type: none;
+  margin-left: 20px; }
+
+.mpList__name {
+  padding: 5px 0;
+  font-size: 1.1rem;
+  color: #444444; }
+
+.mpList__party.liberal {
+  border: 2px solid #D71920;
+  height: auto; }
+  .mpList__party.liberal .mpList__head {
+    color: #D71920; }
+
+.mpList__party.ndp {
+  border: 2px solid #F37021;
+  height: auto; }
+  .mpList__party.ndp .mpList__head {
+    color: #F37021; }
+
+.mpList__party.conservative {
+  border: 2px solid #1A4782;
+  height: auto; }
+  .mpList__party.conservative .mpList__head {
+    color: #1A4782; }
+
+.mpList__party.green {
+  border: 2px solid #3D9B35;
+  height: auto; }
+  .mpList__party.green .mpList__head {
+    color: #3D9B35; }
+
+.mpList__last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-right: 20px; }
+  .mpList__last img {
+    height: 80%; }
+
+.popup {
   display: none;
   position: absolute;
-  border: 1px solid #333;
-  background-color: #161616;
+  background-color: #C0C31B;
   border-radius: 5px;
   padding: 10px;
   color: #fff;
@@ -190,6 +255,20 @@ h3, h4, h5, p {
 .map__smallText__popup {
   font-size: 0.8rem; }
 
+<<<<<<< HEAD
+.svg__porv {
+  fill: #444444;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px; }
+
+.svg__porv__hover {
+  fill: #C0C31B;
+  cursor: pointer; }
+
+=======
+>>>>>>> 6e68cf4193104981689548f7635410593342692e
 .pageHeader {
   height: 40vh;
   background: #6322A2; }
