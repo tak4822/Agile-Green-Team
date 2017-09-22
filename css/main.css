@@ -1,469 +1,80 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
-/*------VARIABLES-------*/
-/*-----COLOURS -----*/
-/*-----TYPOGRAPHY -----*/
-body {
-  font-family: "Lato", sans-serif;
-  font-size: 20px; }
-
-#main {
-  margin: auto; }
-
-h1, h2 {
-  font-family: "Roboto Slab", serif; }
-
-h1 {
-  font-size: 7rem;
-  text-transform: uppercase; }
-
-h2 {
-  font-size: 5rem; }
-
-h3, h4, h5, p {
-  font-family: "Lato", sans-serif; }
-
-/*--- COMMON CLASSES USED ----*/
-.uppercase, .partyContainer__img--overlay h2 {
-  text-transform: uppercase; }
-
-.container--centered, .partyContainer__img--overlay {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.white, .pageHeader {
-  color: white; }
-
-.italic, .member__title {
-  font-style: italic; }
-
-/*-------------NAV BAR -------*/
-/*SIDE NAV */
-/* The side navigation menu */
-.sidenav {
-  height: 100%;
-  /* 100% Full-height */
-  width: 0;
-  /* 0 width - change this with JavaScript */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Stay on top */
-  top: 0;
-  right: 0;
-  background-color: black;
-  /* Black*/
-  overflow-x: hidden;
-  /* Disable horizontal scroll */
-  padding-top: 60px;
-  /* Place content 60px from the top */
-  transition: 0.5s;
-  /* 0.5 second transition effect to slide in the sidenav */ }
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  display: block;
-  transition: 0.3s; }
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-  color: white;
-  z-index: 2; }
-
-.menu-btn {
-  position: absolute;
-  top: 20px;
-  right: 9%;
-  width: 80px;
-  height: 80px;
-  z-index: 200;
-  color: white;
-  font-size: 1.5rem; }
-
-#main {
-  transition: margin-right .5s; }
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px; }
-
-  .sidenav a {
-    font-size: 18px; } }
-.hidden-content {
-  display: none; }
-
-#mySidenav a {
-  width: 100%;
-  display: block;
-  font-size: 1.5rem;
-  text-align: left; }
-#mySidenav ul {
-  list-style-type: none; }
-
-/* -------------FOOTER--------------*/
-.footerContainer {
-  height: 30vh;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background-color: black; }
-  .footerContainer label, .footerContainer h3, .footerContainer a, .footerContainer p {
-    color: white;
-    margin: 30px 0; }
-
-.footerContainer__form input {
-  width: 100%; }
-.footerContainer__form input[type=text], .footerContainer__form input[type=email] {
-  border: none;
-  border-bottom: 2px solid white;
-  background-color: black; }
-.footerContainer__form label, .footerContainer__form h3 {
-  color: white;
-  margin: 30px 0; }
-
-.mpMap__container {
-  position: relative;
-  padding-bottom: 100px;
-  width: calc(83.3333333333% - 36.6666666667px);
-  float: left;
-  margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px);
-  display: flex;
-  justify-content: space-between; }
-  .mpMap__container .mpMap__provNav {
-    width: 20%;
-    background: white;
-    position: relative;
-    top: -120px;
-    height: auto;
-    border: 5px solid #C0C31B;
-    z-index: 10; }
-    .mpMap__container .mpMap__provNav .mpMap__provNav__list {
-      list-style-type: none;
-      padding: 8px 0 8px 10px;
-      font-size: 1rem;
-      font-size: 1vw;
-      z-index: 200;
-      color: #444444; }
-  .mpMap__container .mpMap {
-    margin-top: -100px;
-    width: 75%; }
-  .mpMap__container .mpMap__islands__container {
-    position: absolute;
-    bottom: 10%;
-    right: 5%;
-    width: 15%;
-    height: auto;
-    padding: 20px;
-    border: 1px solid black;
-    background: white;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .mpMap__container .mpMap__islands__container:hover {
-      opacity: 1; }
-    .mpMap__container .mpMap__islands__container .mpMap__islands {
-      width: 100%;
-      height: auto; }
-
-.mpList__container {
-  min-height: 260px;
-  width: calc(83.3333333333% - 36.6666666667px);
-  float: left;
-  margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 200px; }
-  .mpList__container .mpList__party {
-    width: 20%;
-    padding-bottom: 5px; }
-    .mpList__container .mpList__party .mpList__head {
-      font-family: "Roboto Slab", serif;
-      font-size: 1.8rem;
-      font-size: 1.7vw;
-      margin: 20px 0 15px 20px; }
-
-.mpList__list {
-  list-style-type: none;
-  margin-left: 20px; }
-
-.mpList__name {
-  padding: 5px 0;
-  font-size: 1.1rem;
-  color: #444444; }
-
-.mpList__party.liberal {
-  border: 2px solid #D71920;
-  height: auto; }
-  .mpList__party.liberal .mpList__head {
-    color: #D71920; }
-
-.mpList__party.ndp {
-  border: 2px solid #F37021;
-  height: auto; }
-  .mpList__party.ndp .mpList__head {
-    color: #F37021; }
-
-.mpList__party.conservative {
-  border: 2px solid #1A4782;
-  height: auto; }
-  .mpList__party.conservative .mpList__head {
-    color: #1A4782; }
-
-.mpList__party.green {
-  border: 2px solid #3D9B35;
-  height: auto; }
-  .mpList__party.green .mpList__head {
-    color: #3D9B35; }
-
-.mpList__last {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  margin-right: 20px; }
-  .mpList__last img {
-    height: 80%; }
-
-.popup {
-  display: none;
-  position: absolute;
-  background-color: #C0C31B;
-  border-radius: 5px;
-  padding: 10px;
-  color: #fff;
-  font-size: 1.2rem; }
-
-.map__smallText__popup {
-  font-size: 0.8rem; }
-
-<<<<<<< HEAD
-.svg__porv {
-  fill: #444444;
-  stroke: #fff;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 2px; }
-
-.svg__porv__hover {
-  fill: #C0C31B;
-  cursor: pointer; }
-
-=======
->>>>>>> 6e68cf4193104981689548f7635410593342692e
-.pageHeader {
-  height: 40vh;
-  background: #6322A2; }
-
-.pageHeader__text {
-  width: calc(66.6666666667% - 33.3333333333px);
-  float: left;
-  margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
-
-.partyPageContainer {
-  width: 95%; }
-
-.partyContainer {
-  width: calc(91.6666666667% - 38.3333333333px);
-  float: left;
-  margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
-
-.partyWrapper:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-.partyContainer__item {
-  display: inline-block;
-  position: relative;
-  width: calc(25% - 25px);
-  float: left;
-  margin-left: 20px;
-  transform: translateY(-150px); }
-  .partyContainer__item .partyContainer__img {
-    width: 100%; }
-  .partyContainer__item h2 {
-    font-size: 2rem; }
-
-.partyContainer__img--overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  transition: .5s ease; }
-  .partyContainer__img--overlay h2 {
-    color: white;
-    z-index: 3;
-    opacity: 1; }
-
-#red--overlay, #orange--overlay, #green--overlay, #blue--overlay, .overlay--opacity {
-  opacity: 0.7; }
-
-#red--overlay {
-  background: #D71920; }
-
-#orange--overlay {
-  background: #F37021; }
-
-#green--overlay {
-  background: #3D9B35; }
-
-#blue--overlay {
-  background: #1A4782; }
-
-.partyInfo:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-.borderedItem {
-  border: 2px solid red; }
-
-/*-----PARTY LOGO ---------*/
-.partyInfo__logo {
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
-  .partyInfo__logo img {
-    width: 30%; }
-
-/*-----MAIN MEMBERS -------*/
-.partyInfo__memberContainer {
-  width: calc(58.3333333333% - 31.6666666667px);
-  float: left;
-  margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
-  .partyInfo__memberContainer h2 {
-    margin-left: 1.5%; }
-
-.partyInfo__member {
-  padding: 20px 0;
-  width: calc(41.6666666667% - 28.3333333333px);
-  float: left;
-  margin-left: 20px;
-  margin: 2rem 2rem 2rem 1rem; }
-  .partyInfo__member img {
-    width: calc(33.3333333333% - 26.6666666667px);
-    float: left;
-    margin-left: 20px; }
-  .partyInfo__member h4 {
-    font-size: 2rem; }
-
-.member__name {
-  width: calc(66.6666666667% - 33.3333333333px);
-  float: left;
-  margin-left: 20px; }
-
-.partyInfo__seatContainer {
-  width: calc(33.3333333333% - 26.6666666667px);
-  float: left;
-  margin-left: 20px; }
-  .partyInfo__seatContainer:after {
-    content: "";
-    display: table;
-    clear: both; }
-
-.seatContainer__title {
-  position: relative; }
-  .seatContainer__title h3, .seatContainer__title p {
-    display: inline-block;
-    margin: 2.4rem 0 1.2rem 0; }
-  .seatContainer__title h3 {
-    font-size: 2.3rem; }
-  .seatContainer__title p {
-    position: absolute;
-    right: 0; }
-
-.seatContainer__bar {
-  width: 100%;
-  height: 60px;
-  border: 2px solid purple;
-  background: none; }
-
-.senate__seats {
-  width: 20%;
-  height: 100%;
-  background: purple; }
-
-.hoc__seats {
-  width: 50%;
-  height: 100%;
-  background: purple; }
-
-/*-----POLICY SECTION --------*/
-.partyInfo__policies {
-  width: calc(100% - 40px);
-  float: left;
-  margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
-
-.partyInfo__policy {
-  width: calc(41.6666666667% - 28.3333333333px);
-  float: left;
-  margin-left: 20px;
-  height: 600px;
-  margin-bottom: 1.6rem;
-  padding: 50px; }
-  .partyInfo__policy:after {
-    content: "";
-    display: table;
-    clear: both; }
-  .partyInfo__policy h3 {
-    font-size: 3rem;
-    margin: 10px 0; }
-  .partyInfo__policy p {
-    font-size: 2rem; }
-
-/*----HISTORY SECTION -------*/
-.partyInfo__history {
-  width: calc(83.3333333333% - 36.6666666667px);
-  float: left;
-  margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
-  .partyInfo__history p {
-    padding: 50px;
-    font-size: 2rem; }
-
-.policyItem {
-  width: calc(25% - 25px);
-  float: left;
-  margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
-
-.partyInfo__leaderContainer {
-  width: calc(58.3333333333% - 31.6666666667px);
-  float: left;
-  margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
-
-.party__label {
-  display: inline-block;
-  padding-left: 50px;
-  height: 50px; }
-
-.compare__filter {
-  width: 40%;
-  margin: auto; }
-
-/*# sourceMappingURL=main.css.map */
+/*
+Error: Invalid CSS after "...35410593342692e": expected "{", was "}"
+        on line 9 of ../scss/parties.scss
+        from line 10 of ../scss/main.scss
+
+4:     //@include grid-visual; 
+5: =======
+6:     // @include grid-visual; 
+7:     // overflow-x:hidden; 
+8: >>>>>>> 6e68cf4193104981689548f7635410593342692e
+9: }
+10: 
+11: .pageHeader {
+12:     height:40vh;
+13:     background:$purple;
+14:     @extend .white;
+
+Backtrace:
+../scss/parties.scss:9
+../scss/main.scss:10
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:677:in `block'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:686:in `block_contents'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:678:in `block'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:686:in `block_contents'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:414:in `_to_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:321:in `to_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...35410593342692e\": expected \"{\", was \"}\"\A         on line 9 of ../scss/parties.scss\A         from line 10 of ../scss/main.scss\A \A 4:     //@include grid-visual; \A 5: =======\A 6:     // @include grid-visual; \A 7:     // overflow-x:hidden; \A 8: >>>>>>> 6e68cf4193104981689548f7635410593342692e\A 9: }\A 10: \A 11: .pageHeader {\A 12:     height:40vh;\A 13:     background:$purple;\A 14:     @extend .white;"; }
