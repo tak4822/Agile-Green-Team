@@ -1,6 +1,11 @@
 
 body {
+<<<<<<< HEAD
     //@include grid-visual; 
+=======
+    // @include grid-visual; 
+    // overflow-x:hidden; 
+>>>>>>> 6e68cf4193104981689548f7635410593342692e
 }
 
 .pageHeader {
@@ -8,18 +13,20 @@ body {
     background:$purple;
     @extend .white;
 }
-
 .pageHeader__text {
     @include grid-column(8);
-    @include grid-push(1.35);
+    @include grid-push(1);
 }
+
+
 .partyPageContainer {
     width:95%;
 }
-
 .partyContainer {
-    @include grid-column(10);
-    @include grid-push(1.3);
+    @include grid-column(11);
+    @include grid-push(1);
+
+
 }
 
 .partyWrapper {
@@ -34,6 +41,10 @@ body {
 
     .partyContainer__img {
         width:100%;
+    }
+
+    h2 {
+        font-size:2rem;
     }
 }
 .partyContainer__img--overlay {
@@ -54,6 +65,7 @@ body {
         opacity:1;
 
     }
+<<<<<<< HEAD
 }
 .partyInfo {
     @include clearfix;
@@ -61,27 +73,208 @@ body {
 .policyItem {
     @include grid-column(4);
 }
+=======
+}  
+>>>>>>> 6e68cf4193104981689548f7635410593342692e
 
-#red, #orange, #green, #blue, .overlay--opacity {
+#red--overlay, #orange--overlay, #green--overlay, #blue--overlay, .overlay--opacity {
     opacity:0.7;
 }
+<<<<<<< HEAD
 #red {
     background: $red;
+=======
+#red--overlay {
+    background: $red;    
+>>>>>>> 6e68cf4193104981689548f7635410593342692e
 }
-#orange {
+#orange--overlay {
     background:$orange;
 }
-#green {
+#green--overlay {
     background:$green;
 }
+<<<<<<< HEAD
 #blue {
     background:$blue;
+=======
+#blue--overlay {
+    background:$blue; 
+>>>>>>> 6e68cf4193104981689548f7635410593342692e
+}
+
+.partyInfo {
+    @include clearfix; 
+}
+
+.borderedItem {
+    border: 2px solid red; 
+}
+
+/*-----PARTY LOGO ---------*/
+
+.partyInfo__logo {
+    @include grid-push(1);
+    img {
+        width:30%; 
+    }
+}
+
+/*-----MAIN MEMBERS -------*/
+.partyInfo__memberContainer {
+    @include grid-column(7);
+    @include grid-push(1);
+
+    h2 {
+        margin-left:1.5%;
+    }
+}
+
+.partyInfo {
+    // display:none;
+}
+
+.partyInfo__member {
+    padding:20px 0;
+    @include grid-column(5);
+    margin: 2rem 2rem 2rem 1rem;
+    img {
+        @include grid-column(4);
+    }
+    h4 {
+        font-size:2rem;
+    }
+
+}
+
+.member__name {
+    @include grid-column(8);
+}
+
+.member__title {
+    @extend .italic; 
+}
+
+
+.partyInfo__seatContainer {
+    @include grid-column(4);
+    @include clearfix;
+}
+
+
+.seatContainer__title {
+    position:relative;
+    h3, p {
+        display:inline-block;
+        margin:2.4rem 0 1.2rem 0;
+    }
+
+    h3 {
+        
+        font-size:2.3rem;
+    }
+    p {
+        position: absolute;
+        right:0; 
+    }
+}
+
+.seatContainer__bar {
+    width:100%;
+    height:60px; 
+    border:2px solid purple; 
+    background:none;
+
+}
+.senate__seats {
+    width:20%;
+    height:100%;
+    background:purple;
+}
+
+.hoc__seats {
+    width:50%; 
+    height: 100%;
+    background:purple; 
+}
+
+
+/*-----POLICY SECTION --------*/
+.partyInfo__policies {
+    @include grid-column(12);
+    @include grid-push(1);
+}
+.partyInfo__policy {
+    @include grid-column(5);
+    @include clearfix; 
+    height:600px; 
+    margin-bottom:1.6rem;
+    padding:50px; 
+    h3 {
+        font-size:3rem;
+        margin:10px 0; 
+    }
+    p {
+        font-size:2rem;
+    }
+
+}
+
+
+/*----HISTORY SECTION -------*/
+
+.partyInfo__history {
+    @include grid-column(10);
+    @include grid-push(1);
+    p {
+        padding:50px; 
+        font-size:2rem; 
+    }
 }
 
 
 
 
-// .partyInfo {
 
 
+
+
+
+
+
+
+<<<<<<< HEAD
 // }
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.policyItem {
+
+
+    @include grid-column(3);
+    @include grid-push(1);
+
+}
+
+.partyInfo__leaderContainer {
+
+    @include grid-column(7);
+    @include grid-push(1); 
+}
+
+
+>>>>>>> 6e68cf4193104981689548f7635410593342692e
