@@ -2,8 +2,8 @@
     "greenPartyObj": {
         "name": "Green Party",
         "colour": "green",
+        "logo": "green-logo.png",
         "leader": "Elizabeth May", 
-        "position": 1,
         "history": "The modern green movement started in Canada and around the world in the 1960s when the counter-culture movement launched the first mass rejection of consumer culture. Five decades later, the 60s values of peace, love and understanding have become the founding Green Party values of non-violence, social justice and ecological thinking.",
         "youthPolicy": "The Greens promise to eliminate all tuition fees by 2020, by starting off with nixing them for low income students",
         "marijuanaPolicy": "\r\nThe Greens promise to legalize marijuana completely and collect taxes on the industry.",
@@ -22,14 +22,18 @@
         "prominentMembers" : [
             {"name" : "Bruce Hyer", "position" : "Deputy Leader", "image" : "bryce-hyer.jpg"},
             {"name" : "Daniel Green", "position" : "Deputy Leader", "image" : "daniel-green.jpg"}
+        ],
+        "position": [
+            {"senateSeats": 0, "senatePercentage": 0},
+            {"hocSeats": 1, "hocPercentage": 1}
         ]
-        },
+    },
 
     "liberalPartyObj": {
         "name": "Liberal Party", 
         "colour": "Red", 
+        "logo": "liberal-logo.png",
         "leader": "Justin Trudeau", 
-        "position": 1,
         "history": "Liberal Party of Canada, French Parti Libéral du Canada, centrist Canadian political party, one of the major parties in the country since the establishment of the Dominion of Canada in 1867. The Liberal Party has been the governing party at the federal level for most of the period since the late 1890s, bringing together pragmatic social policy reformers and advocates of free enterprise, the balance between them shifting as leaders and context changed. The Liberal Party traditionally has been described as a “brokerage” party, in recognition of its success in appealing to a range of interests divided by region, language, ethnicity, and social class.",
         "youthPolicy": "The Liberals promise to form a Prime Minister’s Youth Advisory Council, consisting of Canadians aged 16-24, to bring young voices to Ottawa. They pledge to invest $1.3 billion over three years to create jobs for young people, including hiring more guides and interpreters for Parks Canada.",
         "marijuanaPolicy": "The Liberals would legalize marijuana completely and collect taxes on the industry.", 
@@ -46,12 +50,19 @@
             {"name" : "Middle Class Tax Cut", "description": "We will cut the middle income tax bracket to 20.5 percent from 22 percent – a seven percent reduction. Canadians with taxable annual income between $44,700 and $89,401 will see their income tax rate fall. This tax relief is worth up to $670 per person, per year – or $1,340 for a twoincome  household"},
             {"name" : "Opportunities for Young Canadians", "description": "We will invest to create more jobs and better opportunities for young Canadians. We will invest $40 million each year to help employers create more co-op placements for students in science, technology, engineering, mathematics, and business programs." }
         ],
+
+        
         
         "prominentMembers" : [
             {"name" : "Omar Alghaba", "position" : "Parliamentary Secretary to Minister of Foreign Affairs", "image" : "peter-mackay.jpg"},
             {"name" : "Arnold Chan", "position" : "Member of House of Commons", "image" : "arnold-chan.jpg"},
             {"name" : "Alain Rayes", "position" : "Quebec Political LIeutenant", "image" : "alain-rayes.jpg"},
             {"name" : "Scott Brison", "position" : "President of the Treasury Board", "image" : "scott-brison.jpg"}
+        ],
+
+        "position": [
+            {"senateSeats": 18, "senatePercentage": 17.1},
+            {"hocSeats": 182, "hocPercentage": 53.8}
         ]
     },
 
@@ -59,8 +70,8 @@
     "ndpPartyObj" : {
         "name": "New Democratic Party",
         "colour": "Orange",
+        "logo": "ndp.png",
         "leader": "Tom Mulcair",
-        "position": 1, 
         "history": "The New Democratic Party (NDP) was founded in Ottawa in 1961 by Tommy Douglas  at a convention uniting the Co-Operative Commonwealth Federation(CCF) and affiliated unions of the Canadian Labour Congress (CLC) and also New Party clubs. A social democratic party, the NDP has formed the government in several provinces but never nationally. In 2011, it enjoyed an historic electoral breakthrough, becoming the official opposition in Parliament for the first time.",
         "youthPolicy": "The NDP promise to commit $100 million to improve mental health services for youth. An additional $200 million over four years would go towards helping youth find employment, including “cracking down” on unpaid internships and creating co-op or paid internship opportunities.",
         "marijuanaPolicy": "The NDP promise to decriminalize marijuana, and then enter into public discussions about what should happen thereafter.",
@@ -82,6 +93,10 @@
             {"name" : "Rachel Blaney", "position" : "Seniors, Infrastructure and Communities", "image" : "rachel-blaney.jpg"},
             {"name" : "Marjolain Boutin-Sweet", "position" : "Whip, Housing", "image" : "marjolaine-boutin-sweet.jpg"},
             {"name" : "Daniel Blaikie", "position" : "National Caucus Chair", "image" : "daniel-blaikie.jpg"}
+        ],
+        "position": [
+            {"senateSeats": 0, "senatePercentage": 0},
+            {"hocSeats": 44, "hocPercentage": 13}
         ]   
 
     },
@@ -89,8 +104,8 @@
     "conservativePartyObj" : {
         "name": "Conservative Party",
         "colour": "Blue",
+        "logo": "conservative.gif",
         "leader": "Andrew Sheere",
-        "position": 1, 
         "history": "The Conservative Party of Canada (French: Parti conservateur du Canada), colloquially known as the Tories, is a political party in Canada. It is positioned on the right of the Canadian political spectrum.[8] The party\"s leader from 2004 to 2015 was Stephen Harper, who served as Prime Minister from 2006 to 2015.\r\nOn October 16th, 2003, the leaders of the Canadian Reform Conservative Alliance and the Progressive Conservative Party of Canada announced an agreement-in-principle to unite under a new political banner.  In December 2003, the merger was overwhelmingly ratified by members of both parties and the Conservative Party of Canada was officially born.  This unification of Canada’s conservative parties restored and rejuvenated the national political movement that has been building a stronger, safer, and better Canada for almost 150 years.\r\n",
         "youthPolicy": "The Conservatives’ Economic Action Plan 2015 proposes to reallocate $7 million over two years, starting in 2015–16, to support the relocation of youth and immigrants to areas where job opportunities exist. Since 2006 the Conservative government has invested $330 million per year in the Youth Employment Strategy, but $97.1 million of that funding lapsed.",
         "marijuanaPolicy": "Opposed to legalization or decriminalization. Laws around medical marijuana have also changed, requiring users to order it from a licensed provider rather than being able to grow it themselves",
@@ -108,10 +123,14 @@
             {"name" : "Family Home", "description": "Homeownership is a key way to support Canadian families. And we’re helping more Canadians become homeowners byproviding new support to buy and invest in their homes. Nowone in seven Canadian households owns their own homes –one of the highest rates in the industrialized world. And, underour plan for affordable, responsible homeownership, we'll aimto add more than 700,000 new homeowners by 2020" }
         ] ,  
         "prominentMembers" : [
-            {"name" : "Mark Strahl", "position" : "Deputy Leader", "image" : "mark-strahl.jpg"},
+            {"name" : "Andrew Scheer", "position" : "Party Leader", "image" : "andrew-scheer1.jpg"},
             {"name" : "Lisa Raitt", "position" : "Deputy Leader", "image" : "lisa-raitt.jpg"},
             {"name" : "Alain Rayes", "position" : "Quebec Political Lieutenant", "image" : "alain-rayes.jpg"},
             {"name" : "Candice Bergen", "position" : "House Leader of the Official Opposition", "image" : "candice-bergen.jpg"}
+        ],
+        "position": [
+            {"senateSeats": "37", "senatePercentage": 35},
+            {"hocSeats": 97, "hocPercentage": 28}
         ]
     }
 }

@@ -190,9 +190,6 @@ h3, h4, h5, p {
 .map__smallText__popup {
   font-size: 0.8rem; }
 
-body {
-  background-image: repeating-linear-gradient(to right, transparent, transparent 20px, rgba(0, 212, 255, 0.25) 20px, rgba(0, 212, 255, 0.25) calc(8.3333333333% - 21.6666666667px + 20px)); }
-
 .pageHeader {
   height: 40vh;
   background: #6322A2; }
@@ -263,6 +260,15 @@ body {
   display: table;
   clear: both; }
 
+.borderedItem {
+  border: 2px solid red; }
+
+/*-----PARTY LOGO ---------*/
+.partyInfo__logo {
+  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
+  .partyInfo__logo img {
+    width: 30%; }
+
 /*-----MAIN MEMBERS -------*/
 .partyInfo__memberContainer {
   width: calc(58.3333333333% - 31.6666666667px);
@@ -273,7 +279,6 @@ body {
     margin-left: 1.5%; }
 
 .partyInfo__member {
-  border: 2px solid black;
   padding: 20px 0;
   width: calc(41.6666666667% - 28.3333333333px);
   float: left;
@@ -300,10 +305,22 @@ body {
     display: table;
     clear: both; }
 
+.seatContainer__title {
+  position: relative; }
+  .seatContainer__title h3, .seatContainer__title p {
+    display: inline-block;
+    margin: 2.4rem 0 1.2rem 0; }
+  .seatContainer__title h3 {
+    font-size: 2.3rem; }
+  .seatContainer__title p {
+    position: absolute;
+    right: 0; }
+
 .seatContainer__bar {
   width: 100%;
   height: 60px;
-  background-color: grey; }
+  border: 2px solid purple;
+  background: none; }
 
 .senate__seats {
   width: 20%;
@@ -314,6 +331,40 @@ body {
   width: 50%;
   height: 100%;
   background: purple; }
+
+/*-----POLICY SECTION --------*/
+.partyInfo__policies {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
+
+.partyInfo__policy {
+  width: calc(41.6666666667% - 28.3333333333px);
+  float: left;
+  margin-left: 20px;
+  height: 600px;
+  margin-bottom: 1.6rem;
+  padding: 50px; }
+  .partyInfo__policy:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .partyInfo__policy h3 {
+    font-size: 3rem;
+    margin: 10px 0; }
+  .partyInfo__policy p {
+    font-size: 2rem; }
+
+/*----HISTORY SECTION -------*/
+.partyInfo__history {
+  width: calc(83.3333333333% - 36.6666666667px);
+  float: left;
+  margin-left: 20px;
+  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
+  .partyInfo__history p {
+    padding: 50px;
+    font-size: 2rem; }
 
 .policyItem {
   width: calc(25% - 25px);

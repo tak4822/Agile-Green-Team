@@ -43,64 +43,66 @@ $(function(){
                         break;
 
                 }
-                displayInfo(curObj, objIndex);
+                displayInfo(curObj);
             }
         })
 
 
         
-        //DISPLAY ON PAGE
-        function displayInfo (cur, index){
-            
-            var currentClass = ".member" + index;
-            // console.log(cur.prominentMembers);
-            //MAIN MEMBERS SECTION *** NEED TO CROP IMAGES
+        //DISPLAY ON PAGE 
+        // WILL BREAK THIS INTO OTHER FUNCTIONS LATER
+        function displayInfo (cur){
+            // DISPLAY MEMBERS
             for (var i = 0; i < cur.prominentMembers.length; i += 1 ){
-                console.log(cur.prominentMembers[i]);
                 var currentClass = ".member" + i;
                 var cMem = cur.prominentMembers[i];
                 var currentImage = "img/" + cMem.image;
                 console.log(currentImage + currentClass);
                 $(currentClass).find("img").attr({'src': currentImage, 'alt' : 'an image of ' + cMem.name});
                 $(currentClass + " h4").text(cMem.name); 
-                $(currentClass + " p").text(cMem.position);            
-
+                $(currentClass + " p").text(cMem.position);         
             }
+
+            //DISPLAY LOGO 
+            var currentLogo = "img/" + cur.logo; 
+            $('.partyInfo__logo img').attr("src", currentLogo);
+
+
+            //DISPLAY PROGRESS BARS
+            var senatePercentage = cur.position[0].senatePercentage + "%";
+            var hocPercentage = cur.position[1].hocPercentage + "%";
+
+        
+            $('.senate__seats').css({"width": senatePercentage, "background": cur.colour});
+            $('.hoc__seats').css({"width": hocPercentage, "background": cur.colour});
+            $('.seatContainer__bar').css({"border-color": cur.colour});
+            $('#sen').text(cur.position[0].senateSeats);
+            $('#hoc').text(cur.position[1].hocSeats);
+            
+            //HISTORY
+            $('#history').html("<h2> History of " + cur.name + "</h1> <p>" + cur.history + "<p>" );
+            //CHANGE BORDERS TO BE PARTY COLOURS
+            $('.borderedItem').css({"border-color": cur.colour});
+
+            $('.partyInfo').show();
+            // if(cur.name === "Green Party" ) {
+            //     $(".member2").hide();
+            //     $('.member3').hide();
+            // }
+
             
 
-            $('#history').html("<h2> History of " + cur.name + "</h1> <p>" + cur.history + "<p>" );
-
-
-            var policyCont = "";
-
-            for (var i=0; i < cur.prominentPolicies.length; i += 1) {
-                policyCont += "<h3>" + cur.prominentPolicies[i].name + "</h3> <p> " + cur.prominentPolicies[i].description + "</p>"
+                
+            for (var i = 0; i < cur.prominentPolicies.length; i += 1) {
+                var currentClass = ".policy" + i;
+                console.log(currentClass);
+                $(currentClass + " h3").text(cur.prominentPolicies[i].name);
+                $(currentClass + " p").text(cur.prominentPolicies[i].description);
             }
 
-            // console.log(policyCont);
-
-
-                $
-
-
-                $('.partyInfo').show();
-
-                
-
-            $('#policies').html(
-                "<h2> Prominent policies of the " + cur.name + "</h2>" + policyCont);
-
-                // for (var i=0; i < cur.prominentPolicyTitles.length; i += 1) {
-                //     "<h3>" cur.prominentPolicyTitles[i] "</h3>"
-                // }
-                //will make a prominent policy part of the object
-        }
+            $('.partyInfo__history p').text(cur.history);
+       
 
         
-            // currentObj = $(this).data('object-name');
-            // console.log(currentObj);
-
-
-        
-})
+}})
 })
