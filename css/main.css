@@ -6,6 +6,7 @@
 /*------VARIABLES-------*/
 /*-----COLOURS -----*/
 /*-----TYPOGRAPHY -----*/
+/*-----SPACING -------*/
 body {
   font-family: "Lato", sans-serif;
   font-size: 20px; }
@@ -30,7 +31,7 @@ h3, h4, h5, p {
 .uppercase, .partyContainer__img--overlay h2 {
   text-transform: uppercase; }
 
-.container--centered, .partyContainer__img--overlay {
+.container--centered, .partyContainer__img--overlay, .partyInfo__member {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -267,7 +268,7 @@ h3, h4, h5, p {
   cursor: pointer; }
 
 .pageHeader {
-  height: 40vh;
+  height: 50vh;
   background: #6322A2; }
 
 .pageHeader__text {
@@ -296,7 +297,7 @@ h3, h4, h5, p {
   width: calc(25% - 25px);
   float: left;
   margin-left: 20px;
-  transform: translateY(-150px); }
+  transform: translateY(-100px); }
   .partyContainer__item .partyContainer__img {
     width: 100%; }
   .partyContainer__item h2 {
@@ -316,15 +317,12 @@ h3, h4, h5, p {
     z-index: 3;
     opacity: 1; }
 
-.partyInfo:after {
+.partyInfo:after, .partyInfo__policies:after, .partyInfo__history:after {
   content: "";
   display: table;
   clear: both; }
-
-.policyItem {
-  width: calc(33.3333333333% - 26.6666666667px);
-  float: left;
-  margin-left: 20px; }
+.partyInfo h2, .partyInfo__policies h2, .partyInfo__history h2 {
+  margin: 8rem 0; }
 
 #red--overlay, #orange--overlay, #green--overlay, #blue--overlay, .overlay--opacity {
   opacity: 0.7; }
@@ -364,18 +362,23 @@ h3, h4, h5, p {
   .partyInfo__memberContainer h2 {
     margin-left: 1.5%; }
 
+.partyInfo, .partyInfo__history, .partyInfo__policies {
+  display: none; }
+
 .partyInfo__member {
-  padding: 25px 0;
   width: calc(41.6666666667% - 28.3333333333px);
   float: left;
   margin-left: 20px;
-  margin: 2rem 2rem 2rem 1rem; }
+  margin: 2rem 2rem 0.7rem 0;
+  height: 300px; }
   .partyInfo__member img {
     width: calc(33.3333333333% - 26.6666666667px);
     float: left;
     margin-left: 20px; }
   .partyInfo__member h4 {
     font-size: 2rem; }
+  .partyInfo__member p {
+    font-size: 1rem; }
 
 .member__name {
   width: calc(66.6666666667% - 33.3333333333px);
@@ -420,7 +423,7 @@ h3, h4, h5, p {
 
 /*-----POLICY SECTION --------*/
 .partyInfo__policies {
-  width: calc(100% - 40px);
+  width: calc(91.6666666667% - 38.3333333333px);
   float: left;
   margin-left: 20px;
   margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
@@ -429,16 +432,17 @@ h3, h4, h5, p {
   width: calc(41.6666666667% - 28.3333333333px);
   float: left;
   margin-left: 20px;
-  height: 600px;
-  margin-bottom: 1.6rem;
-  padding: 50px; }
+  height: 400px;
+  margin-bottom: 2.5rem;
+  padding: 60px; }
   .partyInfo__policy:after {
     content: "";
     display: table;
     clear: both; }
   .partyInfo__policy h3 {
-    font-size: 3rem;
-    margin: 10px 0; }
+    font-size: 2rem;
+    margin: 10px 0;
+    align-self: center; }
   .partyInfo__policy p {
     font-size: 2rem; }
 
@@ -449,21 +453,85 @@ h3, h4, h5, p {
   margin-left: 20px;
   margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
   .partyInfo__history p {
-    padding: 50px;
-    font-size: 2rem; }
+    padding: 50px; }
 
-.policyItem {
-  width: calc(25% - 25px);
+.partyInfo, .partyInfo__policies, .partyInfo__history {
+  margin-bottom: 2.5rem; }
+
+/*------------MEDIA QUERIES ----------*/
+@media screen and (max-width: 600px) {
+  .pageHeader h1 {
+    font-size: 2.5rem; }
+  .pageHeader p {
+    font-size: 1.5rem; }
+
+  .partyInfo {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px; }
+
+  .partyInfo h2, .partyInfo__policies h2 {
+    font-size: 2.5rem; }
+
+  .partyInfo__policies p {
+    font-size: 1.4rem; }
+
+  .partyInfo__memberContainer, .partyInfo__seatContainer, .partyInfo__policies, .partyInfo__history {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px; }
+    .partyInfo__memberContainer h3, .partyInfo__memberContainer h4, .partyInfo__seatContainer h3, .partyInfo__seatContainer h4, .partyInfo__policies h3, .partyInfo__policies h4, .partyInfo__history h3, .partyInfo__history h4 {
+      font-size: 1.9rem;
+      margin-top: 1.75rem; }
+    .partyInfo__memberContainer .partyInfo__member, .partyInfo__seatContainer .partyInfo__member, .partyInfo__policies .partyInfo__member, .partyInfo__history .partyInfo__member {
+      width: calc(100% - 40px);
+      float: left;
+      margin-left: 20px;
+      width: 100%;
+      margin: 5px; }
+
+  .partyInfo__policy {
+    height: 100%;
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px; } }
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .pageHeader h1 {
+    font-size: 5rem; }
+
+  .partyInfo h2, .partyInfo__policies h2 {
+    font-size: 4rem; }
+
+  .partyInfo__memberContainer, .partyInfo__seatContainer, .partyInfo__policies, .partyInfo__history {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px; }
+    .partyInfo__memberContainer h3, .partyInfo__memberContainer h4, .partyInfo__seatContainer h3, .partyInfo__seatContainer h4, .partyInfo__policies h3, .partyInfo__policies h4, .partyInfo__history h3, .partyInfo__history h4 {
+      font-size: 1.9rem;
+      margin-top: 1.75rem; }
+    .partyInfo__memberContainer .partyInfo__member, .partyInfo__seatContainer .partyInfo__member, .partyInfo__policies .partyInfo__member, .partyInfo__history .partyInfo__member {
+      width: calc(100% - 40px);
+      float: left;
+      margin-left: 20px;
+      margin: 5px; } }
+.partyInfo__policies {
+  width: calc(100% - 40px);
   float: left;
-  margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
+  margin-left: 20px; }
+  .partyInfo__policies .partyInfo__policy {
+    padding: 20px; }
+  .partyInfo__policies .partyInfo__history, .partyInfo__policies .partyInfo__policy
+  p {
+    font-size: 1.3rem; }
 
-.partyInfo__leaderContainer {
-  width: calc(58.3333333333% - 31.6666666667px);
-  float: left;
-  margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
+@media screen and (min-width: 768px) {
+  .partyInfo__policy {
+    width: calc(41.6666666667% - 28.3333333333px);
+    float: left;
+    margin-left: 20px; }
 
+  .partyInfo__history {
+    font-size: 2rem; } }
 .party__label {
   display: inline-block;
   padding-left: 50px;

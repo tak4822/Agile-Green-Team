@@ -16,7 +16,16 @@ $(function(){
         $('.partyContainer__img--overlay').click(function(){
             var objIndex = $(this).data('index');    
             $(this).hide(); 
-            $('.partyContainer__img--overlay').not($(this)).show(); 
+              //OTHER PARTIES
+           var currentImage = $(this).siblings('img');
+           var otherPartiesOverlay = $('.partyContainer__img--overlay').not($(this));
+           var otherPartiesImage = $('.partyContainer__img').not(currentImage);
+
+           otherPartiesOverlay.show();
+           otherPartiesOverlay.css({"transform":"scale(0.7)"});
+           otherPartiesImage.css({"transform":"scale(0.7"});
+           currentImage.css({"transform":"scale(1)"});
+
             
         //FETCH PARTY INFORMATION
         var myAjax = $.ajax({
@@ -86,7 +95,7 @@ $(function(){
             //CHANGE BORDERS TO BE PARTY COLOURS
             $('.borderedItem').css({"border-color": cur.colour});
 
-            $('.partyInfo').show();
+         
             // if(cur.name === "Green Party" ) {
             //     $(".member2").hide();
             //     $('.member3').hide();
@@ -104,7 +113,9 @@ $(function(){
 
             $('.partyInfo__history p').text(cur.history);
        
-
+            $('.partyInfo').show();
+            $('.partyInfo__history').show();
+            $('.partyInfo__policies').show();  
         
     }})
 

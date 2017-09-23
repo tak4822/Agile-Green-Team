@@ -1,10 +1,11 @@
 
 body {
-    //@include grid-visual; 
+    // @include grid-visual; 
+    // overflow-x:hidden;
 }
 
 .pageHeader {
-    height:40vh;
+    height:50vh;
     background:$purple;
     @extend .white;
 }
@@ -16,6 +17,7 @@ body {
 
 .partyPageContainer {
     width:95%;
+
 }
 .partyContainer {
     @include grid-column(11);
@@ -32,7 +34,7 @@ body {
     display:inline-block;
     position:relative;
     @include grid-column(3);
-    transform:translateY(-150px);
+    transform:translateY(-100px);
 
     .partyContainer__img {
         width:100%;
@@ -61,12 +63,14 @@ body {
 
     }
 }
-.partyInfo {
+.partyInfo, .partyInfo__policies, .partyInfo__history {
     @include clearfix;
+    h2 {
+        margin:$sectionSpacing 0; 
+
+    }
 }
-.policyItem {
-    @include grid-column(4);
-}
+
 
 #red--overlay, #orange--overlay, #green--overlay, #blue--overlay, .overlay--opacity {
     opacity:0.7;
@@ -105,25 +109,29 @@ body {
 .partyInfo__memberContainer {
     @include grid-column(7);
     @include grid-push(1);
-
     h2 {
         margin-left:1.5%;
     }
 }
 
-.partyInfo {
-    // display:none;
+.partyInfo, .partyInfo__history, .partyInfo__policies  {
+    display:none;
 }
 
 .partyInfo__member {
-    padding:25px 0;
+
     @include grid-column(5);
-    margin: 2rem 2rem 2rem 1rem;
+    margin: 2rem 2rem 0.7rem 0; ; 
+    height:300px; 
+    @extend .container--centered;
     img {
         @include grid-column(4);
     }
     h4 {
         font-size:2rem;
+    }
+    p {
+        font-size:1rem;
     }
 
 }
@@ -149,10 +157,8 @@ body {
         display:inline-block;
         margin:2.4rem 0 1.2rem 0;
     }
-
     h3 {
-        
-        font-size:2.3rem;
+       font-size:2.3rem;
     }
     p {
         position: absolute;
@@ -182,18 +188,19 @@ body {
 
 /*-----POLICY SECTION --------*/
 .partyInfo__policies {
-    @include grid-column(12);
+    @include grid-column(11);
     @include grid-push(1);
 }
 .partyInfo__policy {
     @include grid-column(5);
     @include clearfix; 
-    height:600px; 
-    margin-bottom:1.6rem;
-    padding:50px; 
+    height:400px; 
+    margin-bottom:$articleSpacing; 
+    padding:60px; 
     h3 {
-        font-size:3rem;
+        font-size:2rem;
         margin:10px 0; 
+        align-self:center; 
     }
     p {
         font-size:2rem;
@@ -208,33 +215,138 @@ body {
     @include grid-push(1);
     p {
         padding:50px; 
-        font-size:2rem; 
     }
 }
 
+.partyInfo, .partyInfo__policies, .partyInfo__history {
+    margin-bottom:$articleSpacing;  
+}
+/*------------MEDIA QUERIES ----------*/
 
 
+//THINGS THAT SPAN FULL WIDTH OF PAGE ON MOBILE
+@media screen and (max-width:600px) {
 
+    .pageHeader {
+        h1 {
+            font-size:2.5rem;
+        }
+        p {
+            font-size:1.5rem;
+        }
+    }
 
+    .partyInfo {
+        @include grid-column(12);
+        // transform:translateY(0);
+    }
+    .partyInfo, .partyInfo__policies {
+        h2 {
+            font-size:2.5rem;
+        }
+    }
 
+    .partyInfo__policies{
+        
+        p {
+            font-size:1.4rem;
+        }
+    }
 
+    // .partyInfo__member {
+    //     margin:5px; 
+    //     padding:5px;
+    //     @include grid-column(12);
+    //     img, .member__name {
+    //         // @include grid-column(12);
+    //         @include clearfix; 
+    //         display:block;
+    //         margin:0; 
+    //     }
+    // }
 
+    .partyInfo__memberContainer, .partyInfo__seatContainer, .partyInfo__policies, .partyInfo__history{
+        @include grid-column(12);
+        h3, h4 {
+            font-size:1.9rem;
+            margin-top: $articleSpacingMobile; 
+        }
+        .partyInfo__member {
+            @include grid-column(12);
+            width:100%;
+            margin:5px;
+            // img, p {
+            //     @include grid-column(12);
+            // }
+        }
+    }
 
-
-
-
-
-.policyItem {
-
-
-    @include grid-column(3);
-    @include grid-push(1);
+    .partyInfo__policy {
+        height: 100%;
+        @include grid-column(12);
+        
+    }
 
 }
 
-.partyInfo__leaderContainer {
 
-    @include grid-column(7);
-    @include grid-push(1); 
+
+//TABLET
+@media screen and (min-width:601px) and (max-width:900px) {
+    .pageHeader {
+        h1 {
+            font-size:5rem;
+        }
+    }
+
+    .partyInfo, .partyInfo__policies {
+        h2 {
+            font-size:4rem;
+        }
+    }
+    .partyInfo__memberContainer, .partyInfo__seatContainer, .partyInfo__policies, .partyInfo__history{
+        @include grid-column(12);
+        h3, h4 {
+            font-size:1.9rem;
+            margin-top: $articleSpacingMobile; 
+        }
+
+      
+        .partyInfo__member {
+            @include grid-column(12);
+            margin:5px;
+
+        }
+    }
+  }
+ 
+  .partyInfo__policies {
+    @include grid-column(12);
+     .partyInfo__policy{
+        padding:20px;
+        // @include grid-column(12);
+       
+     }
+    .partyInfo__history, .partyInfo__policy
+    p {
+        font-size:1.3rem;
+    }
 }
+//DESKTOP
+@media screen and (min-width:768px) {
+    .partyInfo__policy {
+        @include grid-column(5);
+    }
+
+    .partyInfo__history {
+        font-size:2rem; 
+    }
+
+}
+//LARGE SCREEN
+@media screen and (min-width:1200px) {
+
+}
+
+
 
