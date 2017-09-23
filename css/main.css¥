@@ -197,7 +197,7 @@ h3, h4, h5, p {
   @media screen and (max-width: 767px) {
     .mpMap__provNav__mobile {
       display: block; }
-      .mpMap__provNav__mobile #mpMap__provNav__select {
+      .mpMap__provNav__mobile .mpMap__provNav__select {
         position: absolute;
         top: -70px;
         left: 50%;
@@ -211,7 +211,7 @@ h3, h4, h5, p {
         background-repeat: no-repeat;
         background-position: 95% center;
         padding-right: 10px; }
-        .mpMap__provNav__mobile #mpMap__provNav__select:after {
+        .mpMap__provNav__mobile .mpMap__provNav__select:after {
           content: "";
           width: 20px;
           height: 20px; } }
@@ -292,8 +292,7 @@ h3, h4, h5, p {
   margin-bottom: 200px; }
   @media screen and (max-width: 767px) {
     .mpList__container {
-      flex-wrap: wrap;
-      margin-bottom: 50px; } }
+      flex-wrap: wrap; } }
   .mpList__container .mpList__party {
     width: 20%;
     padding-bottom: 5px;
@@ -304,8 +303,8 @@ h3, h4, h5, p {
         min-height: 200px; } }
     @media screen and (max-width: 767px) {
       .mpList__container .mpList__party {
-        width: 48%;
-        min-height: 200px;
+        width: 45%;
+        min-height: 150px;
         margin-bottom: 30px; } }
     .mpList__container .mpList__party .mpList__head {
       font-family: "Roboto Slab", serif;
@@ -314,19 +313,15 @@ h3, h4, h5, p {
       margin: 20px 0 15px 20px; }
       @media screen and (max-width: 1024px) {
         .mpList__container .mpList__party .mpList__head {
-          font-size: 2rem;
           font-size: 2vw;
           margin: 10px 0 10px 10px; } }
       @media screen and (max-width: 767px) {
         .mpList__container .mpList__party .mpList__head {
-          font-size: 0.9rem; } }
+          font-size: 1.2rem; } }
 
 .mpList__list {
   list-style-type: none;
   margin-left: 20px; }
-  @media screen and (max-width: 1024px) {
-    .mpList__list {
-      margin-left: 10px; } }
 
 .mpList__name {
   padding: 5px 0;
@@ -335,9 +330,6 @@ h3, h4, h5, p {
   @media screen and (max-width: 1024px) {
     .mpList__name {
       font-size: 0.8rem; } }
-  @media screen and (max-width: 767px) {
-    .mpList__name {
-      font-size: 0.7rem; } }
 
 .mpList__party.liberal {
   border: 2px solid #D71920;
@@ -371,9 +363,6 @@ h3, h4, h5, p {
   margin-right: 20px; }
   .mpList__last img {
     height: 80%; }
-    @media screen and (max-width: 1024px) {
-      .mpList__last img {
-        height: 60%; } }
 
 .popup {
   display: none;
@@ -605,4 +594,4 @@ h3, h4, h5, p {
   width: 40%;
   margin: auto; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css%C2%A5.map */

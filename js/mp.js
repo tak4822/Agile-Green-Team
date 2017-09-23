@@ -29,6 +29,13 @@ for(var i=0; i<provinceNav.length; i+=1) {
   });
 }
 
+$('#mpMap__provNav__select').change(function() {
+    const provName = $(this).val();
+    const provNameCap = provName.charAt(0).toUpperCase() + provName.slice(1);
+    showMps(provNameCap);
+});
+
+
 function showMps(prov){
   $(".mpList__list").empty();
   $.each(mpsArr, function(i){
@@ -61,7 +68,7 @@ function hideLists() {
 	var partyArr = ["liberal", "ndp", "conservative", "green"];
 	for(var i=0; i<partyArr.length; i+=1){
 		const provListArr = $('.' + partyArr[i]).find('.mpList__name');
-		var isLong= false;
+		$('.' + partyArr[i]).show();
 		if( provListArr.length > 5 ){
 			for(var x=5; x<provListArr.length; x+=1){
 				provListArr[x].className += " hidden";
@@ -70,6 +77,8 @@ function hideLists() {
 			var party = partyArr[i].toString();
 			var contiImg = `<li onClick="showMoreMps('${party}')" onmouseover="changeCol('${party}')" onmouseout="backCol('${party}')" class="mpList__last"><img src="img/continue.svg" alt="show more"></li>`;
 			$('.' + partyArr[i]).find(".mpList__list").append(contiImg);
+		} else if(provListArr.length === 0){
+			$('.' + partyArr[i]).hide();
 		}
 	}
 }
