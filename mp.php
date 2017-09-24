@@ -82,7 +82,5 @@
       </ul>
     </div>
   </div>
-
-</body>
-
 <?php include "partials/footer.php" ?>
+</body>
