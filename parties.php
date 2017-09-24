@@ -42,7 +42,7 @@
   <section class='partyInfo'>
     <div class='partyInfo__logo'><img src='img/fff.png'></div>
     <div class='partyInfo__memberContainer'>
-      <h2> Main Members </h2>
+      <h2>Members </h2>
       <article class='partyInfo__member member0 borderedItem'>
         <img src='img/fff.png' alt='an image of'>
         <div class='member__name'>

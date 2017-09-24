@@ -267,6 +267,9 @@ h3, h4, h5, p {
   fill: #C0C31B;
   cursor: pointer; }
 
+body {
+  background-image: repeating-linear-gradient(to right, transparent, transparent 20px, rgba(0, 212, 255, 0.25) 20px, rgba(0, 212, 255, 0.25) calc(8.3333333333% - 21.6666666667px + 20px)); }
+
 .pageHeader {
   height: 50vh;
   background: #6322A2; }
@@ -381,12 +384,12 @@ h3, h4, h5, p {
     font-size: 1rem; }
 
 .member__name {
-  width: calc(66.6666666667% - 33.3333333333px);
+  width: calc(75% - 35px);
   float: left;
   margin-left: 20px; }
 
 .partyInfo__seatContainer {
-  width: calc(33.3333333333% - 26.6666666667px);
+  width: calc(25% - 25px);
   float: left;
   margin-left: 20px; }
   .partyInfo__seatContainer:after {
@@ -490,14 +493,32 @@ h3, h4, h5, p {
       width: 100%;
       margin: 5px; }
 
-  .partyInfo__policy {
-    height: 100%;
+  .partyContainer__img--overlay h2 {
+    font-size: 1.4rem; } }
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  .partyPageContainer {
+    width: 100%; }
+
+  .partyContainer {
     width: calc(100% - 40px);
     float: left;
-    margin-left: 20px; } }
-@media screen and (min-width: 601px) and (max-width: 900px) {
+    margin-left: 20px; }
+
+  .partyContainer__item {
+    width: calc(25% - 25px);
+    float: left;
+    margin-left: 20px; }
+
   .pageHeader h1 {
     font-size: 5rem; }
+
+  .partyContainer__img {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px; }
+
+  .partyContainer__img--overlay h2 {
+    font-size: 1.4rem; }
 
   .partyInfo h2, .partyInfo__policies h2 {
     font-size: 4rem; }
@@ -509,20 +530,26 @@ h3, h4, h5, p {
     .partyInfo__memberContainer h3, .partyInfo__memberContainer h4, .partyInfo__seatContainer h3, .partyInfo__seatContainer h4, .partyInfo__policies h3, .partyInfo__policies h4, .partyInfo__history h3, .partyInfo__history h4 {
       font-size: 1.9rem;
       margin-top: 1.75rem; }
-    .partyInfo__memberContainer .partyInfo__member, .partyInfo__seatContainer .partyInfo__member, .partyInfo__policies .partyInfo__member, .partyInfo__history .partyInfo__member {
-      width: calc(100% - 40px);
-      float: left;
-      margin-left: 20px;
-      margin: 5px; } }
+
+  .partyInfo__member {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    margin: 5px;
+    height: 100%; }
+
+  .partyInfo__policy {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px; } }
 .partyInfo__policies {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px; }
   .partyInfo__policies .partyInfo__policy {
     padding: 20px; }
-  .partyInfo__policies .partyInfo__history, .partyInfo__policies .partyInfo__policy
-  p {
-    font-size: 1.3rem; }
+  .partyInfo__policies .partyInfo__history p, .partyInfo__policies .partyInfo__policy p {
+    font-size: 1.5rem; }
 
 @media screen and (min-width: 768px) {
   .partyInfo__policy {

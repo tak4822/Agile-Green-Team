@@ -1,6 +1,6 @@
 
 body {
-    // @include grid-visual; 
+    @include grid-visual; 
     // overflow-x:hidden;
 }
 
@@ -137,7 +137,7 @@ body {
 }
 
 .member__name {
-    @include grid-column(8);
+    @include grid-column(9);
 }
 
 .member__title {
@@ -146,7 +146,7 @@ body {
 
 
 .partyInfo__seatContainer {
-    @include grid-column(4);
+    @include grid-column(3);
     @include clearfix;
 }
 
@@ -223,8 +223,6 @@ body {
 }
 /*------------MEDIA QUERIES ----------*/
 
-
-//THINGS THAT SPAN FULL WIDTH OF PAGE ON MOBILE
 @media screen and (max-width:600px) {
 
     .pageHeader {
@@ -253,18 +251,6 @@ body {
         }
     }
 
-    // .partyInfo__member {
-    //     margin:5px; 
-    //     padding:5px;
-    //     @include grid-column(12);
-    //     img, .member__name {
-    //         // @include grid-column(12);
-    //         @include clearfix; 
-    //         display:block;
-    //         margin:0; 
-    //     }
-    // }
-
     .partyInfo__memberContainer, .partyInfo__seatContainer, .partyInfo__policies, .partyInfo__history{
         @include grid-column(12);
         h3, h4 {
@@ -281,22 +267,38 @@ body {
         }
     }
 
-    .partyInfo__policy {
-        height: 100%;
-        @include grid-column(12);
-        
+    .partyContainer__img--overlay h2 {
+        font-size:1.4rem;
     }
+
+   
 
 }
 
 
 
 //TABLET
-@media screen and (min-width:601px) and (max-width:900px) {
+@media screen and (min-width:601px) and (max-width:1000px) {
+
+    .partyPageContainer {
+        width:100%;
+    }
+    .partyContainer {
+        @include grid-column(12);
+    }
+    .partyContainer__item {
+        @include grid-column(3);
+    }
     .pageHeader {
         h1 {
             font-size:5rem;
         }
+    }
+    .partyContainer__img{
+        @include grid-column(6);
+    }
+    .partyContainer__img--overlay h2 {
+        font-size:1.4rem;
     }
 
     .partyInfo, .partyInfo__policies {
@@ -310,13 +312,17 @@ body {
             font-size:1.9rem;
             margin-top: $articleSpacingMobile; 
         }
+    }
+    .partyInfo__member {
+        @include grid-column(12);
+        margin:5px;
+        height:100%;
 
-      
-        .partyInfo__member {
-            @include grid-column(12);
-            margin:5px;
+    }
 
-        }
+    .partyInfo__policy {
+       @include grid-column(12);
+        
     }
   }
  
@@ -327,10 +333,14 @@ body {
         // @include grid-column(12);
        
      }
+
     .partyInfo__history, .partyInfo__policy
-    p {
-        font-size:1.3rem;
-    }
+    {
+        p {
+            font-size:1.5rem;
+            
+        }
+    }    
 }
 //DESKTOP
 @media screen and (min-width:768px) {
