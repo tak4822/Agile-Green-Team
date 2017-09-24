@@ -74,13 +74,13 @@
 .header__container{
   position: relative;
   top: 0;
-  height: 450px;
+  height: 500px;
   width: 100%;
   @media screen and (max-width: $tablet){
-    height: 350px;
+    height: 400px;
   }
   @media screen and (max-width: $phone){
-    height: 250px;
+    height: 300px;
   }
 }
 
@@ -95,8 +95,9 @@
 }
 
 .pagetitle {
+  margin-top: 10px;
   font-size: 7rem;
-  font-size: 8vw;
+  //font-size: 8vw;
   @include grid-push(1);
   padding-top: 10px;
   color: white;
@@ -104,7 +105,7 @@
     font-size: 5rem;
   }
   @media screen and (max-width: $phone){
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 .page-desc{
@@ -166,7 +167,7 @@
       width: 60%;
     }
     @media screen and (max-width: $phone){
-      width: 100%
+      width: 100%;
     }
 
     .footer__form__title{
