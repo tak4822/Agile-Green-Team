@@ -127,11 +127,11 @@ $(function(){
         
         
         for (var i = 0; i < (party.policies.length - 1) ; i += 1) {
-            if(colour==="green") {
-                
-            }
+            
             var currentPolicy = party.policies[i];
-            $(divName).append("<div class='policy__item--"+colour+"'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + "</p></div>");
+            var currentClass = ".compare__policies--" + currentPolicy.name.toLowerCase();
+
+            $(currentClass).append("<div class='policy__item--"+colour+"'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + "</p></div>");
 
         }
     }

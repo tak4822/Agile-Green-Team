@@ -18,29 +18,13 @@
     @include grid-column(12);
 }
 
-.compare__policies--red, .compare__policies--blue, .compare__policies--orange, .compare__policies--green {
-    @include grid-column(3);
-}
+// .compare__policies--red, .compare__policies--blue, .compare__policies--orange, .compare__policies--green {
+//     @include grid-column(3);
+// }
 
 .policy__item--green, .policy__item--orange, .policy__item--red, .policy__item--blue {
     padding:10px; 
+    @include grid-column(3);
+    
 
 }
-
-
-
-// $imageList: "liberal", "green", "conservative", "ndp"; 
-
-// @each $item in $imageList {
-
-// }
-
-// // #red {
-// //     background:url('../img/liberal.png');
-// //     background-size:contain;
-// //     background:no-repeat;
-// // }
-
-// // #blue {
-// //     background:url('')
-// // }
