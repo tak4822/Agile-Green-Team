@@ -347,16 +347,16 @@ body {
     }    
 }
 //DESKTOP
-@media screen and (min-width:768px) {
-    .partyInfo__policy {
-        @include grid-column(5);
-    }
+// @media screen and (min-width:768px) {
+//     .partyInfo__policy {
+//         @include grid-column(5);
+//     }
 
-    .partyInfo__history {
-        font-size:2rem; 
-    }
+//     .partyInfo__history {
+//         font-size:2rem; 
+//     }
 
-}
+// }
 //LARGE SCREEN
 @media screen and (min-width:1200px) {
 
