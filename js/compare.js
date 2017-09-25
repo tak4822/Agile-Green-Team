@@ -1,13 +1,18 @@
 $(function(){
-    var myAjax = $.ajax({
-        type: 'GET',
-        url: 'js/government-party.json',
-        dataType: 'json',
-        success : function(data){
-            console.log(data);
-            for (var i = 0; i < data.length; i += 1) {
-
-            }
-        }
-    })
+    // $('.party__label').click(function(){
+    //     console.log("HHELLLOOO" + myAjaxObj.conservativePartyObj.name);
+    //     var ajax = $.ajax({
+    //         type: 'GET',
+    //         url: 'js/government-party.json',
+    //         dataType: 'json',
+    //         success : function(data){
+    //             var partyObjArray = [conservativePartyObj, greenPartyObj, liberalPartyObj, ndpPartyObj];
+    //             console.log("heloo");
+    //             for (var i = 0; i < partyObjArray.length; i += 1) {
+    //                 console.log(data.partyObjArray[i].policies);
+            
+    //             }
+    //         }
+    //     })
+    // })
 })

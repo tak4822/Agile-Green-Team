@@ -1,6 +1,6 @@
 
 body {
-    @include grid-visual; 
+    // @include grid-visual; 
     // overflow-x:hidden;
 }
 
@@ -189,7 +189,7 @@ body {
 /*-----POLICY SECTION --------*/
 .partyInfo__policies {
     @include grid-column(11);
-    @include grid-push(1);
+    @include grid-push(2);
 }
 .partyInfo__policy {
     @include grid-column(5);

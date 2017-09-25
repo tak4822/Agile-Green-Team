@@ -267,9 +267,6 @@ h3, h4, h5, p {
   fill: #C0C31B;
   cursor: pointer; }
 
-body {
-  background-image: repeating-linear-gradient(to right, transparent, transparent 20px, rgba(0, 212, 255, 0.25) 20px, rgba(0, 212, 255, 0.25) calc(8.3333333333% - 21.6666666667px + 20px)); }
-
 .pageHeader {
   height: 50vh;
   background: #6322A2; }
@@ -429,7 +426,7 @@ body {
   width: calc(91.6666666667% - 38.3333333333px);
   float: left;
   margin-left: 20px;
-  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
+  margin-left: calc(16.6666666667% - 23.3333333333px + 40px); }
 
 .partyInfo__policy {
   width: calc(41.6666666667% - 28.3333333333px);
@@ -567,5 +564,18 @@ body {
 .compare__filter {
   width: 40%;
   margin: auto; }
+
+.compare__policies {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+
+.compare__policies--red, .compare__policies--blue, .compare__policies--orange, .compare__policies--green {
+  width: calc(25% - 25px);
+  float: left;
+  margin-left: 20px; }
+
+.policy__item--green, .policy__item--orange, .policy__item--red, .policy__item--blue {
+  padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */

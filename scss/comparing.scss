@@ -14,6 +14,18 @@
     margin:auto;
 }
 
+.compare__policies {
+    @include grid-column(12);
+}
+
+.compare__policies--red, .compare__policies--blue, .compare__policies--orange, .compare__policies--green {
+    @include grid-column(3);
+}
+
+.policy__item--green, .policy__item--orange, .policy__item--red, .policy__item--blue {
+    padding:10px; 
+
+}
 
 
 

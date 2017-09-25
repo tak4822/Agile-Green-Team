@@ -1,36 +1,34 @@
 
 $(function(){
-
+    
  //CLICK FUNCTION FOR EACH IMAGE
     $('.partyContainer__img--overlay').click(function(){
         showSelectedParty(this);
-        //FETCH PARTY INFORMATION
+        objIndex = $(this).data('index');   
         var myAjax = $.ajax({
             type: 'GET',
             url: 'js/government-party.json',
             dataType: 'json',
             success : function(data){
                 myAjaxObj = data; 
-                
+
                 switch(objIndex){
                     case 0 : 
-                        var curObj = data.greenPartyObj;
+                        var curObj = myAjaxObj.greenPartyObj;
                         break;
 
                     case 1: 
-                        var curObj = data.liberalPartyObj;
+                        var curObj =  myAjaxObj.liberalPartyObj;
                         break;
 
                     case 2:
-                        var curObj = data.ndpPartyObj;
+                        var curObj =  myAjaxObj.ndpPartyObj;
                         break;
 
                     case 3: 
-                        var curObj = data.conservativePartyObj;
+                        var curObj =  myAjaxObj.conservativePartyObj;
                         break;
-
                 }
-                
                 displayMembers(curObj);
                 displayLogo(curObj);
                 displaySeats(curObj);
@@ -40,12 +38,14 @@ $(function(){
                 showContent();
             }
         })
-    }
-)
+    })    
 
 
+    //======================================================
+    //DIFFERENT FUNCTIONS FOR DISPLAYING DATA ON PARTIES PAGE
+    //======================================================
     function showSelectedParty(clicked){
-        objIndex = $(clicked).data('index');    
+       
         //OTHER PARTIES
         var currentImage = $(clicked).siblings('img');
         var otherPartiesOverlay = $('.partyContainer__img--overlay').not($(clicked));
@@ -117,5 +117,38 @@ $(function(){
         $('.partyInfo__history').show();
         $('.partyInfo__policies').show();  
     }
+
+    /*==========================================================
+             DISPLAY ALL POLICIES ON COMPARE PAGE 
+    ==========================================================*/
+
+   
+    function displayAllPolicies (party, divName, colour) {
+        
+        
+        for (var i = 0; i < (party.policies.length - 1) ; i += 1) {
+            if(colour==="green") {
+                
+            }
+            var currentPolicy = party.policies[i];
+            $(divName).append("<div class='policy__item--"+colour+"'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + "</p></div>");
+
+        }
+    }
+
+    $('#comparePage').ready(function(){
+        var myAjax = $.ajax({
+            type: 'GET',
+            url: 'js/government-party.json',
+            dataType: 'json',
+            success : function(data){
+                myAjaxObj = data; 
+                displayAllPolicies(myAjaxObj.greenPartyObj, '.compare__policies--green', "green");
+                displayAllPolicies(myAjaxObj.liberalPartyObj, '.compare__policies--red', "red");
+                displayAllPolicies(myAjaxObj.conservativePartyObj, '.compare__policies--blue', "blue");
+                displayAllPolicies(myAjaxObj.ndpPartyObj, '.compare__policies--orange', "orange");
+            }
+    })
     
+})
 })

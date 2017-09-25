@@ -1,7 +1,7 @@
 <?php include "partials/head.php";
     include "partials/navbar.php"; ?>
 
-<body>
+<body id='comparePage'>
   <?php
     include "partials/header.php";
     createHeader(
