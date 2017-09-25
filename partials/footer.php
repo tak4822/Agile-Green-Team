@@ -1,25 +1,29 @@
 <div class="footer__stopper"></div>
 <footer class='footerContainer'>
-  <div class="footer__wrapper">
-    <section class='footerContainer__nav'>
-      <a class="footerNav__list" href="index.php">Home</a>
-      <a class="footerNav__list" href="parties.php">Parties</a>
-      <a class="footerNav__list" href="services.php">Who's My MP</a>
-      <a class="footerNav__list" href="rates.php">Comparing Parties</a>
-    </section>
-    <section class='footerContainer__form'>
-      <h3 class="footer__form__title">NewsLetter</h3>
-      <p class="footer__form__desc">Keep up to date, Subscribe to our newsletter </p>
+
+  <section class='footerContainer__form'>
+      <h3> Keep up to date, Subscribe to our newsletter </h3>
       <form action="<?php echo htmlentities($_SERVER['PHP_SELF'])?>" method='POST'>
-        <div class="fotter__form__field">
-          <label for='nameInp'>Name :</label>
-          <input type='text' name='fullName' id='nameInp' class='form-input' placeholder="Fill in your full name">
-        </div>
+        <label for='nameInp'> Full Name 
+        <input type='text' name='fullName' id='nameInp' class='form-input'>
+        </label>
+        <label for='nameInp'> Email Address
+        <input type='email' name='email' id='emailInp' class='form-input'>
+        </label>
+        <input type='submit' value='Subscribe'>
+      </form>
+  </section> 
+  <section class='footerContainer__links'>
+    <h3> Contact Us </h3>
+    <p> vanarts@vanarts.com </p>
+    <p> 604-509-2093 </p>
+
 
         <div class="fotter__form__field">
           <label for='nameInp'>Email :</label>
           <input type='email' name='email' id='emailInp' class='form-input' placeholder="Fill in your Email">
         </div>
+
 
         <input class="footer__forn__btn" type='submit' value='Subscribe'>
       </form>
@@ -42,6 +46,7 @@
 
   </div>
   <div class="copyRight-wrapper"><p class="copyRight">Vanarts Agile projects By Green Team</p></div>
+
 </footer>
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -49,6 +54,7 @@
   crossorigin="anonymous"></script>
   <script src="js/party.js"></script>
   <script src="js/mp.js"></script>
+  <script src="js/compare.js"></script>
   <script src='js/main.js'></script>
 </body>
 </html>

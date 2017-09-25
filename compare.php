@@ -108,10 +108,10 @@
 
 
     <section class='compare__policies'>
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
+        <article class='compare__policies--red'></article>
+        <article class='compare__policies--blue'></article>
+        <article class='compare__policies--orange'></article>
+        <article class='compare__policies--green'></article>
 
     </section>
 

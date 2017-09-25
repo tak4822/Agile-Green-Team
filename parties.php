@@ -3,7 +3,6 @@
       include "partials/navbar.php" ?>
 <body>
   <div  id='main'>
-   
   <section class='pageHeader'> 
     <div class='pageHeader__text'>
       <h1> Parties </h1>
@@ -43,7 +42,7 @@
   <section class='partyInfo'>
     <div class='partyInfo__logo'><img src='img/fff.png'></div>
     <div class='partyInfo__memberContainer'>
-      <h2> Main Members </h2>
+      <h2>Members </h2>
       <article class='partyInfo__member member0 borderedItem'>
         <img src='img/fff.png' alt='an image of'>
         <div class='member__name'>

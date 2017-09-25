@@ -40,6 +40,14 @@ $yellow: #C0C31B;
 $heading: 'Roboto Slab', serif;
 $body: 'Lato', sans-serif;
 
+
+/*-----SPACING -------*/
+
+$sectionSpacing: 8rem;
+$articleSpacing: 2.5rem; 
+
+$sectionSpacingMobile: 5rem;
+$articleSpacingMobile: 1.75rem; 
 body {
   font-family:$body;
   font-size: 20px;
