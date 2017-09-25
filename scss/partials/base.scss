@@ -12,6 +12,14 @@
   }
 }
 
+
+// ============================
+//          Media
+// ============================
+$tablet: 1024px;
+$phone: 767px;
+
+
 /*------VARIABLES-------*/
 /*-----COLOURS -----*/
 $cta-color: #FFD100;
@@ -74,9 +82,9 @@ h3, h4, h5, p {
 }
 
 .white {
-  color:white; 
+  color:white;
 }
 
 .italic {
-  font-style:italic; 
+  font-style:italic;
 }

@@ -6,9 +6,27 @@
     createHeader(
       "mp",
       "MP's",
-      "Click the map to see MPs. Check MP’s in your province."
+      "Choose provinces to see MPs. Check MP’s in your province."
     );
   ?>
+  <div class="mpMap__provNav__mobile">
+    <select id="mpMap__provNav__select">
+      <option class="mpMap__prov__option" value="BC">British Columbia</option>
+      <option class="mpMap__prov__option" value="alberta">Alberta</option>
+      <option class="mpMap__prov__option" value="saskatchewan">Saskatchewan</option>
+      <option class="mpMap__prov__option" value="manitoba">Manitoba</option>
+      <option class="mpMap__prov__option" value="ontario">Ontario</option>
+      <option class="mpMap__prov__option" value="quebec">Quebec</option>
+      <option class="mpMap__prov__option" value="newBrunswick">New Brunswick</option>
+      <option class="mpMap__prov__option" value="novaScotia">Nova Scotia</option>
+      <option class="mpMap__prov__option" value="princeEdward">Prince Edward Island</option>
+      <option class="mpMap__prov__option" value="newfoundland">Newfoudland and Labrador</option>
+      <option class="mpMap__prov__option" value="yukon">Yukon</option>
+      <option class="mpMap__prov__option" value="northwest">Northwest Territories</option>
+      <option class="mpMap__prov__option" value="nunavut">Nunavut</option>
+    </select>
+  </div>
+
 
   <div class="mpMap__container">
     <div class="mpMap__provNav">
@@ -39,7 +57,7 @@
       <h3 class="mpList__head">Liberal</h3>
       <ul class="mpList__list">
         <!-- put mps's name here  -->
-        
+
       </ul>
     </div>
 
@@ -64,7 +82,5 @@
       </ul>
     </div>
   </div>
-
-</body>
-
 <?php include "partials/footer.php" ?>
+</body>

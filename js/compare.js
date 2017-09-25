@@ -1,13 +1,13 @@
-$(function(){
-    var myAjax = $.ajax({
-        type: 'GET',
-        url: 'js/government-party.json',
-        dataType: 'json',
-        success : function(data){
-            console.log(data);
-            for (var i = 0; i < data.length; i += 1) {
 
-            }
-        }
-    })
-})
+// when check box is chnaged
+// if it is checked, it shows
+// if it is not checked, it hides
+$('.filter__input').change(function(){
+  var input = $(this).val();
+  if($(this).is(":checked")){
+    $('.'+ input).show()
+  } else{
+    $('.'+ input).hide()
+  }
+});
+

@@ -70,38 +70,286 @@
 }
 
 
-/* -------------FOOTER--------------*/
+/*--------- Header --------*/
+.header__container{
+  position: relative;
+  top: 0;
+  height: 500px;
+  width: 100%;
+  @media screen and (max-width: $tablet){
+    height: 400px;
+  }
+  @media screen and (max-width: $phone){
+    height: 300px;
+  }
+}
 
-.footerContainer {
-    height:30vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color:black;
+.mp{
+  background: $yellow;
+}
+.party{
+  background: $purple;
+}
+.compare{
+  background: $turquoise;
+}
 
-    label, h3, a, p {
-        color:white;
-        margin: 30px 0;
-    }
+.pagetitle {
+  margin-top: 10px;
+  font-size: 7rem;
+  //font-size: 8vw;
+  @include grid-push(1);
+  padding-top: 10px;
+  color: white;
+  @media screen and (max-width: $tablet){
+    font-size: 5rem;
+  }
+  @media screen and (max-width: $phone){
+    font-size: 4rem;
+  }
+}
+.page-desc{
+  color: white;
+  @include grid-push(1);
+  font-size: 1.2rem;
+  @media screen and (max-width: $phone){
+    font-size: 0.9rem;
+    width: 78%;
+  }
+}
+
+.logo__container{
+  width: 120px;
+  height: 80px;
+  @include grid-push(1);
+
+  img{
+    height:100%;
+  }
+
+  @media screen and (max-width: $phone){
+    height: 50px;
+  }
 }
 
 
+
+/* -------------FOOTER--------------*/
+.footer__stopper{
+  @include clearfix;
+  width: 100%;
+}
+
+.footer__wrapper{
+  @include grid-column(10);
+  @include grid-push(1);
+}
+
+.footerContainer {
+    width: 100%;
+    background-color: $text-black;
+    height: auto;
+    padding-bottom: 40px;
+}
+
 .footerContainer__form {
+    width: 40%;
+    float: left;
+    @include clearfix;
+    margin-top: 50px;
+    background: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    @media screen and (max-width: 1350px){
+      width: 50%;
+    }
+    @media screen and (max-width: $tablet){
+      width: 60%;
+    }
+    @media screen and (max-width: $phone){
+      width: 100%;
+    }
+
+    .footer__form__title{
+      color: $head-black;
+      font-size: 3.5rem;
+      font-size: 4vw;
+      margin-top: 0;
+      @media screen and (max-width: $tablet){
+        font-size: 2.5rem;
+      }
+      @media screen and (max-width: 340px){
+        font-size: 2rem;
+      }
+    }
+    .footer__form__desc {
+      font-size: 1rem;
+      font-size: 1.2vw;
+      margin-bottom: 40px;
+      @media screen and (max-width: $tablet){
+        font-size: 1rem;
+      }
+      @media screen and (max-width: 470px){
+        margin-bottom:20px;
+        font-size: 0.8rem;
+      }
+
+    }
+
+    .fotter__form__field {
+      border-bottom: 2px solid $text-black;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      @media screen and (max-width: 380px){
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    label{
+      width :80px;
+      font-size: 1.5rem;
+      margin-right: 5px;
+      @media screen and (max-width: 470px){
+        font-size: 0.9rem;
+        width: 30%;
+      }
+    }
+
     input {
-        width:100%;
+      flex: auto;
+      font-size: 1.2rem;
+      font-weight: 600;
+      line-height: 1.6em;
+      @media screen and (max-width: 470px){
+        font-size: 1rem;
+      }
     }
     input[type=text], input[type=email] {
         border:none;
-        border-bottom:2px solid white;
-        background-color:black;
-    }
-    input[type=submit]{
-
     }
 
-    label, h3 {
-        color:white;
-        margin: 30px 0;
+    .footer__forn__btn{
+      padding: 8px 16px;
+      border: 5px solid $cta-color;
+      background: white;
+      font-size: 1.3rem;
+      transition: all 0.4s ease;
+      &:hover{
+        background: $cta-color;
+      }
+      @media screen and (max-width: $phone){
+        font-size: 1rem;
+        padding: 5px 10px;
+        border: 3px solid $cta-color;
+      }
     }
+
+}
+
+.footerContainer__contact {
+  width: 20%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 1350px){
+    width: 30%;
+  }
+  @media screen and (max-width: $tablet){
+    width: 35%;
+    float: right;
+  }
+  @media screen and (max-width: $phone){
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
+  .contact__eachWrap{
+    width: 100%;
+    padding: 15px;
+    padding-bottom: 20px;
+    background: white;
+    margin-bottom: 20px;
+    @media screen and (max-width: $phone){
+      width: 100%;
+    }
+  }
+
+  .contact__title {
+    font-family: $heading;
+    font-size: 1rem;
+    color: $head-black;
+    margin-bottom: 8px;
+  }
+
+  .contact__info {
+    color: $text-black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-bottom: 1px solid $text-black;
+    transition: all 0.4s ease;
+    &:hover {
+      color: $cta-color;
+      border-bottom: 1px solid $cta-color;
+    }
+  }
+
+  .contact__info__address{
+    font-size: 0.9rem;
+  }
+}
+
+.footerContainer__nav{
+  float: right;
+  margin-top: 50px;
+
+  @media screen and (max-width: 1350px){
+    width: 100%;
+  }
+
+  .footerNav__list {
+    margin-left: 10px;
+    font-family: $heading;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    &:hover{
+      color: $cta-color;
+    }
+    @media screen and (max-width: 1350px){
+      font-size: 1.2rem;
+      margin-left: 0;
+      margin-right: 15px;
+    }
+    @media screen and (max-width: 630px){
+      width: 100%;
+      font-size: 1rem;
+      margin-right: 10px;
+    }
+    @media screen and (max-width: 630px){
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
+.copyRight-wrapper{
+  width: 100vw;
+  text-align: left;
+  font-size: 0.8rem;
+  color: white;
+  @include clearfix;
+  .copyRight{
+    @include grid-column(10);
+    @include grid-push(1);
+    padding-bottom: 20px;
+  }
 
 }
