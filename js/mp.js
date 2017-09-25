@@ -38,6 +38,12 @@ $('#mpMap__provNav__select').change(function() {
 
 function showMps(prov){
   $(".mpList__list").empty();
+	$(".independent").hide();
+	if(prov === "Alberta") {
+		$(".green").hide();
+	} else {
+		$(".green").show();
+	}
   $.each(mpsArr, function(i){
     if(mpsArr[i].provTerrName === prov){
       var whichParty = mpsArr[i].caucusShortName;
@@ -56,6 +62,10 @@ function showMps(prov){
         case "Green Party":
           $(".green").find(".mpList__list").append(mpHtml);
           break;
+				case "Independent":
+          $(".independent").find(".mpList__list").append(mpHtml);
+					$(".independent").show();
+          break;
         default:
           console.log("no party");
       }
@@ -65,10 +75,10 @@ function showMps(prov){
 }
 
 function hideLists() {
-	var partyArr = ["liberal", "ndp", "conservative", "green"];
+	var partyArr = ["liberal", "ndp", "conservative", "green","independent"];
 	for(var i=0; i<partyArr.length; i+=1){
 		const provListArr = $('.' + partyArr[i]).find('.mpList__name');
-		$('.' + partyArr[i]).show();
+		$('.' + partyArr[i]).css("opacity",1);
 		if( provListArr.length > 5 ){
 			for(var x=5; x<provListArr.length; x+=1){
 				provListArr[x].className += " hidden";
@@ -78,7 +88,7 @@ function hideLists() {
 			var contiImg = `<li onClick="showMoreMps('${party}')" onmouseover="changeCol('${party}')" onmouseout="backCol('${party}')" class="mpList__last"><img src="img/continue.svg" alt="show more"></li>`;
 			$('.' + partyArr[i]).find(".mpList__list").append(contiImg);
 		} else if(provListArr.length === 0){
-			$('.' + partyArr[i]).hide();
+			$('.' + partyArr[i]).css("opacity",0);
 		}
 	}
 }
@@ -101,7 +111,8 @@ $(function(){
 	// Change colors
 	// message box pops up
   $('.svg__porv').hover(function(){
-		$(this).addClass('svg__porv__hover');
+		//$(this).addClass('svg__porv__hover');
+		$(this).css({"fill":"#C0C31B","cursor":"ponter"});
     var title = $(this).attr('title');
     $(this).data('tipText', title).removeAttr('title');
     $('<p class="popup"></p>')
@@ -109,7 +120,8 @@ $(function(){
     .appendTo('body')
     .fadeIn('slow');
   }, function() {
-			$(this).removeClass('svg__porv__hover');
+			//$(this).removeClass('svg__porv__hover');
+			$(this).css({"fill":"#444","cursor":"default"});
       $(this).attr('title', $(this).data('tipText'));
       $('.popup').remove();
   }).mousemove(function(e) {
