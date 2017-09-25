@@ -81,6 +81,13 @@
         <!-- put mps's name here  -->
       </ul>
     </div>
+
+    <div class="mpList__party independent">
+      <h3 class="mpList__head">Independent</h3>
+      <ul class="mpList__list">
+        <!-- put mps's name here  -->
+      </ul>
+    </div>
   </div>
 <?php include "partials/footer.php" ?>
 </body>
