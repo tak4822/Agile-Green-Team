@@ -40,7 +40,7 @@
         <li class="mpMap__provNav__list" data-prov="newBrunswick">New Brunswick</li>
         <li class="mpMap__provNav__list" data-prov="novaScotia">Nova Scotia</li>
         <li class="mpMap__provNav__list" data-prov="princeEdward">Prince Edward Island</li>
-        <li class="mpMap__provNav__list" data-prov="newfoundland">Newfoudland and Labrador</li>
+        <li class="mpMap__provNav__list" data-prov="newfoundland">Newfoundland and Labrador</li>
         <li class="mpMap__provNav__list" data-prov="yukon">Yukon</li>
         <li class="mpMap__provNav__list" data-prov="northwest">Northwest Territories</li>
         <li class="mpMap__provNav__list" data-prov="nunavut">Nunavut</li>
@@ -62,7 +62,7 @@
     </div>
 
     <div class="mpList__party conservative">
-      <h3 class="mpList__head">Concervative</h3>
+      <h3 class="mpList__head">Conservative</h3>
       <ul class="mpList__list">
         <!-- put mps's name here  -->
       </ul>
