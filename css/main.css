@@ -92,7 +92,10 @@ h3, h4, h5, p {
   height: 80px;
   z-index: 200;
   color: white;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  transition: all 0.5s; }
+  .menu-btn:hover {
+    cursor: pointer; }
 
 #main {
   transition: margin-right .5s; }
@@ -112,8 +115,15 @@ h3, h4, h5, p {
   display: block;
   font-size: 1.5rem;
   text-align: left; }
+  #mySidenav a:hover:not(.closebtn) {
+    color: #FFD100;
+    transform: scale(1.1);
+    margin-left: 10px; }
 #mySidenav ul {
   list-style-type: none; }
+
+.closebtn:hover {
+  color: #6322A2; }
 
 /*--------- Header --------*/
 .header__container {
