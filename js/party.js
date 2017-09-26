@@ -124,18 +124,117 @@ $(function(){
 
    
     function displayAllPolicies (party, divName, colour) {
-        
-        
-        for (var i = 0; i < (party.policies.length - 1) ; i += 1) {
-            
+                
+        for (var i = 0; i < (party.policies.length) ; i += 1) {
+            var showChar = 200;
             var currentPolicy = party.policies[i];
             var currentClass = ".compare__policies--" + currentPolicy.name.toLowerCase();
+            
+            if(currentPolicy.description.length > showChar) {
+                var ellipsestext = "...";
+                var moretext = "<img class='showMore' src='img/continue.svg' alt='show more'>";
+                var lesstext = "less";
+                var content = currentPolicy.description;
+                var snippet = content.substr(0, showChar);
+                var hide_content = content.substr(showChar, content.length - showChar);
 
-            $(currentClass).append("<div class='policy__item--"+colour+"'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + "</p></div>");
+                var currentContent = '<div class="policy__item policy__item--'+colour+'">';
+                currentContent += '<h3>' + party.name + '</h3>';
+             
+                currentContent +=  "<p>" + snippet + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span></p><div class="more content" style="display:none"><p>' + snippet + hide_content + '</p></div>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span></div>';
+                currentContent += "</p>";
+
+                $(currentClass).append(currentContent);
+                console.log("DONE");
+            }
+
+
+            else {
+                $(currentClass).append("<div class='policy__item policy__item--"+colour+"'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + "</p></div>");
+            }
+
+
+            $(".morelink").click(function(){
+                if($(this).hasClass("less")) {
+                    $(this).removeClass("less");
+                    $(this).html(moretext);
+                    $(this).parents(".policy__item").css({"height":"300px"})
+                } else {
+                    $(this).addClass("less");
+                    $(this).html(lesstext);
+                    $(this).parents(".policy__item").css({"height":"100%"})
+                }
+                $(this).prev('.content').prev().toggle();
+                $(this).prev().toggle();
+                
+                return false;
+            });
+    
+
+
+
+
+
+
+
+
+
+            // $(currentClass).append("<div class='policy__item--"+colour+"'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + "</p></div>");
 
         }
     }
 
+
+
+      
+//     function displayAllPolicies (party, divName, colour) {
+// //BACKUP
+// for (var i = 0; i < (party.policies.length - 1) ; i += 1) {
+//     var showCHar = 100;
+//     var currentPolicy = party.policies[i];
+//     var currentClass = ".compare__policies--" + currentPolicy.name.toLowerCase();
+    
+//     $(currentClass).append("<div class='policy__item--"+colour+"'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + "</p></div>");
+
+// }
+// }
+
+
+
+        // function checkLength(policyDesc){
+        //     var showChar = 400;
+        //     var ellipsestext = "...";
+        //     var moretext = "more";
+        //     var lesstext = "less";
+        //     var content = policy;
+        //     var snippet = content.substr(0, showChar);
+        //     var full = content;
+
+        //     if(policy.length > showChar) {
+        //         return "<div class='policy__item--"+colour+">" + snippet + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span></div><div class="more content" style="display:none">' + full + '</div>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+        //     }
+
+        //     else {
+        //         return "<div class='policy__item--"+colour+"'><h3>" + party.name + "</h3>" + "<p>" + policyDesc + "</p></div>";
+        //     }
+        // }
+       
+            // var content = $(this).html();
+            // if(content.length > showChar) {
+     
+            //     var c = content.substr(0, showChar);
+            //     //var h = content.substr(showChar-1, content.length - showChar);
+            //      var h = content;	
+            //     var html = '<div style="display:block">' + c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span></div><div class="more content" style="display:none">' + h + '</div>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+     
+            //     $(this).html(html);
+            // }
+     
+    
+     
+        
+
+        
     $('#comparePage').ready(function(){
         var myAjax = $.ajax({
             type: 'GET',
@@ -151,4 +250,23 @@ $(function(){
     })
     
 })
-})
+    
+    
+    // if(currentPolicy.description.length > showChar){
+    //     $(currentClass).append("<div class='policy__item--"+colour+"'><h3>" + party.name + "</h3>"); 
+        
+    //     var short = currentPolicy.description.substr(0,showChar);
+    //     var full = currentPolicy.description.substr(showChar-1, (currentPolicy.description.length - showChar));
+
+    //     var currentDesc = short + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + full + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+
+    //     $(currentClass).append("<p>" + currentDesc + "</p>");
+    // }
+
+    // else {
+
+    //     $(currentClass).append("<div class='policy__item--"+colour+"'><h3>" + party.name + "</h3>"); 
+    //    $(currentClass).append("<p>" + currentPolicy.description + "</p></div>");
+    // }
+
+    })

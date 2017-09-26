@@ -1,6 +1,6 @@
 {
     "greenPartyObj": {
-        "name": "Green Party",
+        "name": "Green",
         "colour": "green",
         "logo": "green-logo.png",
         "leader": "Elizabeth May", 
@@ -35,7 +35,7 @@
     },
 
     "liberalPartyObj": {
-        "name": "Liberal Party", 
+        "name": "Liberal", 
         "colour": "Red", 
         "logo": "liberal-logo.png",
         "leader": "Justin Trudeau", 
@@ -74,7 +74,7 @@
 
 
     "ndpPartyObj" : {
-        "name": "New Democratic Party",
+        "name": "NDP",
         "colour": "Orange",
         "logo": "ndp.png",
         "leader": "Tom Mulcair",
@@ -110,7 +110,7 @@
     },
 
     "conservativePartyObj" : {
-        "name": "Conservative Party",
+        "name": "Conservative",
         "colour": "Blue",
         "logo": "conservative.gif",
         "leader": "Andrew Sheere",

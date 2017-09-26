@@ -892,20 +892,26 @@ body {
   float: left;
   margin-left: 20px;
   margin-left: calc(8.3333333333% - 21.6666666667px + 40px);
-  background: white; }
+  background: white;
+  margin-bottom: 8rem; }
   .compare__policies h2 {
     font-size: 3rem;
     margin: 8rem 0 2.5rem 1rem; }
 
-.policy__item--green, .policy__item--orange, .policy__item--red, .policy__item--blue {
+.showMore {
+  height: 10%; }
+
+.policy__item {
   padding: 0 20px 20px 20px;
   width: calc(25% - 25px);
   float: left;
   margin-left: 20px;
   border: 1px solid black;
-  height: 540px; }
-  .policy__item--green h3, .policy__item--orange h3, .policy__item--red h3, .policy__item--blue h3 {
+  height: 300px; }
+  .policy__item h3 {
     margin: 1.75rem 0; }
+  .policy__item p {
+    font-size: 0.9rem; }
 
 .policy__item--green h3 {
   color: #3D9B35; }
