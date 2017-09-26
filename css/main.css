@@ -28,10 +28,10 @@ h3, h4, h5, p {
   font-family: "Lato", sans-serif; }
 
 /*--- COMMON CLASSES USED ----*/
-.uppercase, .partyContainer__img--overlay h2 {
+.uppercase, .partyContainer__item .partyContainer__img--overlay h2 {
   text-transform: uppercase; }
 
-.container--centered, .partyContainer__img--overlay, .partyInfo__member {
+.container--centered, .partyContainer__item .partyContainer__img--overlay, .partyInfo__member {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -582,6 +582,9 @@ h3, h4, h5, p {
   fill: #C0C31B;
   cursor: pointer; }
 
+body {
+  overflow-x: hidden; }
+
 .pageHeader {
   height: 50vh;
   background: #6322A2; }
@@ -612,25 +615,26 @@ h3, h4, h5, p {
   width: calc(25% - 25px);
   float: left;
   margin-left: 20px;
-  transform: translateY(-100px); }
+  transform: translateY(-100px);
+  transition: all .5s ease; }
   .partyContainer__item .partyContainer__img {
-    width: 100%; }
+    width: 100%;
+    transition: all .5s ease; }
   .partyContainer__item h2 {
     font-size: 2rem; }
-
-.partyContainer__img--overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  transition: .5s ease; }
-  .partyContainer__img--overlay h2 {
-    color: white;
-    z-index: 3;
-    opacity: 1; }
+  .partyContainer__item .partyContainer__img--overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: all .5s ease; }
+    .partyContainer__item .partyContainer__img--overlay h2 {
+      color: white;
+      z-index: 3;
+      opacity: 1; }
 
 .partyInfo:after, .partyInfo__policies:after, .partyInfo__history:after {
   content: "";
@@ -691,13 +695,13 @@ h3, h4, h5, p {
   float: left;
   margin-left: 20px;
   margin: 2rem 2rem 0.7rem 0;
-  height: 300px; }
+  height: 240px; }
   .partyInfo__member img {
     width: calc(33.3333333333% - 26.6666666667px);
     float: left;
     margin-left: 20px; }
   .partyInfo__member h4 {
-    font-size: 2rem; }
+    font-size: 1.5rem; }
   .partyInfo__member p {
     font-size: 1rem; }
 
@@ -721,7 +725,7 @@ h3, h4, h5, p {
     display: inline-block;
     margin: 2.4rem 0 1.2rem 0; }
   .seatContainer__title h3 {
-    font-size: 2.3rem; }
+    font-size: 1.8rem; }
   .seatContainer__title p {
     position: absolute;
     right: 0; }
@@ -744,16 +748,18 @@ h3, h4, h5, p {
 
 /*-----POLICY SECTION --------*/
 .partyInfo__policies {
-  width: calc(91.6666666667% - 38.3333333333px);
+  width: calc(83.3333333333% - 36.6666666667px);
   float: left;
   margin-left: 20px;
-  margin-left: calc(16.6666666667% - 23.3333333333px + 40px); }
+  margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
 
 .partyInfo__policy {
-  width: calc(41.6666666667% - 28.3333333333px);
+  width: calc(50% - 30px);
   float: left;
   margin-left: 20px;
-  height: 400px;
+  height: 450px;
+  margin-left: 0;
+  margin-right: 20px;
   margin-bottom: 2.5rem;
   padding: 60px; }
   .partyInfo__policy:after {
@@ -765,7 +771,7 @@ h3, h4, h5, p {
     margin: 10px 0;
     align-self: center; }
   .partyInfo__policy p {
-    font-size: 2rem; }
+    font-size: 1.4rem; }
 
 /*----HISTORY SECTION -------*/
 .partyInfo__history {
@@ -775,7 +781,7 @@ h3, h4, h5, p {
   margin-left: calc(8.3333333333% - 21.6666666667px + 40px); }
   .partyInfo__history p {
     padding: 50px;
-    font-size: 2rem; }
+    font-size: 1.4rem; }
 
 .partyInfo, .partyInfo__policies, .partyInfo__history {
   margin-bottom: 2.5rem; }
@@ -798,23 +804,9 @@ h3, h4, h5, p {
   .partyInfo__policies p {
     font-size: 1.4rem; }
 
-  .partyInfo__memberContainer, .partyInfo__seatContainer, .partyInfo__policies, .partyInfo__history {
-    width: calc(100% - 40px);
-    float: left;
-    margin-left: 20px; }
-    .partyInfo__memberContainer h3, .partyInfo__memberContainer h4, .partyInfo__seatContainer h3, .partyInfo__seatContainer h4, .partyInfo__policies h3, .partyInfo__policies h4, .partyInfo__history h3, .partyInfo__history h4 {
-      font-size: 1.9rem;
-      margin-top: 1.75rem; }
-    .partyInfo__memberContainer .partyInfo__member, .partyInfo__seatContainer .partyInfo__member, .partyInfo__policies .partyInfo__member, .partyInfo__history .partyInfo__member {
-      width: calc(100% - 40px);
-      float: left;
-      margin-left: 20px;
-      width: 100%;
-      margin: 5px; }
-
   .partyContainer__img--overlay h2 {
     font-size: 1.4rem; } }
-@media screen and (min-width: 601px) and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .partyPageContainer {
     width: 100%; }
 
@@ -831,16 +823,18 @@ h3, h4, h5, p {
   .pageHeader h1 {
     font-size: 5rem; }
 
-  .partyContainer__img {
+  .partyContainer__item {
     width: calc(50% - 30px);
     float: left;
-    margin-left: 20px; }
+    margin-left: 20px;
+    margin-left: 0; }
 
   .partyContainer__img--overlay h2 {
     font-size: 1.4rem; }
 
-  .partyInfo h2, .partyInfo__policies h2 {
-    font-size: 4rem; }
+  .partyInfo h2, .partyInfo__policies h2, .partyInfo__history h2 {
+    font-size: 4rem;
+    margin-bottom: 1.75rem; }
 
   .partyInfo__memberContainer, .partyInfo__seatContainer, .partyInfo__policies, .partyInfo__history {
     width: calc(100% - 40px);
@@ -860,16 +854,14 @@ h3, h4, h5, p {
   .partyInfo__policy {
     width: calc(100% - 40px);
     float: left;
-    margin-left: 20px; } }
-.partyInfo__policies {
-  width: calc(100% - 40px);
-  float: left;
-  margin-left: 20px; }
-  .partyInfo__policies .partyInfo__policy {
-    padding: 20px; }
-  .partyInfo__policies .partyInfo__history p, .partyInfo__policies .partyInfo__policy p {
-    font-size: 1.5rem; }
+    margin-left: 20px; }
 
+  .partyInfo__history p, .partyInfo__policy p {
+    font-size: 1.2rem;
+    line-height: 30px; } }
+@media screen and (min-width: 768px) {
+  .partyInfo__history {
+    font-size: 2rem; } }
 @media screen and (min-width: 1200px) {
   .partyInfo__leaderContainer {
     width: calc(58.3333333333% - 31.6666666667px);
