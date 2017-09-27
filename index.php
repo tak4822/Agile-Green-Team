@@ -10,14 +10,11 @@
         <section class="landing">
             <div class="video-background">
                 <div class="video-foreground">
-                    <iframe src="https://www.youtube.com/embed/7C8uDuhLqvg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/7C8uDuhLqvg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;mute=1&amp;loop=1" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
-
-            <a href=""></a>
-            <h1>Would you like to know what your party is</h1>
-            <a href="compare.php">Compare Parties</a>
-
+            <h1 class="index-h1">Would you like to know what your party is</h1>
+            <a class="comp-btn" href="compare.php">Compare Parties</a>
         </section>
         <section class="sect-one">
             <img src="img/vote.svg" alt=""/>
