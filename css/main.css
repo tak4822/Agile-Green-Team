@@ -138,6 +138,12 @@ h3, h4, h5, p {
     .header__container {
       height: 300px; } }
 
+.index__container {
+  position: relative;
+  top: 0;
+  height: 100px;
+  width: 100%; }
+
 .mp {
   background: #C0C31B; }
 
@@ -372,6 +378,75 @@ h3, h4, h5, p {
     margin-left: 20px;
     margin-left: calc(8.3333333333% - 21.6666666667px + 40px);
     padding-bottom: 20px; }
+
+.home {
+  height: 100px; }
+
+.home-page {
+  color: white; }
+
+.landing {
+  height: 100vh; }
+
+* {
+  box-sizing: border-box; }
+
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -99; }
+
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; }
+
+#vidtop-content {
+  top: 0;
+  color: #fff; }
+
+@media (min-aspect-ratio: 16 / 9) {
+  .video-foreground {
+    height: 100%; } }
+@media (max-aspect-ratio: 16 / 9) {
+  .video-foreground {
+    width: 100%; } }
+@media all and (max-width: 600px) {
+  .vid-info {
+    width: 50%;
+    padding: .5rem; }
+
+  .vid-info h1 {
+    margin-bottom: .2rem; } }
+@media all and (max-width: 500px) {
+  .vid-info .acronym {
+    display: none; } }
+.sect-one {
+  background-color: #169684; }
+
+.sect-two {
+  background-color: #6322A2; }
+
+.sect-three {
+  background-color: #C0C31B; }
+
+.btn {
+  padding: 8px 16px;
+  border: 5px solid #FFD100;
+  background: transparent;
+  font-size: 1.3rem;
+  transition: all 0.4s ease;
+  margin-bottom: 375px; }
+  .btn:hover {
+    background: #FFD100; }
 
 .mpMap__provNav__mobile {
   display: none;
