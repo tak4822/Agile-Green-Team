@@ -907,7 +907,7 @@ body {
   float: left;
   margin-left: 20px;
   border: 1px solid black;
-  height: 300px; }
+  min-height: 300px; }
   .policy__item h3 {
     margin: 1.75rem 0; }
   .policy__item p {
@@ -925,10 +925,12 @@ body {
 .policy__item--blue h3 {
   color: #1A4782; }
 
-.compare__policies--marijuana:after, .compare__policies--youth:after, .compare__policies--firstnations:after, .compare__policies--housing:after, .compare__policies--environment:after, .compare__policies--privacy:after, .compare__policies--veteran:after, .compare__policies--veteran:after {
-  content: "";
-  display: table;
-  clear: both; }
+.compare__policies--marijuana, .compare__policies--youth, .compare__policies--firstnations, .compare__policies--housing, .compare__policies--environment, .compare__policies--privacy, .compare__policies--veteran, .compare__policies--veteran {
+  display: flex; }
+  .compare__policies--marijuana:after, .compare__policies--youth:after, .compare__policies--firstnations:after, .compare__policies--housing:after, .compare__policies--environment:after, .compare__policies--privacy:after, .compare__policies--veteran:after, .compare__policies--veteran:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 /*===============================================================
                         MEDIA QUERIES 

@@ -108,30 +108,39 @@
 
 
     <section class='compare__policies'>
+    <h2>Youth</h2>
       <div class='compare__policies--youth'>
-        <h2>Youth</h2>
+        
       </div>
+      <h2>Marijuana</h2>
+
       <div class='compare__policies--marijuana'>
-        <h2>Marijuana</h2>
+        
+        
         </div>
+      <h2>First Nations </h2>
       <div class='compare__policies--firstnations'>
-        <h2>First Nations </h2>
         </div>
+      <h2>Housing </h2>
       <div class='compare__policies--housing'>
-        <h2>Housing </h2>
+        
         </div>
+      <h2>Environment </h2>
       <div class='compare__policies--environment'>
-        <h2>Environment </h2>
-        </div>
+      
+      </div>
+      <h2>Privacy </h2>
       <div class='compare__policies--privacy'>
-        <h2>Privacy </h2>
-        </div>
+      
+      </div>
+      <h2>Veterans</h2>
       <div class='compare__policies--veteran'>
-        <h2>Veterans</h2>
-        </div>
-      <div class='compare__policies--pipeline'>
-        <h2>Pipeline</h2>
-        </div>
+    
+      </div>
+      <h2>Pipeline</h2>
+      <div class='compare__policies--veteran'>
+      
+      </div>
       
     </section>
 

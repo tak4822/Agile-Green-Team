@@ -43,7 +43,7 @@
       padding:0 20px 20px 20px; 
       @include grid-column(3);
       border:1px solid black; 
-      height:300px; 
+      min-height:300px; 
 }
 // .policy__item--green, .policy__item--orange, .policy__item--red, .policy__item--blue {
 //     h3 {
@@ -82,6 +82,7 @@
 
 .compare__policies--marijuana, .compare__policies--youth, .compare__policies--firstnations, .compare__policies--housing, .compare__policies--environment, .compare__policies--privacy, .compare__policies--veteran, .compare__policies--veteran {
     @include clearfix; 
+    display:flex; 
    
 }
 
