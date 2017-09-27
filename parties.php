@@ -3,12 +3,20 @@
       include "partials/navbar.php" ?>
 <body>
   <div  id='main'>
-  <section class='pageHeader'> 
+    <?php
+         include "partials/header.php";
+         createHeader(
+           "party",
+           "PARTIES",
+           "Click an image of a party leader to see details of that party."
+         );
+    ?>
+  <!-- <section class='pageHeader'> 
     <div class='pageHeader__text'>
       <h1> Parties </h1>
       <p> Click a picture to check a detail of parties information </p>
     </div>
-  </section>
+  </section> -->
   <main class='partyPageContainer'>
     <div class='partyWrapper'>
       <section class='partyContainer'>

@@ -1,7 +1,7 @@
 <?php include "partials/head.php";
     include "partials/navbar.php"; ?>
 
-<body>
+<body id='comparePage'>
   <?php
     include "partials/header.php";
     createHeader(
@@ -108,11 +108,40 @@
 
 
     <section class='compare__policies'>
-        <article class='compare__policies--red'></article>
-        <article class='compare__policies--blue'></article>
-        <article class='compare__policies--orange'></article>
-        <article class='compare__policies--green'></article>
+    <h2>Youth</h2>
+      <div class='compare__policies--youth'>
+        
+      </div>
+      <h2>Marijuana</h2>
 
+      <div class='compare__policies--marijuana'>
+        
+        
+        </div>
+      <h2>First Nations </h2>
+      <div class='compare__policies--firstnations'>
+        </div>
+      <h2>Housing </h2>
+      <div class='compare__policies--housing'>
+        
+        </div>
+      <h2>Environment </h2>
+      <div class='compare__policies--environment'>
+      
+      </div>
+      <h2>Privacy </h2>
+      <div class='compare__policies--privacy'>
+      
+      </div>
+      <h2>Veterans</h2>
+      <div class='compare__policies--veteran'>
+    
+      </div>
+      <h2>Pipeline</h2>
+      <div class='compare__policies--veteran'>
+      
+      </div>
+      
     </section>
 
 
