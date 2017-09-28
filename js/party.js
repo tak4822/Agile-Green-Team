@@ -59,8 +59,8 @@ $(function(){
         currentImage.css({"transform":"scale(1)"});
 
     }     
- 
-       
+    
+    
     // DISPLAY MEMBERS
     function displayMembers(cur) {
         for (var i = 0; i < cur.prominentMembers.length; i += 1){
@@ -118,61 +118,5 @@ $(function(){
         $('.partyInfo__policies').show();  
     }
 
-    /*==========================================================
-             DISPLAY ALL POLICIES ON COMPARE PAGE 
-    ==========================================================*/
 
-   
-    function displayAllPolicies (party, divName, colour) {
-                
-        for (var i = 0; i < (party.policies.length) ; i += 1) {
-            var showChar = 200;
-            var currentPolicy = party.policies[i];
-            var currentClass = ".compare__policies--" + currentPolicy.name.toLowerCase();         
-            $(currentClass).append("<div class='policy__item policy__item--"+colour+"'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + "</p></div>");
-        }
-
-        }
-    
-
- 
-    
-     
-        
-
-        
-    $('#comparePage').ready(function(){
-        var myAjax = $.ajax({
-            type: 'GET',
-            url: 'js/government-party.json',
-            dataType: 'json',
-            success : function(data){
-                myAjaxObj = data; 
-                displayAllPolicies(myAjaxObj.greenPartyObj, '.compare__policies--green', "green");
-                displayAllPolicies(myAjaxObj.liberalPartyObj, '.compare__policies--red', "red");
-                displayAllPolicies(myAjaxObj.conservativePartyObj, '.compare__policies--blue', "blue");
-                displayAllPolicies(myAjaxObj.ndpPartyObj, '.compare__policies--orange', "orange");
-            }
-        })
-    
-    })
-    
-    
-    // if(currentPolicy.description.length > showChar){
-    //     $(currentClass).append("<div class='policy__item--"+colour+"'><h3>" + party.name + "</h3>"); 
-        
-    //     var short = currentPolicy.description.substr(0,showChar);
-    //     var full = currentPolicy.description.substr(showChar-1, (currentPolicy.description.length - showChar));
-
-    //     var currentDesc = short + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + full + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
-
-    //     $(currentClass).append("<p>" + currentDesc + "</p>");
-    // }
-
-    // else {
-
-    //     $(currentClass).append("<div class='policy__item--"+colour+"'><h3>" + party.name + "</h3>"); 
-    //    $(currentClass).append("<p>" + currentPolicy.description + "</p></div>");
-    // }
-
-    })
+})

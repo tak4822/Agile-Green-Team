@@ -133,6 +133,11 @@
       <div class='compare__policies--privacy'>
       
       </div>
+
+      <h2>Health</h2>
+      <div class='compare__policies--health'>
+    
+      </div>
       <h2>Veterans</h2>
       <div class='compare__policies--veteran'>
     
