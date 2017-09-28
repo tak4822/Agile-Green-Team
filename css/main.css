@@ -388,8 +388,24 @@ h3, h4, h5, p {
 .landing {
   height: 100vh; }
 
-* {
-  box-sizing: border-box; }
+.index-h1 {
+  text-align: center;
+  padding-top: 150px; }
+
+.comp-btn {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 5px solid #FFD100;
+  background: #FFD100;
+  font-size: 1.3rem;
+  transition: all 0.4s ease; }
+  .comp-btn:hover {
+    background-color: transparent; }
+
+.btn-div {
+  display: inline-block;
+  margin: 0 auto; }
 
 .video-background {
   background: #000;
@@ -430,21 +446,48 @@ h3, h4, h5, p {
   .vid-info .acronym {
     display: none; } }
 .sect-one {
-  background-color: #169684; }
+  background-color: #169684;
+  display: flex;
+  flex-direction: row; }
 
 .sect-two {
-  background-color: #6322A2; }
+  background-color: #6322A2;
+  display: flex;
+  flex-direction: row; }
 
 .sect-three {
-  background-color: #C0C31B; }
+  background-color: #C0C31B;
+  display: flex;
+  flex-direction: row; }
+
+.h2 {
+  text-transform: uppercase; }
+
+.p {
+  width: 60%; }
+
+.mid-article {
+  margin-left: 150px; }
+
+.img {
+  width: 350px;
+  margin: 25px 150px; }
+
+.float-left {
+  justify-content: left; }
+
+.margin-top {
+  margin-top: 50px; }
 
 .btn {
+  color: white;
+  text-decoration: none;
   padding: 8px 16px;
   border: 5px solid #FFD100;
   background: transparent;
   font-size: 1.3rem;
   transition: all 0.4s ease;
-  margin-bottom: 375px; }
+  margin: 100px 0 375px 0; }
   .btn:hover {
     background: #FFD100; }
 
@@ -1076,32 +1119,66 @@ body {
 .policy__item--red h3 {
   color: #D71920; }
 
-.policy__item--blue h3 {
-  color: #1A4782; }
+.policy__item--blue {
+  /*===============================================================
+                          MEDIA QUERIES
+  =================================================================*/ }
+  .policy__item--blue h3 {
+    color: #1A4782; }
+  .policy__item--blue .party__label {
+    display: inline-block;
+    padding-left: 50px;
+    height: 50px; }
+  .policy__item--blue .compare__filter {
+    width: 40%;
+    margin: auto; }
+  .policy__item--blue .compare__policies {
+    width: calc(83.3333333333% - 36.6666666667px);
+    float: left;
+    margin-left: 20px;
+    margin-left: calc(8.3333333333% - 21.6666666667px + 40px);
+    background: white;
+    margin-bottom: 8rem; }
+    .policy__item--blue .compare__policies h2 {
+      font-size: 3rem;
+      margin: 8rem 0 2.5rem 1rem; }
+  .policy__item--blue .showMore {
+    height: 10%; }
+  .policy__item--blue .policy__item {
+    padding: 0 20px 20px 20px;
+    width: calc(25% - 25px);
+    float: left;
+    margin-left: 20px;
+    border: 1px solid black;
+    height: 300px; }
+    .policy__item--blue .policy__item h3 {
+      margin: 1.75rem 0; }
+    .policy__item--blue .policy__item p {
+      font-size: 0.9rem; }
+  .policy__item--blue .policy__item--green h3 {
+    color: #3D9B35; }
+  .policy__item--blue .policy__item--orange h3 {
+    color: #F37021; }
+  .policy__item--blue .policy__item--red h3 {
+    color: #D71920; }
+  .policy__item--blue .policy__item--blue h3 {
+    color: #1A4782; }
+  .policy__item--blue .compare__policies--marijuana:after, .policy__item--blue .compare__policies--youth:after, .policy__item--blue .compare__policies--firstnations:after, .policy__item--blue .compare__policies--housing:after, .policy__item--blue .compare__policies--environment:after, .policy__item--blue .compare__policies--privacy:after, .policy__item--blue .compare__policies--veteran:after, .policy__item--blue .compare__policies--veteran:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media screen and (max-width: 600px) {
+    .policy__item--blue .policy__item--blue, .policy__item--blue .policy__item--green, .policy__item--blue .policy__item--orange, .policy__item--blue .policy__item--red {
+      width: calc(91.6666666667% - 38.3333333333px);
+      float: left;
+      margin-left: 20px; } }
+  @media screen and (min-width: 601px) and (max-width: 1000px) {
+    .policy__item--blue .policy__item--blue, .policy__item--blue .policy__item--green, .policy__item--blue .policy__item--orange, .policy__item--blue .policy__item--red {
+      width: calc(50% - 30px);
+      float: left;
+      margin-left: 20px; } }
 
 .compare__policies--marijuana:after, .compare__policies--youth:after, .compare__policies--firstnations:after, .compare__policies--housing:after, .compare__policies--environment:after, .compare__policies--privacy:after, .compare__policies--veteran:after, .compare__policies--veteran:after {
   content: "";
   display: table;
   clear: both; }
-
-/*===============================================================
-                        MEDIA QUERIES
-=================================================================*/
-@media screen and (max-width: 600px) {
-  .policy__item--blue, .policy__item--green, .policy__item--orange, .policy__item--red {
-    width: calc(91.6666666667% - 38.3333333333px);
-    float: left;
-    margin-left: 20px; } }
-@media screen and (min-width: 601px) and (max-width: 1000px) {
-  .policy__item--blue, .policy__item--green, .policy__item--orange, .policy__item--red {
-    width: calc(50% - 30px);
-    float: left;
-    margin-left: 20px; } }
-.compare__policies--marijuana, .compare__policies--youth, .compare__policies--firstnations, .compare__policies--housing, .compare__policies--environment, .compare__policies--privacy, .compare__policies--veteran, .compare__policies--veteran {
-  display: flex; }
-  .compare__policies--marijuana:after, .compare__policies--youth:after, .compare__policies--firstnations:after, .compare__policies--housing:after, .compare__policies--environment:after, .compare__policies--privacy:after, .compare__policies--veteran:after, .compare__policies--veteran:after {
-    content: "";
-    display: table;
-    clear: both; }
-
-/*# sourceMappingURL=main.css.map */
