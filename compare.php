@@ -60,7 +60,7 @@
 
               <!--FIRST NATIONS-->
               <label class="filter__checkWrap">
-                <input type="checkbox" name="policies[]" value="firstNations" class="filter__input" checked>
+                <input type="checkbox" name="policies[]" value="firstnations" class="filter__input" checked>
                 <span class="filter__parts">First Nations</span>
               </label>
 
@@ -78,7 +78,7 @@
 
               <!--ENVIRONMENT-->
               <label class="filter__checkWrap">
-                <input type="checkbox" name="policies[]" value="Enviroment" class="filter__input" checked>
+                <input type="checkbox" name="policies[]" value="environment" class="filter__input" checked>
                 <span class="filter__parts">Enviroment</span>
               </label>
 
@@ -110,38 +110,38 @@
     <section class='compare__policies'>
     <h2>Youth</h2>
       <div class='compare__policies--youth'>
-        
+
       </div>
       <h2>Marijuana</h2>
 
       <div class='compare__policies--marijuana'>
-        
-        
+
+
         </div>
       <h2>First Nations </h2>
       <div class='compare__policies--firstnations'>
         </div>
       <h2>Housing </h2>
       <div class='compare__policies--housing'>
-        
+
         </div>
       <h2>Environment </h2>
       <div class='compare__policies--environment'>
-      
+
       </div>
       <h2>Privacy </h2>
       <div class='compare__policies--privacy'>
-      
+
       </div>
       <h2>Veterans</h2>
       <div class='compare__policies--veteran'>
-    
+
       </div>
       <h2>Pipeline</h2>
       <div class='compare__policies--veteran'>
-      
+
       </div>
-      
+
     </section>
 
 
