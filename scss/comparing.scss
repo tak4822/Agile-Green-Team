@@ -142,18 +142,105 @@
         color:$blue; 
     }
 
+// --------------- policies ---------------------
+.party__input {
+    // display:none;
+
 }
 
+.party__label {
+    display:inline-block;
+    padding-left:50px;
+    height:50px;
+}
+
+.compare__filter {
+    width:40%;
+    margin:auto;
+}
+
+.compare__policies {
+    @include grid-column(10);
+    @include grid-push(1);
+    background:white;
+    margin-bottom: $sectionSpacing;
+    h2 {
+        font-size:3rem;
+        margin: $sectionSpacing 0 $articleSpacing 1rem;
+
+    }
+
+}
+
+.showMore{
+    height:10%;
+}
+
+.policy__item {
+    h3 {
+        margin:$articleSpacingMobile 0;
+    }
+    p {
+        font-size:0.9rem;
+    }
+
+      //make these show only certain info but open to show more.
+      padding:0 20px 20px 20px;
+      @include grid-column(3);
+      border:1px solid black;
+      height:300px;
+}
+// .policy__item--green, .policy__item--orange, .policy__item--red, .policy__item--blue {
+//     h3 {
+//         margin:$articleSpacingMobile 0;
+//     }
+
+
+//     //make these show only certain info but open to show more.
+//     padding:0 20px 20px 20px;
+//     @include grid-column(3);
+//     border:1px solid black;
+//     height:300px;
+// }
+
+.policy__item--green{
+    h3 {
+        color:$green;
+    }
+}
+.policy__item--orange{
+    h3 {
+        color:$orange;
+    }
+}
+.policy__item--red{
+    h3 {
+        color:$red;
+    }
+}
+.policy__item--blue{
+    h3 {
+        color:$blue;
+    }
+
+}
+
+<<<<<<< HEAD
 .compare__policies--marijuana, .compare__policies--youth, .compare__policies--firstnations, .compare__policies--housing, .compare__policies--environment, .compare__policies--privacy, .compare__policies--veteran, .compare__policies--health {
     @include clearfix; 
     display:flex; 
     justify-content:space-between
    
+=======
+.compare__policies--marijuana, .compare__policies--youth, .compare__policies--firstnations, .compare__policies--housing, .compare__policies--environment, .compare__policies--privacy, .compare__policies--veteran, .compare__policies--veteran {
+    @include clearfix;
+
+>>>>>>> 9f446188624d7a6a470bc489a3630457a6d92ad0
 }
 
 
 /*===============================================================
-                        MEDIA QUERIES 
+                        MEDIA QUERIES
 =================================================================*/
 @media screen and (max-width:600px) {
     .policy__item {
@@ -171,6 +258,20 @@
         flex-basis:50%;
         flex-wrap:wrap;
    }
+<<<<<<< HEAD
+=======
+
+}
+>>>>>>> 9f446188624d7a6a470bc489a3630457a6d92ad0
+
+}
+
+.compare__policies--marijuana, .compare__policies--youth, .compare__policies--firstnations, .compare__policies--housing, .compare__policies--environment, .compare__policies--privacy, .compare__policies--veteran, .compare__policies--veteran {
+    @include clearfix; 
+    display:flex; 
+   
+}
+
 
 
 }

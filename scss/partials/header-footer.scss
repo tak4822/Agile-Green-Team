@@ -102,6 +102,12 @@
     height: 300px;
   }
 }
+.index__container{
+  position: relative;
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
 
 .mp{
   background: $yellow;

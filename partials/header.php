@@ -12,4 +12,15 @@ function createHeader($pagename,$pageTitle,$pageDescription){
     echo '<p class="page-desc">'.$pageDescription.'</p>';
   echo '</div>';
 }
+function indexHeader($pagename){
+    //pagename = [party,mp, compare] for bg color
+    echo '<div class="index__container '.$pagename.'">';
+    echo '<div class="logo__container">';
+    echo '<a href="index.php">';
+    echo '<img src="img/logo.png" alt="make you vote logo">';
+    echo '</a>';
+    echo '</div>';
+    include "partials/navbar.php";
+    echo '</div>';
+}
 ?>
