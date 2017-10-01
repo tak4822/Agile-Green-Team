@@ -10,7 +10,7 @@
         <section class="landing">
             <div class="video-background">
                 <div class="video-foreground">
-                    <iframe src="https://www.youtube.com/embed/7C8uDuhLqvg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;mute=1&amp;loop=1" frameborder="0" allowfullscreen></iframe>
+                    <iframe id="iframe" src="" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <h1 class="index-h1">Would you like to know what your party is</h1>
