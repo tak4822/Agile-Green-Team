@@ -115,7 +115,9 @@ $(function(){
     function showContent(){
         $('.partyInfo').show();
         $('.partyInfo__history').show();
-        $('.partyInfo__policies').show();  
+        $('.partyInfo__policies').show();
+        $('.policy__container').css({"display":"flex", 'justify-content':'center', "flex-wrap":"wrap"}); 
+        $('.partyInfo__policy h3').css({"align-self":"flex-start"});
     }
 
 

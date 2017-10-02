@@ -10,6 +10,7 @@
       "Click the policy which you like, and see your preference.<br> Use filter so that you could compare parties that you consider."
     );
   ?>
+  <main id='main'>
     <!-- FILTER -->
     <div class="compare__filter__wrap">
       <section class='compare__filter'>
@@ -60,7 +61,7 @@
 
               <!--FIRST NATIONS-->
               <label class="filter__checkWrap">
-                <input type="checkbox" name="policies[]" value="firstNations" class="filter__input" checked>
+                <input type="checkbox" name="policies[]" value="firstnations" class="filter__input" checked>
                 <span class="filter__parts">First Nations</span>
               </label>
 
@@ -78,7 +79,7 @@
 
               <!--ENVIRONMENT-->
               <label class="filter__checkWrap">
-                <input type="checkbox" name="policies[]" value="Enviroment" class="filter__input" checked>
+                <input type="checkbox" name="policies[]" value="environment" class="filter__input" checked>
                 <span class="filter__parts">Enviroment</span>
               </label>
 
@@ -107,49 +108,50 @@
     </div>
 
 
+
     <section class='compare__policies'>
-    <h2>Youth</h2>
+      <h2 class='youth'>Youth</h2>
       <div class='compare__policies--youth'>
-        
+
       </div>
-      <h2>Marijuana</h2>
+      <h2 class='marijuana'>Marijuana</h2>
 
       <div class='compare__policies--marijuana'>
-        
-        
+
+
         </div>
-      <h2>First Nations </h2>
+      <h2 class='firstnations'>First Nations </h2>
       <div class='compare__policies--firstnations'>
         </div>
-      <h2>Housing </h2>
+      <h2 class='housing'>Housing </h2>
       <div class='compare__policies--housing'>
-        
+
         </div>
-      <h2>Environment </h2>
+      <h2 class='environment'>Environment </h2>
       <div class='compare__policies--environment'>
-      
+
       </div>
-      <h2>Privacy </h2>
+      <h2 class='privacy'>Privacy </h2>
       <div class='compare__policies--privacy'>
-      
+
       </div>
 
-      <h2>Health</h2>
+      <h2 class='health'>Health</h2>
       <div class='compare__policies--health'>
     
       </div>
-      <h2>Veterans</h2>
+      <h2 class='veteran'>Veterans</h2>
       <div class='compare__policies--veteran'>
-    
+
       </div>
-      <h2>Pipeline</h2>
-      <div class='compare__policies--veteran'>
-      
+      <h2 class='pipeline'>Pipeline</h2>
+      <div class='compare__policies--pipeline'>
+
       </div>
-      
+
     </section>
 
-
+  </main>
 
 
 
