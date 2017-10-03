@@ -49,7 +49,6 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
   <script src="js/party.js"></script>
-  <script src="js/compare.js"></script>
   <script src="js/mp.js"></script>
   <script src="js/compare.js"></script>
   <script src="js/main.js"></script>
