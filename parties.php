@@ -102,23 +102,24 @@
     </section>
     <section class='partyInfo__policies'>
       <h2>Main Policies</h2>
-
-      <article class='partyInfo__policy policy0 borderedItem'>
-        <h3></h3>
-        <p> </p> 
-      </article>
-      <article class='partyInfo__policy policy1 borderedItem'>
-        <h3></h3>
-        <p> </p> 
-      </article>
-      <article class='partyInfo__policy policy2 borderedItem'>
-        <h3></h3>
-        <p> </p> 
-      </article>
-      <article class='partyInfo__policy policy3 borderedItem'>
-        <h3></h3>
-        <p> </p> 
-      </article>
+      <div class='policy__container'>
+        <article class='partyInfo__policy policy0 borderedItem'>
+          <h3></h3>
+          <p> </p> 
+        </article>
+        <article class='partyInfo__policy policy1 borderedItem'>
+          <h3></h3>
+          <p> </p> 
+        </article>
+        <article class='partyInfo__policy policy2 borderedItem'>
+          <h3></h3>
+          <p> </p> 
+        </article>
+        <article class='partyInfo__policy policy3 borderedItem'>
+          <h3></h3>
+          <p> </p> 
+        </article>
+      </div>
     </section>
 
     <section class='partyInfo__history'>
