@@ -1,3 +1,107 @@
+.result-button{
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  width: 120px;
+  height: 120px;
+  background: #961d25;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.result-button:hover {
+  opacity: 0.85;
+}
+
+
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  z-index: 200;
+}
+
+.chartmodal{
+  position: fixed;
+  background: white;
+  width: 800px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -400px;
+  padding: 30px;
+}
+.modal-title-wrap{
+  margin-bottom: 20px;
+}
+.modal-title{
+  display: inline;
+  font-family: $heading;
+  font-size: 2rem;
+
+}
+
+.modal-title-small {
+  display: inline;
+  font-size: 1.2rem;
+  font-family: $body;
+  margin-left: 50px;
+}
+
+.result-content{
+  @include grid-column(5);
+  padding-left: 20px;
+}
+.result-top{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  p
+    {
+      margin-top: 20px;
+      font-size: 1rem;
+    }
+  .result-num{
+    font-size: 1.6rem;
+    margin-left: 10px;
+  }
+}
+
+#picked-party{
+  margin-top: 10px;
+  display: block;
+  font-size: 1.5rem;
+}
+
+.picked-party-text{
+  margin-bottom: 40px;
+  font-size: 0.9rem;
+}
+
+.yourparty-link{
+  font-size: 0.8rem;
+  color: $text-black;
+}
+
+.chart{
+  @include grid-column(7);
+
+}
+
+
+.result-text{
+  color: white;
+  font-family: $heading;
+  font-size: 1.5rem;
+}
+
 .compare__filter__wrap{
     @include grid-column(10);
     @include grid-push(1);
@@ -8,8 +112,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
- 
- 
+
+
   h3{
     font-size: 2.5rem;
     font-weight: 300;
@@ -22,22 +126,22 @@
     height: 35px;
     }
  }
- 
- 
+
+
  .filter__bgWhite {
    background: white;
    padding: 30px;
    padding-bottom: 0;
    border: 1px solid #ccc;
  }
- 
+
  .compare__filter{
    position: absolute;
    top: -150px;
    z-index: 100;
    width:100%;
  }
- 
+
  .filter__party, .filter__policies{
     margin-bottom: 40px;
   }
@@ -187,27 +291,27 @@
 .compare__policies {
     @include grid-column(10);
     @include grid-push(1);
-    background:white; 
-    margin-bottom: $sectionSpacing; 
+    background:white;
+    margin-bottom: $sectionSpacing;
     h2 {
         font-size:3rem;
-        margin: $sectionSpacing 0; 
+        margin: $sectionSpacing 0;
     }
 }
 
 .policy__item {
     h3 {
-        margin:1rem 0; 
+        margin:1rem 0;
     }
     p {
         font-size:0.9rem;
-        line-height:20px; 
+        line-height:20px;
     }
-    background:transparent; 
-    padding:0 20px 20px 20px; 
-    width:22%; 
-    border:1px solid black; 
-    min-height:300px; 
+    background:transparent;
+    padding:0 20px 20px 20px;
+    width:22%;
+    border:1px solid black;
+    min-height:300px;
     position: relative;
  }
 
@@ -257,7 +361,7 @@
 
 .compare__policies--marijuana, .compare__policies--youth, .compare__policies--firstnations, .compare__policies--housing, .compare__policies--environment, .compare__policies--privacy, .compare__policies--veteran, .compare__policies--health, .compare__policies--pipeline {
     @include clearfix;
-    display:flex; 
+    display:flex;
     justify-content:space-between;
 
 }
@@ -270,7 +374,7 @@
     .policy__item {
         width:100%;
     }
-    
+
 
     .compare__policies--marijuana, .compare__policies--youth, .compare__policies--firstnations, .compare__policies--housing, .compare__policies--environment, .compare__policies--privacy, .compare__policies--veteran, .compare__policies--health {
         flex-direction:column;

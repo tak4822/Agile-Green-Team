@@ -1002,6 +1002,95 @@ body {
     float: left;
     margin-left: 20px;
     margin-left: calc(8.3333333333% - 21.6666666667px + 40px); } }
+.result-button {
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  width: 120px;
+  height: 120px;
+  background: #961d25;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out; }
+
+.result-button:hover {
+  opacity: 0.85; }
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 200; }
+
+.chartmodal {
+  position: fixed;
+  background: white;
+  width: 800px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -400px;
+  padding: 30px; }
+
+.modal-title-wrap {
+  margin-bottom: 20px; }
+
+.modal-title {
+  display: inline;
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem; }
+
+.modal-title-small {
+  display: inline;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+  margin-left: 50px; }
+
+.result-content {
+  width: calc(41.6666666667% - 28.3333333333px);
+  float: left;
+  margin-left: 20px;
+  padding-left: 20px; }
+
+.result-top {
+  margin-top: 30px;
+  margin-bottom: 40px; }
+  .result-top p {
+    margin-top: 20px;
+    font-size: 1rem; }
+  .result-top .result-num {
+    font-size: 1.6rem;
+    margin-left: 10px; }
+
+#picked-party {
+  margin-top: 10px;
+  display: block;
+  font-size: 1.5rem; }
+
+.picked-party-text {
+  margin-bottom: 40px;
+  font-size: 0.9rem; }
+
+.yourparty-link {
+  font-size: 0.8rem;
+  color: #444444; }
+
+.chart {
+  width: calc(58.3333333333% - 31.6666666667px);
+  float: left;
+  margin-left: 20px; }
+
+.result-text {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem; }
+
 .compare__filter__wrap {
   width: calc(83.3333333333% - 36.6666666667px);
   float: left;

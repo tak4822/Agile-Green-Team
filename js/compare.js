@@ -1,4 +1,96 @@
+//==========================================
+//GLOBAL VARIABLES
+//==========================================
+liberalCount = 0;
+greenCount = 0;
+conservativeCount = 0;
+ndpCount = 0;
 
+var cardArr = document.getElementsByClassName('.policy__item');
+
+//==========================================
+//CHART
+//==========================================
+
+var ctx = document.getElementById('myChart').getContext('2d');
+
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'doughnut',
+
+    // The data for our dataset
+    data: {
+        labels: ["Liberal", "Conservative", "NDP", "Green"],
+        datasets: [{
+            label:["Liberal", "Conservative", "NDP", "Green"],
+
+            backgroundColor: ['rgb(215,25,32)',
+                              'rgb(26,71,130)',
+                              'rgb(243,112,33)',
+                              'rgb(61,155,53)'],
+
+            borderColor: ['rgb(215,25,32)',
+                            'rgb(26,71,130)',
+                            'rgb(243,112,33)',
+                            'rgb(61,155,53)'],
+            data: []
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+$(".overlay").click(function(){
+  $(this).hide();
+});
+
+$('.result-button').click(function(){
+  $('.overlay').css('display','block');
+  var r = localStorage.getItem('Liberal');
+  var b = localStorage.getItem('Conservative');
+  var o = localStorage.getItem('NDP');
+  var g = localStorage.getItem('Green');
+  var partyObj = {Liberal:r,Conservative:b,NDP:o,Green:g};
+  var votedPartyArr=[r,b,o,g];
+  var stragedParties = ["Liberal", "Conservative", "NDP", "Green"];
+
+  var numOfVoted=0;
+
+  for(var i=0; i<votedPartyArr.length; i+=1){
+    numOfVoted += Number(votedPartyArr[i]);
+  }
+  var sortable = [];
+  for(var prop in partyObj){
+    sortable.push([prop,partyObj[prop]]);
+  }
+  sortable.sort(function(a, b) {
+    return b[1] - a[1];
+  });
+  console.log(sortable[0][0]);
+
+  var pickedParty = "";
+  if(sortable[0][1]===sortable[1][1] && sortable[0][1]===sortable[2][1] && sortable[0][1]===sortable[3][1]){
+    pickedParty = sortable[0][0] +", "+ sortable[1][0]+", "+ sortable[2][0] +" and "+ sortable[3][0];
+  } else if(sortable[0][1]===sortable[1][1] &&sortable[0][1]===sortable[2][1]){
+    pickedParty = sortable[0][0] +", "+sortable[1][0]+" and "+ sortable[3][0];
+  }else if(sortable[0][1]===sortable[1][1]){
+    pickedParty = sortable[0][0] +" and "+sortable[1][0];
+  }else{
+    pickedParty = sortable[0][0];
+  }
+  console.log(sortable[0][0] +", "+ sortable[1][0]+", "+ sortable[2][0] +" and "+ sortable[3][0]);
+
+  $("#result-leberal").text(r);
+  $("#result-con").text(b);
+  $("#result-ndp").text(o);
+  $("#result-green").text(g);
+
+  $('#picked-party').text(pickedParty);
+  $('.num-of-vote').text(numOfVoted);
+
+  chart.data.datasets[0].data = [r,b,o,g];
+  chart.update();
+});
 
 function displayAllPolicies (party, divName, colour) {
     //ADD RADIO BUTTONS TO EACH POLICY
@@ -11,26 +103,20 @@ function displayAllPolicies (party, divName, colour) {
       var isColour="";
       //console.log(currentPolicy)
       var curPol = policies[i].toUpperCase();
-      console.log(curPol);
       if(localStorage.getItem(curPol) === colour) {
         isSelected = 'selected';
         isColour='style="background:'+colour+';"';
+      } else{
+        isSelected = "";
+        isColour="";
       }
       console.log(isSelected);
       var currentPolicy = party.policies[i];
       var currentClass = ".compare__policies--" + currentPolicy.name.toLowerCase();
       $(currentClass).append("<label for='"+currentPolicy.name.toLowerCase()+"--" + colour +"'  class='"+isSelected+" pol policy__item policy__item--"+colour+"' data-colour='" + colour + "' "+isColour+" data-policy='" +currentPolicy.name+ "'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + " <input type='radio' name='compare__policies--" + currentPolicy.name.toLowerCase()+"' id='"+currentPolicy.name.toLowerCase()+ "--" + colour +"' class='radio' value='"+colour+"'></p></label>");
+      console.log(isColour);
     }
 }
-//==========================================
-//GLOBAL VARIABLES
-//==========================================
-liberalCount = 0;
-greenCount = 0;
-conservativeCount = 0;
-ndpCount = 0;
-
-var cardArr = document.getElementsByClassName('.policy__item');
 
 /*==========================================
 VOTING FUNCTION
@@ -57,43 +143,20 @@ else {
 countVoting();
 }
 
-// function countSelected(){
-//      var currentCol = $('.selected').data("colour");
-//         switch(currentCol){
-//         case "green":
-//             greenCount += 1;
-//             break;
-//         case "blue":
-//             conservativeCount += 1;
-//             break;
-//         case "red":
-//             liberalCount += 1;
-//             break;
-//         case "orange":
-//             ndpCount += 1;
-//             break;
-//         }
-//         console.log("NDP" + ndpCount +  " LIB " + liberalCount + " CONS" + conservativeCount + " GREEN" + greenCount );
-//
-//   }
-
-
 $('#comparePage').ready(function(){
-var myAjax = $.ajax({
-    type: 'GET',
-    url: 'js/government-party.json',
-    dataType: 'json',
-    success : function(data){
-
+  var myAjax = $.ajax({
+      type: 'GET',
+      url: 'js/government-party.json',
+      dataType: 'json',
+      success : function(data){
         myAjaxObj = data;
         displayAllPolicies(myAjaxObj.greenPartyObj, '.compare__policies--green', "green");
         displayAllPolicies(myAjaxObj.liberalPartyObj, '.compare__policies--red', "red");
         displayAllPolicies(myAjaxObj.conservativePartyObj, '.compare__policies--blue', "blue");
         displayAllPolicies(myAjaxObj.ndpPartyObj, '.compare__policies--orange', "orange");
-    }
-})
-
-})
+      }
+  });
+});
 
 $(function(){
   $('.filter__input').change(function(){
@@ -147,7 +210,6 @@ $(document).ajaxComplete(function(){
       policyVoting($(this));
     });
   }
-
 });
 
 function countVoting(){
@@ -157,7 +219,7 @@ function countVoting(){
   ndpCount = 0;
   for(var i=0; i<policies.length; i+=1){
     var selectedParty = $('.compare__policies--'+policies[i]).find('.selected').data('colour');
-    // console.log(selectedParty);
+    console.log(selectedParty);
     switch(selectedParty){
     case "green":
         greenCount += 1;
@@ -173,9 +235,8 @@ function countVoting(){
         break;
     }
   }
-  localStorage.setItem('green_p', greenCount);
-  localStorage.setItem('blue_p', conservativeCount);
-  localStorage.setItem('red_p', liberalCount);
-  localStorage.setItem('orange_p', ndpCount);
-
+  localStorage.setItem('Green', greenCount);
+  localStorage.setItem('Conservative', conservativeCount);
+  localStorage.setItem('Liberal', liberalCount);
+  localStorage.setItem('NDP', ndpCount);
 }
