@@ -84,14 +84,12 @@
   color: #fff;
 }
 
-
 /////////////
 .sect-one {
   background-color: $turquoise;
   display: flex;
   flex-direction: row;
-  height:100%;
-  
+    width: 100%;
 }
 
 .sect-two {
@@ -99,15 +97,22 @@
   background-color: $purple;
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 .sect-three {
   height:100%;
   background-color: $yellow;
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 .h2 {
   text-transform: uppercase;
+}
+@media screen and (max-width: 1150px) {
+  .index-h1 {
+     font-size: 3rem;
+   }
 }
 .p {
   width: 60%;
@@ -116,8 +121,8 @@
   margin-left: 150px;
 }
 .img {
-  width: 350px;
-  margin: 25px 150px;
+  width: 25%;
+  margin: 25px 10%;
 }
 .float-left {
   justify-content: left;

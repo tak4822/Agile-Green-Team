@@ -46,7 +46,7 @@
                 <div class="margin-top"><a class="btn margin-top" href="mp.php">View My MP's</a></div>
             </article>
         </section>
-</div>
+    </div>
     </main>
 </div>
 </body>
