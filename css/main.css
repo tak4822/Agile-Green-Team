@@ -385,16 +385,42 @@ h3, h4, h5, p {
 .home-page {
   color: white; }
 
+#partyVideo {
+  width: 100%; }
+
+.homeContainer {
+  display: flex;
+  flex-flow: column;
+  height: auto;
+  background: #C0C31B; }
+
+.sect-one {
+  z-index: 5; }
+
 .landing {
   height: 100vh;
   display: flex;
-  flex-flow: column; }
+  flex-flow: column wrap; }
+
+.videoContainer {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #169684; }
+
+#iframe {
+  background-color: #169684; }
 
 .index-h1 {
-  text-align: center;
-  padding-top: 150px; }
+  font-size: 4rem;
+  padding-bottom: 50px;
+  z-index: 2; }
 
 .comp-btn {
+  position: relative;
+  z-index: 10;
   color: white;
   text-decoration: none;
   padding: 8px 16px;
@@ -410,61 +436,48 @@ h3, h4, h5, p {
   margin: 0 auto; }
 
 .video-background {
-  background: #000;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -99; }
-
-.video-foreground,
-.video-background iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  pointer-events: none; }
+  height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background-color: #169684; }
 
 #vidtop-content {
   top: 0;
   color: #fff; }
 
-@media (min-aspect-ratio: 16 / 9) {
-  .video-foreground {
-    height: 100%; } }
-@media (max-aspect-ratio: 16 / 9) {
-  .video-foreground {
-    width: 100%; } }
-@media all and (max-width: 600px) {
-  .vid-info {
-    width: 50%;
-    padding: .5rem; }
-
-  .vid-info h1 {
-    margin-bottom: .2rem; } }
-@media all and (max-width: 500px) {
-  .vid-info .acronym {
-    display: none; } }
 .sect-one {
   background-color: #169684;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  width: 100%; }
 
 .sect-two {
+  height: 100%;
   background-color: #6322A2;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  width: 100%; }
 
 .sect-three {
+  height: 100%;
   background-color: #C0C31B;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  width: 100%; }
 
 .h2 {
   text-transform: uppercase; }
 
+@media screen and (max-width: 1150px) {
+  .index-h1 {
+    font-size: 3rem; } }
 .p {
   width: 60%; }
 
@@ -472,14 +485,15 @@ h3, h4, h5, p {
   margin-left: 150px; }
 
 .img {
-  width: 350px;
-  margin: 25px 150px; }
+  width: 25%;
+  margin: 25px 10%; }
 
 .float-left {
   justify-content: left; }
 
 .margin-top {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .btn {
   color: white;
@@ -493,6 +507,62 @@ h3, h4, h5, p {
   .btn:hover {
     background: #FFD100; }
 
+@media (min-aspect-ratio: 16 / 9) {
+  .video-foreground {
+    height: 100%; } }
+@media (max-aspect-ratio: 16 / 9) {
+  .video-foreground {
+    width: 100%; } }
+@media all and (max-width: 600px) {
+  .vid-info {
+    width: 50%;
+    padding: .5rem; }
+
+  .vid-info h1 {
+    margin-bottom: .2rem;
+    font-size: 2rem; } }
+@media all and (max-width: 500px) {
+  .vid-info .acronym {
+    display: none; } }
+@media screen and (max-width: 800px) {
+  .index-h1 {
+    font-size: 3rem;
+    padding-top: 0;
+    padding-bottom: 2rem; }
+
+  .sect-one, .sect-two, .sect-three {
+    margin-left: 5px;
+    flex-flow: column; }
+
+  img {
+    margin-left: 0; } }
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  .index-h1 {
+    margin-top: 250px;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+
+  .sect-one, .sect-two, .sect-three {
+    flex-flow: column;
+    align-items: center; }
+    .sect-one h2, .sect-two h2, .sect-three h2 {
+      font-size: 3rem; }
+    .sect-one p, .sect-two p, .sect-three p {
+      font-size: 1.4rem; }
+    .sect-one img, .sect-two img, .sect-three img {
+      flex-basis: 100%; }
+    .sect-one article, .sect-two article, .sect-three article {
+      flex-basis: 100%; }
+    .sect-one img, .sect-two img, .sect-three img {
+      margin-left: 0; }
+
+  .mid-article {
+    margin-left: 1.2rem; }
+
+  .sect-one article, .sect-three article {
+    margin-left: 150px; } }
 .mpMap__provNav__mobile {
   display: none;
   position: relative;
@@ -1317,6 +1387,69 @@ body {
     display: table;
     clear: both; }
 
+.selected .card--front {
+  transform: rotateY(-180deg); }
+.selected .card--back {
+  transform: rotateY(0deg);
+  width: 100%; }
+.selected .policy__item {
+  padding: 0 !important; }
+
+.policyCard {
+  /* color: pink; */
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /* min-height:400px;
+  min-width: 300px; */ }
+
+.policyCard--inner {
+  display: flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0; }
+
+.flex-item-inner a {
+  color: #fff;
+  cursor: pointer; }
+
+/*-------- cards --------*/
+.card--front .card--back {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  justify-content: center; }
+
+.card--back {
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: #1e1e1e;
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s; }
+
+.card--front {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s; }
+
 /*===============================================================
                         MEDIA QUERIES
 =================================================================*/
@@ -1327,9 +1460,12 @@ body {
   .compare__policies--marijuana, .compare__policies--youth, .compare__policies--firstnations, .compare__policies--housing, .compare__policies--environment, .compare__policies--privacy, .compare__policies--veteran, .compare__policies--health {
     flex-direction: column; } }
 @media screen and (min-width: 601px) and (max-width: 1000px) {
+  .compare__policies--marijuana, .compare__policies--youth, .compare__policies--firstnations, .compare__policies--housing, .compare__policies--environment, .compare__policies--privacy, .compare__policies--veteran, .compare__policies--health {
+    flex-wrap: wrap;
+    flex-basis: 50%; }
+
   .policy__item {
-    flex-basis: 50%;
-    flex-wrap: wrap; }
+    flex-basis: 50%; }
 
   .compare__policies--marijuana, .compare__policies--youth, .compare__policies--firstnations, .compare__policies--housing, .compare__policies--environment, .compare__policies--privacy, .compare__policies--veteran, .compare__policies--health {
     display: flex; }

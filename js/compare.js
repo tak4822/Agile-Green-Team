@@ -93,9 +93,6 @@ $('.result-button').click(function(){
 });
 
 function displayAllPolicies (party, divName, colour) {
-    //ADD RADIO BUTTONS TO EACH POLICY
-    //ID SHOULD BE POLCIY + COLOR
-
 
     for (var i = 0; i < (party.policies.length) ; i += 1) {
 
@@ -105,7 +102,8 @@ function displayAllPolicies (party, divName, colour) {
       var curPol = policies[i].toUpperCase();
       if(localStorage.getItem(curPol) === colour) {
         isSelected = 'selected';
-        isColour='style="background:'+colour+';"';
+        isFlip = 'card--back';
+        isColour='style="background:'+colour+'; padding:0;"';
       } else{
         isSelected = "";
         isColour="";
@@ -113,10 +111,31 @@ function displayAllPolicies (party, divName, colour) {
       console.log(isSelected);
       var currentPolicy = party.policies[i];
       var currentClass = ".compare__policies--" + currentPolicy.name.toLowerCase();
-      $(currentClass).append("<label for='"+currentPolicy.name.toLowerCase()+"--" + colour +"'  class='"+isSelected+" pol policy__item policy__item--"+colour+"' data-colour='" + colour + "' "+isColour+" data-policy='" +currentPolicy.name+ "'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + " <input type='radio' name='compare__policies--" + currentPolicy.name.toLowerCase()+"' id='"+currentPolicy.name.toLowerCase()+ "--" + colour +"' class='radio' value='"+colour+"'></p></label>");
-      console.log(isColour);
+
+      var currentDiv = "<article "+isColour+" class='"+isSelected+" js-flip flip policy__item policy__item--"+colour+"''  data-policy='" +currentPolicy.name + "' data-colour='" + colour + "' >";
+      currentDiv += "<div class='policyCard'>";
+          currentDiv += "<div class='policyCard--inner'>";
+          //FRONT PART OF CARD
+              currentDiv += "<label for='"+currentPolicy.name.toLowerCase()+"--" + colour +"' class='card--front '>";
+              currentDiv += "<h3>" + party.name + "</h3>";
+              currentDiv += "<p>" + currentPolicy.description + " </p>";
+              currentDiv += "<input type='radio' name='compare__policies--" + currentPolicy.name.toLowerCase()+"' id='"+currentPolicy.name.toLowerCase()+ "--" + colour +"' class='radio' hidden>";
+              currentDiv += "</label>";
+          //BACK OF CARD
+              currentDiv += "<div class='card--back' style='background-color:"+colour+"'>";
+                  currentDiv += "<h2> VOTED </h2>";
+          currentDiv += "</div>";
+      currentDiv += "</div>";
+  currentDiv += "</article>";
+
+      $(currentClass).append(currentDiv);
     }
 }
+
+$('.js-flip').click(function(){
+  policyVoting($(this));
+});
+
 
 /*==========================================
 VOTING FUNCTION
@@ -124,23 +143,27 @@ VOTING FUNCTION
 
 function policyVoting(clicked){
 
-var currentElem = $(clicked);
-var currentCol = $(clicked).data('colour');
-var currentPol = $(clicked).data('policy').toLowerCase();
-var policyClass = ".compare__policies--"+currentPol;
+  var currentElem = $(clicked);
+  var currentCol = $(clicked).data('colour');
+  var currentPol = $(clicked).data('policy').toLowerCase();
+  var policyClass = ".compare__policies--"+currentPol;
 
-if($(policyClass).children().hasClass('selected')){
-  $(policyClass).children().removeClass('selected');
-  $(policyClass).children().css("background", "white");
-  $(policyClass).children().addClass('selected');
-  localStorage.setItem(currentElem.data('policy').toUpperCase(), currentElem.data('colour'));
-  currentElem.css({"background":currentCol});
-}
-else {
-  currentElem.addClass('selected');
-  currentElem.css({"background":currentCol});
-}
-countVoting();
+  if($(policyClass).children().hasClass('selected')){
+    $(policyClass).children().css("padding", "0 20px 20px 20px");
+    $(policyClass).children().removeClass('selected');
+    $(policyClass).children().css("background", "white");
+    // $(policyClass).children().addClass('selected');
+    localStorage.setItem(currentElem.data('policy').toUpperCase(), currentElem.data('colour'));
+    currentElem.addClass('selected');
+    currentElem.css({"background":currentCol});
+  }
+  else {
+    currentElem.addClass('selected');
+
+    currentElem.css({"background":currentCol});
+
+  }
+  countVoting();
 }
 
 $('#comparePage').ready(function(){
