@@ -14,7 +14,7 @@
                 </div>
             </div>
             <h1 class="index-h1">Would you like to know what your party is</h1>
-            <div class="btn-div"><a class="comp-btn" href="compare.php">Compare Parties</a></div>
+            <a class="comp-btn" href="compare.php">Compare Parties</a>
         </section>
         <section class="sect-one">
             <img class="float-left img" src="img/vote.svg" alt=""/>
