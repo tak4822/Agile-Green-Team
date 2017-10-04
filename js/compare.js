@@ -3,16 +3,24 @@
 function displayAllPolicies (party, divName, colour) {
     //ADD RADIO BUTTONS TO EACH POLICY
     //ID SHOULD BE POLCIY + COLOR
-    for (var i = 0; i < (party.policies.length) ; i += 1) {
-        
-        var currentPolicy = party.policies[i];
-        var currentClass = ".compare__policies--" + currentPolicy.name.toLowerCase();         
-        $(currentClass).append("<label for='"+currentPolicy.name.toLowerCase()+"--" + colour +"' class='pol policy__item policy__item--"+colour+"' data-colour='" + colour + "' data-policy='" +currentPolicy.name+ "'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + " <input type='radio' name='compare__policies--" + currentPolicy.name.toLowerCase()+"' id='"+currentPolicy.name.toLowerCase()+ "--" + colour +"' class='radio'></p></label>");
-    }
-    $('.policy__item').click(function(){   
-        policyVoting($(this));
-    });
 
+
+    for (var i = 0; i < (party.policies.length) ; i += 1) {
+
+      var isSelected="";
+      var isColour="";
+      //console.log(currentPolicy)
+      var curPol = policies[i].toUpperCase();
+      console.log(curPol);
+      if(localStorage.getItem(curPol) === colour) {
+        isSelected = 'selected';
+        isColour='style="background:'+colour+';"';
+      }
+      console.log(isSelected);
+      var currentPolicy = party.policies[i];
+      var currentClass = ".compare__policies--" + currentPolicy.name.toLowerCase();
+      $(currentClass).append("<label for='"+currentPolicy.name.toLowerCase()+"--" + colour +"'  class='"+isSelected+" pol policy__item policy__item--"+colour+"' data-colour='" + colour + "' "+isColour+" data-policy='" +currentPolicy.name+ "'><h3>" + party.name + "</h3>" + "<p>" + currentPolicy.description + " <input type='radio' name='compare__policies--" + currentPolicy.name.toLowerCase()+"' id='"+currentPolicy.name.toLowerCase()+ "--" + colour +"' class='radio' value='"+colour+"'></p></label>");
+    }
 }
 //==========================================
 //GLOBAL VARIABLES
@@ -23,7 +31,6 @@ conservativeCount = 0;
 ndpCount = 0;
 
 var cardArr = document.getElementsByClassName('.policy__item');
-
 
 /*==========================================
 VOTING FUNCTION
@@ -37,42 +44,38 @@ var currentPol = $(clicked).data('policy').toLowerCase();
 var policyClass = ".compare__policies--"+currentPol;
 
 if($(policyClass).children().hasClass('selected')){
-    $(policyClass).children().removeClass('selected');
-    $(policyClass).children().css("background", "white");
-    currentElem.addClass('selected');
-    currentElem.css({"background":currentCol});
+  $(policyClass).children().removeClass('selected');
+  $(policyClass).children().css("background", "white");
+  $(policyClass).children().addClass('selected');
+  localStorage.setItem(currentElem.data('policy').toUpperCase(), currentElem.data('colour'));
+  currentElem.css({"background":currentCol});
 }
-
 else {
-    currentElem.addClass('selected');
+  currentElem.addClass('selected');
+  currentElem.css({"background":currentCol});
 }
-countSelected();
-
-
+countVoting();
 }
 
-function countSelected(){
-     var currentCol = $('.selected').data("colour");
-        switch(currentCol){
-        case "green":
-            greenCount += 1;
-            break;
-        case "blue":
-            conservativeCount += 1;
-            break;
-        case "red":
-            liberalCount += 1;
-            break;
-        case "orange":
-            ndpCount += 1;
-            break;
-        }
-        console.log("NDP" + ndpCount +  "LIB " + liberalCount + "CONS" + conservativeCount + "GREEN" + greenCount );
-        
-    }
-    
-
-
+// function countSelected(){
+//      var currentCol = $('.selected').data("colour");
+//         switch(currentCol){
+//         case "green":
+//             greenCount += 1;
+//             break;
+//         case "blue":
+//             conservativeCount += 1;
+//             break;
+//         case "red":
+//             liberalCount += 1;
+//             break;
+//         case "orange":
+//             ndpCount += 1;
+//             break;
+//         }
+//         console.log("NDP" + ndpCount +  " LIB " + liberalCount + " CONS" + conservativeCount + " GREEN" + greenCount );
+//
+//   }
 
 
 $('#comparePage').ready(function(){
@@ -81,7 +84,8 @@ var myAjax = $.ajax({
     url: 'js/government-party.json',
     dataType: 'json',
     success : function(data){
-        myAjaxObj = data; 
+
+        myAjaxObj = data;
         displayAllPolicies(myAjaxObj.greenPartyObj, '.compare__policies--green', "green");
         displayAllPolicies(myAjaxObj.liberalPartyObj, '.compare__policies--red', "red");
         displayAllPolicies(myAjaxObj.conservativePartyObj, '.compare__policies--blue', "blue");
@@ -136,4 +140,42 @@ $(document).ajaxComplete(function(){
       hideCard($(this));
     }
   });
+  var cards = $('.policy__item');
+  for(var i=0; i<cards.length; i+=1){
+    cards[i].addEventListener('click', function(e) {
+      e.preventDefault();
+      policyVoting($(this));
+    });
+  }
+
 });
+
+function countVoting(){
+  liberalCount = 0;
+  greenCount = 0;
+  conservativeCount = 0;
+  ndpCount = 0;
+  for(var i=0; i<policies.length; i+=1){
+    var selectedParty = $('.compare__policies--'+policies[i]).find('.selected').data('colour');
+    // console.log(selectedParty);
+    switch(selectedParty){
+    case "green":
+        greenCount += 1;
+        break;
+    case "blue":
+        conservativeCount += 1;
+        break;
+    case "red":
+        liberalCount += 1;
+        break;
+    case "orange":
+        ndpCount += 1;
+        break;
+    }
+  }
+  localStorage.setItem('green_p', greenCount);
+  localStorage.setItem('blue_p', conservativeCount);
+  localStorage.setItem('red_p', liberalCount);
+  localStorage.setItem('orange_p', ndpCount);
+
+}
