@@ -1,45 +1,53 @@
 <?php include "partials/head.php";?>
 <body>
+    <div id='main'>
     <main class="home-page">
         <?php
         include "partials/header.php";
-        indexHeader(
-            "home"
-        );
+        indexHeader("home");
         ?>
-        <section class="landing">
+        <article class='videoContainer'>
             <div class="video-background">
-                <div class="video-foreground">
+                <!-- <div class="video-foreground">
                     <iframe id="iframe" src="" frameborder="0" allowfullscreen></iframe>
-                </div>
+                </div> -->
+                <video id='partyVideo' autoplay loop></video>   
+        
             </div>
-            <h1 class="index-h1">Would you like to know what your party is</h1>
-            <div class="btn-div"><a class="comp-btn" href="compare.php">Compare Parties</a></div>
-        </section>
+            <h1 class="index-h1">Canada needs your vote!</h1>
+            <div class="btn-div"><a class="comp-btn" href="compare.php">Find Your Party</a></div>
+        </article>
+        <!-- </section> -->
+
+
+        <div class='homeContainer'>
         <section class="sect-one">
-            <img class="float-left img" src="img/vote.svg" alt=""/>
+
+            <img class="img" src="img/scale.svg" alt=""/>
             <article>
-                <h2 class="margin-top h2">comparing parties</h2>
-                <p class="margin-top p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <div class="margin-top"><a class="btn margin-top" href="compare.php">See More</a></div>
+                <h2 class="margin-top h2">compare parties</h2>
+                <p class="p">View the main policies of each party. You can Compare policies of parties you are interested in. Our quiz is designed to help you decide which party you should vote for based on your personal opinions. </p>
+                <div class="margin-top"><a class="btn margin-top" href="compare.php">Compare Parties</a></div>
             </article>
         </section>
         <section class="sect-two">
             <article class="float-left mid-article">
-                <h2 class="margin-top h2">parties</h2>
-                <p class="margin-top p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <div class="margin-top"><a class="btn" href="parties.php">See More</a></div>
+                <h2 class="h2">parties</h2>
+                <p class="p">A detailed page of each parties plans for the future of Canada.   </p>
+                <div class="margin-top"><a class="btn" href="parties.php">View Parties</a></div>
             </article>
-            <img class="img" src="img/politics.svg" alt=""/>
+            <img class="img" src="img/parties.svg" alt=""/>
         </section>
         <section class="sect-three">
-            <img class="float-left img" src="img/question.svg" alt=""/>
+            <img class="img" src="img/canada.svg" alt="An image of canada"/>
             <article>
                 <h2 class="margin-top h2">who's my mp</h2>
-                <p class="margin-top p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <div class="margin-top"><a class="btn margin-top" href="mp.php">See More</a></div>
+                <p class="margin-top p">Interested to see which Members of Parliament are in charge of your area? Click here to find out. </p>
+                <div class="margin-top"><a class="btn margin-top" href="mp.php">View My MP's</a></div>
             </article>
         </section>
+</div>
     </main>
+</div>
 </body>
 <?php include "partials/footer.php" ?>
